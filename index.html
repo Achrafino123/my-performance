@@ -1,17 +1,297 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#111827"><meta name="apple-mobile-web-app-capable" content="yes"><title>My Performance</title><style>
-:root{--bg:#f4f6f8;--card:#fff;--text:#111827;--muted:#6b7280;--line:#e5e7eb;--blue:#2563eb}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.app{max-width:760px;margin:auto;padding:22px 18px 92px}.top{display:flex;justify-content:space-between;margin-bottom:20px}.ey{font-size:12px;font-weight:800;color:var(--muted);letter-spacing:.08em}.title{font-size:28px;font-weight:850}.date{font-size:14px;color:var(--muted)}.hero{background:#111827;color:#fff;border-radius:24px;padding:22px}.hero small{color:#cbd5e1;font-weight:700}.score{font-size:58px;font-weight:900}.score span{font-size:20px;color:#cbd5e1}.bar{height:7px;background:#374151;border-radius:9px;overflow:hidden}.bar i{display:block;height:100%;background:#60a5fa}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:12px}.card,.list,form{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px}.card b{font-size:24px}.muted{color:var(--muted);font-size:13px}.section{display:flex;justify-content:space-between;align-items:center;margin:26px 2px 12px}.section h2{font-size:18px;margin:0}.link{border:0;background:none;color:var(--blue);font-weight:800}.row{display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid var(--line)}.row:last-child{border:0}.row small{display:block;color:var(--muted);margin-top:3px}.actions{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.action{background:#fff;border:1px solid var(--line);border-radius:15px;padding:15px;text-align:left;font-weight:800}.action span{display:block;font-size:22px;margin-bottom:6px}.nav{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid var(--line)}.navin{max-width:760px;margin:auto;display:grid;grid-template-columns:repeat(5,1fr);padding:7px 8px calc(7px + env(safe-area-inset-bottom))}.nav button{border:0;background:none;color:var(--muted);font-size:11px}.nav button b{display:block;font-size:20px}.nav button.active{color:var(--blue)}.page{display:none}.page.active{display:block}form input,form select,form textarea{width:100%;padding:11px;border:1px solid #d1d5db;border-radius:11px;font-size:15px;margin:6px 0 14px}label{font-size:14px;font-weight:800}.save{width:100%;background:var(--blue);color:#fff;border:0;border-radius:12px;padding:13px;font-weight:800;font-size:16px}.empty{text-align:center;color:var(--muted);padding:25px}.insight{background:#eff6ff;border-left:4px solid var(--blue);padding:14px;border-radius:12px;margin-bottom:10px}@media(min-width:600px){.grid{grid-template-columns:repeat(4,1fr)}.actions{grid-template-columns:repeat(4,1fr)}}
-</style></head><body><div class="app"><header class="top"><div><div class="ey">MY PERFORMANCE</div><div class="title">Bonjour 👋</div><div class="date" id="date"></div></div><div style="font-size:30px">⚡</div></header>
-<section id="home" class="page active"><div class="hero"><small>PERFORMANCE GLOBALE</small><div class="score"><span id="global">0</span><span>/100</span></div><div class="bar"><i id="bar"></i></div></div><div class="grid"><div class="card"><b id="int">0</b><div class="muted">🧠 Intellectuel</div></div><div class="card"><b id="pro">0</b><div class="muted">💼 Professionnel</div></div><div class="card"><b id="sport">0</b><div class="muted">🏃 Sportif</div></div><div class="card"><b id="rec">0</b><div class="muted">😴 Récupération</div></div></div><div class="section"><h2>Aujourd’hui</h2><button class="link" onclick="show('add')">+ Ajouter</button></div><div class="list" id="today"></div><div class="section"><h2>Actions rapides</h2></div><div class="actions"><button class="action" onclick="quick('int','Lecture',20)"><span>📖</span>Lecture</button><button class="action" onclick="quick('int','Anglais',30)"><span>🇬🇧</span>Anglais</button><button class="action" onclick="quick('sport','Sport',45)"><span>🏃</span>Sport</button><button class="action" onclick="quick('pro','Travail profond',60)"><span>💼</span>Travail</button></div></section>
-<section id="add" class="page"><div class="section"><h2>Ajouter</h2><button class="link" onclick="show('home')">Fermer</button></div><form id="form"><label>Catégorie</label><select id="cat"><option value="int">🧠 Intellectuel</option><option value="pro">💼 Professionnel</option><option value="sport">🏃 Sport</option><option value="rec">😴 Récupération</option></select><label>Activité</label><input id="name" required placeholder="Ex. Lecture, Running, dossier..."><label>Durée (minutes)</label><input id="dur" type="number" min="0"><label>Note /10</label><input id="rating" type="number" min="0" max="10" step=".5"><label>Commentaire</label><textarea id="note" rows="3"></textarea><button class="save">Enregistrer</button></form></section>
-<section id="stats" class="page"><div class="section"><h2>Progression</h2></div><div class="card"><div class="muted">Score actuel</div><div class="score" style="color:#111827" id="statsScore">0<span>/100</span></div><div class="bar" style="background:#e5e7eb"><i id="statsBar"></i></div></div><div class="section"><h2>Historique</h2></div><div class="list" id="history"></div></section>
-<section id="goals" class="page"><div class="section"><h2>Objectifs</h2><button class="link" onclick="addGoal()">+ Ajouter</button></div><div id="goalsList"></div></section>
-<section id="analysis" class="page"><div class="section"><h2>Analyse</h2></div><div id="insights"></div><div class="card"><b>À propos des scores</b><p class="muted">Ils servent à suivre ta régularité personnelle. Ils ne constituent pas une mesure médicale ou scientifique de ta performance.</p></div></section></div>
-<nav class="nav"><div class="navin"><button class="active" onclick="show('home',this)"><b>⌂</b>Accueil</button><button onclick="show('add',this)"><b>＋</b>Ajouter</button><button onclick="show('stats',this)"><b>↗</b>Progression</button><button onclick="show('goals',this)"><b>✓</b>Objectifs</button><button onclick="show('analysis',this)"><b>✦</b>Analyse</button></div></nav>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0b1220">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="My Performance">
+<title>My Performance</title>
+<style>
+:root{
+  --bg:#f5f7fb;--card:#fff;--text:#101828;--muted:#667085;--line:#e7eaf0;
+  --navy:#0b1220;--blue:#2563eb;--cyan:#06b6d4;--green:#16a34a;
+  --purple:#7c3aed;--orange:#f59e0b;--red:#ef4444;--shadow:0 12px 35px rgba(15,23,42,.08);
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+button{font:inherit;border:0;cursor:pointer}
+.app{max-width:760px;margin:auto;min-height:100vh;padding-bottom:90px}
+.top{padding:28px 18px 12px;display:flex;justify-content:space-between;align-items:flex-start}
+.kicker{font-size:11px;font-weight:800;letter-spacing:.12em;color:#64748b}
+h1{font-size:30px;line-height:1.05;margin:5px 0 3px;letter-spacing:-.04em}
+.date{font-size:13px;color:var(--muted)}
+.icon-btn{width:42px;height:42px;border-radius:14px;background:#fff;box-shadow:var(--shadow);font-size:20px}
+main{padding:0 16px}
+.hero{background:linear-gradient(135deg,#0b1220 0%,#16233d 58%,#233a67 100%);color:white;border-radius:26px;padding:22px;box-shadow:0 18px 45px rgba(11,18,32,.2);position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;width:170px;height:170px;border-radius:50%;right:-65px;top:-70px;background:rgba(255,255,255,.07)}
+.hero-label{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#cbd5e1;font-weight:800}
+.score-row{display:flex;align-items:end;justify-content:space-between;margin-top:10px}
+.score{font-size:48px;font-weight:850;letter-spacing:-.05em}.score small{font-size:20px;color:#94a3b8}
+.mini{font-size:12px;color:#cbd5e1}
+.progress{height:8px;background:#334155;border-radius:99px;margin-top:15px;overflow:hidden}
+.progress span{display:block;height:100%;background:linear-gradient(90deg,#60a5fa,#22d3ee);border-radius:99px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin:12px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:17px;padding:13px 10px;box-shadow:0 4px 18px rgba(15,23,42,.04)}
+.stat b{display:block;font-size:22px}.stat span{font-size:11px;color:var(--muted)}
+.section{margin-top:24px}.section-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:11px}
+.section h2{font-size:20px;margin:0;letter-spacing:-.02em}.link{color:var(--blue);font-size:13px;font-weight:750;background:none}
+.today{background:#fff;border:1px solid var(--line);border-radius:20px;padding:16px;box-shadow:0 5px 20px rgba(15,23,42,.04)}
+.today-title{font-weight:800}.today-sub{font-size:13px;color:var(--muted);margin-top:4px}
+.quick{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:13px}
+.quick button{background:#fff;border:1px solid var(--line);border-radius:17px;padding:14px 8px;text-align:left;box-shadow:0 5px 20px rgba(15,23,42,.04)}
+.quick .emoji{font-size:20px;display:block;margin-bottom:8px}.quick b{font-size:12px}
+.learning{display:grid;grid-template-columns:1.3fr 1fr;gap:10px}
+.lesson{border-radius:21px;padding:18px;color:white;min-height:160px;position:relative;overflow:hidden;background:linear-gradient(135deg,#2563eb,#06b6d4)}
+.lesson.purple{background:linear-gradient(135deg,#6d28d9,#a855f7)}
+.lesson.green{background:linear-gradient(135deg,#047857,#22c55e)}
+.lesson .tag{font-size:10px;font-weight:800;opacity:.85;text-transform:uppercase;letter-spacing:.08em}
+.lesson h3{font-size:19px;line-height:1.1;margin:8px 0}.lesson p{font-size:12px;line-height:1.45;margin:0 0 13px;opacity:.92}
+.lesson button{background:#fff;color:#172554;border-radius:10px;padding:8px 11px;font-size:12px;font-weight:800}
+.modules{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.module{background:#fff;border:1px solid var(--line);border-radius:19px;padding:15px;min-height:125px}
+.module .mi{font-size:22px}.module h3{font-size:15px;margin:8px 0 4px}.module p{font-size:12px;color:var(--muted);margin:0;line-height:1.4}
+.chip{display:inline-block;margin-top:10px;font-size:10px;font-weight:800;padding:5px 8px;border-radius:99px;background:#eff6ff;color:#1d4ed8}
+.daily{background:#fff;border:1px solid var(--line);border-radius:21px;padding:18px}
+.daily .quote{font-size:17px;font-weight:750;line-height:1.35;margin:8px 0}.daily p{font-size:13px;color:var(--muted);line-height:1.55}
+.quiz{background:#0b1220;color:#fff;border-radius:21px;padding:18px}
+.quiz small{color:#94a3b8}.quiz h3{font-size:17px;line-height:1.35;margin:7px 0 14px}
+.answers{display:grid;gap:8px}.answers button{padding:11px 12px;border-radius:12px;background:#18243a;color:#fff;text-align:left;border:1px solid #2b3a55;font-size:13px}
+.answers button.correct{background:#14532d;border-color:#22c55e}.answers button.wrong{background:#7f1d1d;border-color:#ef4444}
+.feedback{font-size:12px;margin-top:10px;color:#cbd5e1}
+.page{display:none}.page.active{display:block}
+.learn-header{background:linear-gradient(135deg,#111827,#1e3a8a);color:#fff;border-radius:24px;padding:20px;margin-bottom:14px}
+.learn-header h2{margin:4px 0;font-size:27px}.learn-header p{color:#cbd5e1;font-size:13px;line-height:1.5}
+.filters{display:flex;gap:7px;overflow:auto;padding-bottom:5px}.filter{white-space:nowrap;background:#fff;border:1px solid var(--line);border-radius:99px;padding:8px 12px;font-size:12px}.filter.active{background:#111827;color:#fff}
+.article{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px;margin-top:10px}.article h3{margin:0 0 7px;font-size:18px}.article p,.article li{font-size:13px;line-height:1.6;color:#475467}.article ul{padding-left:18px}
+.modal{position:fixed;inset:0;background:rgba(2,6,23,.55);display:none;align-items:flex-end;justify-content:center;z-index:20}.modal.open{display:flex}
+.sheet{width:min(760px,100%);max-height:90vh;overflow:auto;background:#fff;border-radius:28px 28px 0 0;padding:20px}
+.sheet-head{display:flex;justify-content:space-between;align-items:center}.sheet h2{margin:0;font-size:22px}
+.close{background:#eef2f6;border-radius:12px;width:38px;height:38px}
+.form{display:grid;gap:12px;margin-top:16px}.form label{font-size:12px;font-weight:800;color:#344054}.form input,.form select,.form textarea{width:100%;padding:12px;border:1px solid #d0d5dd;border-radius:12px;font:inherit;background:#fff}
+.primary{background:#2563eb;color:#fff;padding:13px 15px;border-radius:13px;font-weight:800}
+.bottom{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:min(760px,100%);background:rgba(255,255,255,.96);backdrop-filter:blur(14px);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);padding:8px 8px calc(8px + env(safe-area-inset-bottom));z-index:10}
+.navbtn{background:none;color:#667085;font-size:10px;padding:5px}.navbtn .nicon{font-size:19px;display:block;margin-bottom:2px}.navbtn.active{color:#2563eb;font-weight:800}
+.empty{padding:25px;text-align:center;color:var(--muted);font-size:13px}
+@media(max-width:560px){.learning{grid-template-columns:1fr}.stats{gap:6px}.stat{padding:11px 7px}.stat b{font-size:19px}.quick{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<div class="app">
+<header class="top">
+  <div><div class="kicker">MY PERFORMANCE</div><h1>Bonjour 👋</h1><div class="date" id="date"></div></div>
+  <button class="icon-btn" onclick="openAdd()">⚡</button>
+</header>
+
+<main>
+<section id="home" class="page active">
+  <div class="hero">
+    <div class="hero-label">Performance globale</div>
+    <div class="score-row"><div class="score" id="global">0<small>/100</small></div><div class="mini" id="dayStatus">Commence ta journée</div></div>
+    <div class="progress"><span id="globalBar" style="width:0%"></span></div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><b id="sIntel">0</b><span>🧠 Intellectuel</span></div>
+    <div class="stat"><b id="sPro">0</b><span>💼 Professionnel</span></div>
+    <div class="stat"><b id="sSport">0</b><span>🏃 Sportif</span></div>
+    <div class="stat"><b id="sRec">0</b><span>😴 Récupération</span></div>
+  </div>
+
+  <section class="section">
+    <div class="section-head"><h2>Aujourd’hui</h2><button class="link" onclick="openAdd()">+ Ajouter</button></div>
+    <div class="today" id="todayBox"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Apprendre aujourd’hui</h2><button class="link" onclick="showPage('learn')">Tout voir →</button></div>
+    <div class="learning">
+      <div class="lesson">
+        <div class="tag">Leçon du jour · 7 min</div>
+        <h3>Les 3 niveaux du deep work</h3>
+        <p>Comprendre comment protéger une période de concentration intense et mesurer son impact.</p>
+        <button onclick="openLesson('deepwork')">Commencer</button>
+      </div>
+      <div class="lesson purple">
+        <div class="tag">English · 5 min</div>
+        <h3>Business English</h3>
+        <p>5 expressions utiles pour les réunions et les échanges professionnels.</p>
+        <button onclick="openLesson('english')">Apprendre</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Ton parcours</h2><button class="link" onclick="showPage('learn')">Explorer</button></div>
+    <div class="modules">
+      <div class="module"><div class="mi">⚖️</div><h3>Droit de la concurrence</h3><p>Concepts, pratiques anticoncurrentielles, contrôle des concentrations.</p><span class="chip">10 modules</span></div>
+      <div class="module"><div class="mi">🤖</div><h3>IA & productivité</h3><p>Prompting, automatisation, analyse et bonnes pratiques.</p><span class="chip">12 modules</span></div>
+      <div class="module"><div class="mi">🇬🇧</div><h3>English</h3><p>Vocabulaire, grammaire, expression et compréhension.</p><span class="chip">30 leçons</span></div>
+      <div class="module"><div class="mi">📚</div><h3>Culture & lecture</h3><p>Fiches courtes pour apprendre une idée nouvelle chaque jour.</p><span class="chip">20 fiches</span></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Idée du jour</h2></div>
+    <div class="daily">
+      <div class="kicker">APPRENTISSAGE</div>
+      <div class="quote">« La progression vient moins de l’intensité ponctuelle que de la régularité. »</div>
+      <p>Consacre aujourd’hui 25 minutes à une compétence importante, sans multitâche. Note ensuite ce que tu as réellement retenu.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Mini-quiz</h2><span class="kicker">1 MINUTE</span></div>
+    <div class="quiz">
+      <small>CONCURRENCE · NIVEAU 1</small>
+      <h3>Quelle est la différence essentielle entre une entente horizontale et un accord vertical ?</h3>
+      <div class="answers">
+        <button onclick="answer(this,false)">A. Le secteur économique concerné</button>
+        <button onclick="answer(this,true)">B. Le niveau de la chaîne de valeur entre les parties</button>
+        <button onclick="answer(this,false)">C. La taille des entreprises</button>
+        <button onclick="answer(this,false)">D. La durée du contrat</button>
+      </div>
+      <div class="feedback" id="feedback"></div>
+    </div>
+  </section>
+</section>
+
+<section id="learn" class="page">
+  <div class="learn-header">
+    <div class="kicker" style="color:#93c5fd">CENTRE D’APPRENTISSAGE</div>
+    <h2>Apprendre chaque jour.</h2>
+    <p>Des capsules courtes, des fiches pratiques et des quiz. Objectif : progresser sans avoir besoin d’une longue session.</p>
+  </div>
+  <div class="filters">
+    <button class="filter active" onclick="filterLearn(this,'all')">Tout</button>
+    <button class="filter" onclick="filterLearn(this,'competition')">⚖️ Concurrence</button>
+    <button class="filter" onclick="filterLearn(this,'ai')">🤖 IA</button>
+    <button class="filter" onclick="filterLearn(this,'english')">🇬🇧 English</button>
+    <button class="filter" onclick="filterLearn(this,'culture')">📚 Culture</button>
+    <button class="filter" onclick="filterLearn(this,'performance')">🏃 Performance</button>
+  </div>
+  <div id="articles"></div>
+</section>
+
+<section id="add" class="page">
+  <div class="learn-header"><div class="kicker" style="color:#93c5fd">SUIVI</div><h2>Construire ta journée.</h2><p>Ajoute une activité en moins d’une minute. Les données restent enregistrées dans ce navigateur.</p></div>
+  <div class="today">
+    <button class="primary" style="width:100%" onclick="openAdd()">＋ Ajouter une activité</button>
+  </div>
+  <div class="section"><div class="section-head"><h2>Conseil</h2></div><div class="article"><h3>Mesurer peu, mais mesurer bien.</h3><p>Enregistre surtout les activités que tu veux rendre régulières : apprentissage, travail concentré, sport et récupération.</p></div></div>
+</section>
+
+<section id="progress" class="page">
+  <div class="learn-header"><div class="kicker" style="color:#93c5fd">PROGRESSION</div><h2>Voir la trajectoire.</h2><p>Cette section sera enrichie avec des graphiques 7 jours, 30 jours, 3 mois et 1 an.</p></div>
+  <div class="article"><h3>Score actuel</h3><div style="font-size:42px;font-weight:850;margin:8px 0" id="progScore">0/100</div><p>Le score est un indicateur personnel : il sert à observer ta régularité, pas à mesurer scientifiquement ta valeur ou ta santé.</p></div>
+  <div class="article"><h3>Objectif de la semaine</h3><p>Créer une chaîne de petites actions : apprendre, produire, bouger, récupérer.</p><div class="progress" style="background:#e5e7eb"><span style="width:25%;background:#2563eb"></span></div></div>
+</section>
+
+<section id="goals" class="page">
+  <div class="learn-header"><div class="kicker" style="color:#93c5fd">OBJECTIFS</div><h2>Ce qui compte vraiment.</h2><p>Choisis quelques objectifs mesurables et évite d’en accumuler trop.</p></div>
+  <div class="modules">
+    <div class="module"><div class="mi">🇬🇧</div><h3>English</h3><p>15 min d’apprentissage par jour.</p><span class="chip">Quotidien</span></div>
+    <div class="module"><div class="mi">📖</div><h3>Lecture</h3><p>20 pages ou 25 min par jour.</p><span class="chip">Quotidien</span></div>
+    <div class="module"><div class="mi">🎯</div><h3>Deep work</h3><p>Une session sans distraction.</p><span class="chip">Professionnel</span></div>
+    <div class="module"><div class="mi">🏃</div><h3>Sport</h3><p>Suivre la régularité et la récupération.</p><span class="chip">Sportif</span></div>
+  </div>
+</section>
+
+<section id="analysis" class="page">
+  <div class="learn-header"><div class="kicker" style="color:#93c5fd">ANALYSE</div><h2>Comprendre tes tendances.</h2><p>À terme, l’application pourra identifier les habitudes associées à tes meilleures journées.</p></div>
+  <div class="article"><h3>Cette semaine</h3><ul><li>Regarde les jours où tu as appris et travaillé en profondeur.</li><li>Compare ton volume d’activité avec ta récupération.</li><li>Observe les tendances plutôt qu’une seule journée.</li></ul></div>
+  <div class="article"><h3>Question de réflexion</h3><p>Quelle activité produit le plus de valeur pour toi avec le moins de friction ?</p></div>
+</section>
+</main>
+
+<nav class="bottom">
+  <button class="navbtn active" data-page="home" onclick="showPage('home')"><span class="nicon">⌂</span>Accueil</button>
+  <button class="navbtn" data-page="learn" onclick="showPage('learn')"><span class="nicon">✦</span>Apprendre</button>
+  <button class="navbtn" data-page="add" onclick="showPage('add')"><span class="nicon">＋</span>Ajouter</button>
+  <button class="navbtn" data-page="progress" onclick="showPage('progress')"><span class="nicon">↗</span>Progression</button>
+  <button class="navbtn" data-page="goals" onclick="showPage('goals')"><span class="nicon">✓</span>Objectifs</button>
+</nav>
+</div>
+
+<div class="modal" id="modal">
+ <div class="sheet">
+  <div class="sheet-head"><h2>Ajouter une activité</h2><button class="close" onclick="closeAdd()">✕</button></div>
+  <div class="form">
+   <label>Catégorie<select id="cat"><option value="intel">🧠 Intellectuel</option><option value="pro">💼 Professionnel</option><option value="sport">🏃 Sportif</option><option value="rec">😴 Récupération</option></select></label>
+   <label>Activité<input id="activity" placeholder="Ex. lecture, anglais, CrossFit, deep work…"></label>
+   <label>Durée (minutes)<input id="duration" type="number" min="1" placeholder="30"></label>
+   <label>Qualité ressentie (1–10)<input id="rating" type="number" min="1" max="10" placeholder="8"></label>
+   <button class="primary" onclick="saveActivity()">Enregistrer</button>
+  </div>
+ </div>
+</div>
+
+<div class="modal" id="lessonModal">
+ <div class="sheet">
+  <div class="sheet-head"><h2 id="lessonTitle"></h2><button class="close" onclick="closeLesson()">✕</button></div>
+  <div id="lessonBody" class="article" style="border:0;padding:0"></div>
+ </div>
+</div>
+
 <script>
-const K='mpv1';let d=JSON.parse(localStorage.getItem(K)||'{"a":[],"g":[]}');const iso=()=>new Date().toISOString().slice(0,10);document.getElementById('date').textContent=new Date().toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
-function save(){localStorage.setItem(K,JSON.stringify(d));render()}function show(id,b){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.getElementById(id).classList.add('active');document.querySelectorAll('.nav button').forEach(x=>x.classList.remove('active'));if(b)b.classList.add('active');render();scrollTo(0,0)}function quick(cat,name,dur){d.a.push({date:iso(),cat,name,dur,rating:8});save()}
-form.onsubmit=e=>{e.preventDefault();d.a.push({date:iso(),cat:cat.value,name:name.value,dur:+dur.value||0,rating:+rating.value||0,note:note.value});e.target.reset();save();show('home')};function addGoal(){let x=prompt('Quel est ton objectif ?');if(x){d.g.push(x);save()}}
-function scores(){let c={int:0,pro:0,sport:0,rec:0};d.a.filter(x=>x.date===iso()).forEach(x=>c[x.cat]=Math.min(100,c[x.cat]+(x.rating?x.rating*7:Math.min(70,(x.dur||0)*2))));let g=Math.round((c.int+c.pro+c.sport+c.rec)/4);return {...c,g}}
-function esc(x){return String(x||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}function row(x){let ic={int:'🧠',pro:'💼',sport:'🏃',rec:'😴'};return `<div class="row"><div>${ic[x.cat]||'•'} <b>${esc(x.name)}</b><small>${x.date}${x.dur?' · '+x.dur+' min':''}</small></div><b>${x.rating?x.rating+'/10':'✓'}</b></div>`}
-function render(){let s=scores();[['global',s.g],['int',s.int],['pro',s.pro],['sport',s.sport],['rec',s.rec]].forEach(([id,v])=>document.getElementById(id).textContent=v);bar.style.width=s.g+'%';statsScore.innerHTML=s.g+'<span>/100</span>';statsBar.style.width=s.g+'%';let t=d.a.filter(x=>x.date===iso()).reverse();today.innerHTML=t.length?t.map(row).join(''):'<div class="empty">Aucune activité aujourd’hui.<br>Utilise « + Ajouter » pour commencer.</div>';let h=d.a.slice().reverse().slice(0,30);history.innerHTML=h.length?h.map(row).join(''):'<div class="empty">Ton historique apparaîtra ici.</div>';goalsList.innerHTML=d.g.length?d.g.map(x=>`<div class="card" style="margin-bottom:10px"><b>${esc(x)}</b><div class="bar" style="background:#e5e7eb;margin-top:10px"><i style="width:0%"></i></div><div class="muted">Objectif personnel</div></div>`).join(''):'<div class="empty">Ajoute ton premier objectif.</div>';let ins=[];ins.push(['Sport',s.sport>=50?'Une activité sportive a été enregistrée aujourd’hui.':'Pense à enregistrer ta séance sportive.']);ins.push(['Apprentissage',s.int>=50?'Tu as consacré du temps à ton développement intellectuel.':'Ajoute lecture, langue ou formation pour suivre ta régularité.']);ins.push(['Travail',s.pro>=50?'Une activité professionnelle est enregistrée.':'Enregistre tes sessions de travail concentré.']);insights.innerHTML=ins.map(x=>`<div class="insight"><b>${x[0]}</b>${x[1]}</div>`).join('')};render();
-</script></body></html>
+const KEY='myPerformanceV2';
+let state=JSON.parse(localStorage.getItem(KEY)||'{"activities":[]}');
+const articles=[
+ {cat:'competition',icon:'⚖️',title:'Entente horizontale vs accord vertical',desc:'Comprendre rapidement la différence et les questions à poser dans une analyse.',body:'Un accord horizontal intervient entre entreprises situées au même niveau de la chaîne de valeur. Un accord vertical lie des entreprises situées à des niveaux différents, par exemple un fournisseur et un distributeur. La qualification n’épuise pas l’analyse : il faut ensuite examiner l’objet, les effets, le contexte et les règles applicables.'},
+ {cat:'competition',icon:'⚖️',title:'Prix imposé : les bonnes questions',desc:'Une hausse ou une baisse de prix ne suffit pas à qualifier une pratique.',body:'Lorsqu’un prix réglementé existe, commence par identifier précisément la règle applicable, le niveau de la chaîne concerné et l’obligation imposée. Ensuite seulement, examine le comportement de l’opérateur, les clauses contractuelles et les éventuels effets sur la concurrence.'},
+ {cat:'competition',icon:'⚖️',title:'Contrats de distribution : 6 points à vérifier',desc:'Durée, exclusivité, quantités minimales, sortie, investissements spécifiques et effets cumulatifs.',body:'Pour analyser une relation de distribution, documente la durée, les obligations d’approvisionnement, les exclusivités, les pénalités, les coûts de sortie et les investissements spécifiques. Il faut aussi regarder l’accès des concurrents aux débouchés et les effets cumulés de restrictions similaires.'},
+ {cat:'ai',icon:'🤖',title:'Écrire un meilleur prompt',desc:'Contexte → objectif → contraintes → format attendu → critères de qualité.',body:'Un prompt utile précise le contexte, la tâche, les contraintes et la forme de la réponse. Ajoute ensuite des critères de vérification : sources, hypothèses, points d’incertitude et éléments à ne pas inventer. Pour un travail juridique ou économique, demande toujours de distinguer faits, analyse et hypothèses.'},
+ {cat:'ai',icon:'🤖',title:'IA pour la productivité professionnelle',desc:'Transformer une tâche répétitive en workflow réutilisable.',body:'Identifie une tâche répétitive. Décris son entrée, ses étapes et son résultat. Crée ensuite un modèle réutilisable : collecte → nettoyage → analyse → rédaction → contrôle. L’objectif n’est pas de remplacer le jugement professionnel, mais de réduire le temps consacré aux tâches répétitives.'},
+ {cat:'english',icon:'🇬🇧',title:'5 expressions de réunion',desc:'Useful phrases for professional meetings.',body:'1. “Let me clarify one point.” 2. “Could you elaborate on that?” 3. “From our perspective…” 4. “We need to look at the evidence.” 5. “Let’s come back to this point later.” Répète-les à voix haute et crée une phrase personnelle avec chacune.'},
+ {cat:'english',icon:'🇬🇧',title:'Vocabulary: competition law',desc:'Market, conduct, evidence, foreclosure, agreement.',body:'Market = marché. Conduct = comportement. Evidence = éléments de preuve. Foreclosure = éviction/fermeture de l’accès au marché. Agreement = accord. Phrase: “We need more evidence before assessing the conduct.”'},
+ {cat:'culture',icon:'📚',title:'Lire efficacement un rapport',desc:'Une méthode en 4 passes pour extraire l’essentiel.',body:'Passe 1 : titre, résumé, conclusion. Passe 2 : structure et données clés. Passe 3 : sections directement utiles. Passe 4 : notes personnelles et questions. À la fin, écris cinq lignes : problème, méthode, résultats, limites, implications.'},
+ {cat:'performance',icon:'🏃',title:'Régularité > intensité',desc:'Construire une routine durable avec des objectifs réalistes.',body:'Une journée exceptionnelle ne crée pas une habitude. Pour chaque domaine, définis une version minimale de l’action : 10 minutes d’anglais, 15 minutes de lecture, une courte session de concentration. Les jours chargés, cette version minimale maintient la continuité.'}
+];
+const lessons={
+ deepwork:{title:'Les 3 niveaux du deep work',body:'<h3>1. Préparer</h3><p>Choisis une tâche unique, éloigne les distractions et définis le résultat attendu.</p><h3>2. Produire</h3><p>Travaille pendant une période définie. Note les idées parasites au lieu de changer de tâche.</p><h3>3. Fermer</h3><p>Termine par une note rapide : ce qui est fait, ce qui reste et la prochaine action.</p><p><b>Mini-défi :</b> fais aujourd’hui une session de 25 minutes sans téléphone.</p>'},
+ english:{title:'Business English · 5 expressions',body:'<p><b>Let me clarify one point.</b><br>Permettez-moi de clarifier un point.</p><p><b>Could you elaborate on that?</b><br>Pourriez-vous développer ce point ?</p><p><b>From our perspective…</b><br>De notre point de vue…</p><p><b>We need to look at the evidence.</b><br>Nous devons examiner les éléments de preuve.</p><p><b>Let’s come back to this point later.</b><br>Revenons sur ce point plus tard.</p>'}
+};
+function todayKey(){return new Date().toISOString().slice(0,10)}
+function save(){localStorage.setItem(KEY,JSON.stringify(state))}
+function calc(){
+ const d=state.activities.filter(x=>x.date===todayKey());
+ const vals={intel:0,pro:0,sport:0,rec:0};
+ d.forEach(x=>{vals[x.cat]+=Math.min(100,(x.rating?x.rating*8:0)+(x.duration?x.duration:0)*1.2)});
+ Object.keys(vals).forEach(k=>vals[k]=Math.round(Math.min(100,vals[k])));
+ return {...vals,global:Math.round((vals.intel+vals.pro+vals.sport+vals.rec)/4)}
+}
+function render(){
+ const c=calc();document.getElementById('global').innerHTML=c.global+'<small>/100</small>';document.getElementById('globalBar').style.width=c.global+'%';
+ ['intel','pro','sport','rec'].forEach(k=>document.getElementById('s'+k[0].toUpperCase()+k.slice(1)).textContent=c[k]);
+ document.getElementById('progScore').textContent=c.global+'/100';
+ const d=state.activities.filter(x=>x.date===todayKey()); const box=document.getElementById('todayBox');
+ box.innerHTML=d.length?d.map(x=>`<div style="display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid #eef2f6;font-size:13px"><span>${x.name}</span><b>${x.duration||0} min</b></div>`).join(''):'<div class="empty">Aucune activité aujourd’hui.<br>Utilise « + Ajouter » pour commencer.</div>';
+ document.getElementById('dayStatus').textContent=d.length?(d.length+' activité'+(d.length>1?'s':'')):'Commence ta journée';
+}
+function showPage(id){
+ document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));document.getElementById(id).classList.add('active');
+ document.querySelectorAll('.navbtn').forEach(b=>b.classList.toggle('active',b.dataset.page===id));
+ window.scrollTo({top:0,behavior:'smooth'}); if(id==='learn')renderArticles();
+}
+function openAdd(){document.getElementById('modal').classList.add('open')}
+function closeAdd(){document.getElementById('modal').classList.remove('open')}
+function saveActivity(){
+ const name=document.getElementById('activity').value.trim();if(!name)return alert('Ajoute le nom de l’activité.');
+ state.activities.push({date:todayKey(),cat:document.getElementById('cat').value,name,duration:Number(document.getElementById('duration').value)||0,rating:Number(document.getElementById('rating').value)||0});
+ save();document.getElementById('activity').value='';document.getElementById('duration').value='';document.getElementById('rating').value='';closeAdd();render();
+}
+function renderArticles(filter='all'){
+ const el=document.getElementById('articles'); const list=filter==='all'?articles:articles.filter(a=>a.cat===filter);
+ el.innerHTML=list.map((a,i)=>`<div class="article"><div style="font-size:22px">${a.icon}</div><h3>${a.title}</h3><p>${a.desc}</p><button class="primary" style="padding:9px 12px;font-size:12px" onclick="openArticle(${articles.indexOf(a)})">Lire la fiche →</button></div>`).join('');
+}
+function filterLearn(btn,f){document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));btn.classList.add('active');renderArticles(f)}
+function openArticle(i){const a=articles[i];document.getElementById('lessonTitle').textContent=a.title;document.getElementById('lessonBody').innerHTML='<div style="font-size:25px">'+a.icon+'</div><p>'+a.body+'</p>';document.getElementById('lessonModal').classList.add('open')}
+function openLesson(k){const l=lessons[k];document.getElementById('lessonTitle').textContent=l.title;document.getElementById('lessonBody').innerHTML=l.body;document.getElementById('lessonModal').classList.add('open')}
+function closeLesson(){document.getElementById('lessonModal').classList.remove('open')}
+function answer(btn,ok){document.querySelectorAll('.answers button').forEach(b=>b.disabled=true);btn.classList.add(ok?'correct':'wrong');document.getElementById('feedback').textContent=ok?'✓ Bonne réponse. Un accord vertical intervient à des niveaux différents de la chaîne de valeur.':'✗ Pas tout à fait. Pense au niveau de la chaîne de valeur occupé par les parties.'}
+document.getElementById('date').textContent=new Intl.DateTimeFormat('fr-FR',{weekday:'long',day:'numeric',month:'long',year:'numeric'}).format(new Date());
+render();renderArticles();
+</script>
+</body>
+</html>
