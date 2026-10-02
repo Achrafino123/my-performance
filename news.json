@@ -1,56 +1,485 @@
-[
-  {
-    "category": "press",
-    "region": "international",
-    "source": "Reuters",
-    "title": "Google challenges EU orders to open up to AI and search-engine rivals",
-    "description": "Article récent sur le contentieux autour des mesures européennes concernant Google et l’accès de concurrents à certains services et données.",
-    "date": "29 September 2026",
-    "url": "https://www.reuters.com/business/google-challenges-eu-orders-open-up-ai-search-engine-rivals-2026-09-29/"
-  },
-  {
-    "category": "press",
-    "region": "europe",
-    "source": "Reuters",
-    "title": "Kone plans TK Elevator Europe sale to address antitrust concerns",
-    "description": "Article sur les remèdes envisagés dans le cadre d’une importante opération de concentration dans le secteur des ascenseurs.",
-    "date": "1 October 2026",
-    "url": "https://www.reuters.com/business/finance/finlands-kone-prepares-sale-tk-elevators-europe-business-tackle-antitrust-2026-10-01/"
-  },
-  {
-    "category": "press",
-    "region": "international",
-    "source": "The Verge",
-    "title": "Judge dismisses antitrust lawsuits over Google's AI Overviews",
-    "description": "Article consacré à deux actions antitrust liées au fonctionnement de Google AI Overviews et aux effets allégués sur les éditeurs.",
-    "date": "2 October 2026",
-    "url": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed"
-  },
-  {
-    "category": "official",
-    "region": "europe",
-    "source": "Commission européenne",
-    "title": "Latest news — Antitrust and Cartels",
-    "description": "Dernières actualités officielles de la Commission européenne sur les ententes, abus de position dominante et politique antitrust.",
-    "date": "2026",
-    "url": "https://competition-policy.ec.europa.eu/antitrust-and-cartels/latest-news_en"
-  },
-  {
-    "category": "official",
-    "region": "france",
-    "source": "Autorité de la concurrence",
-    "title": "Actualités 2026",
-    "description": "Actualités, décisions et avis récents de l’Autorité française de la concurrence.",
-    "date": "2026",
-    "url": "https://www.autoritedelaconcurrence.fr/fr/actualites/2026"
-  },
-  {
-    "category": "official",
-    "region": "morocco",
-    "source": "Conseil de la concurrence du Maroc",
-    "title": "Dernières nouvelles et communiqués",
-    "description": "Communiqués et informations publiés par le Conseil de la concurrence du Maroc.",
-    "date": "2026",
-    "url": "https://conseil-concurrence.ma/"
-  }
-]
+{
+  "updated_at": "2026-10-02T17:26:19.666601+00:00",
+  "items": [
+    {
+      "title": "California’s Paramount Settlement Doesn’t Stop at Antitrust - nationalreview.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPb0VIbkpSY3hBN2JrTFZPek9ORlZvdEYzMjVqbVFlSWQ3MERxcmlsbFVCOTFUQVFQUFladTZ0bExmRFpSMTJCUGlWTzBwMXp3N2drazdNVWwweElEZVlfQXBGMkNlYzA2d0tBMHl4U3JlNTlKTF9uek9sWFRubjhyempHeXQtQ0xmM0lZT2dvbnd3cnpJQTVHUzZ5dmphZ9IBowFBVV95cUxQT2NoWndEZ3R1S3g3QkUyLXhaYzBzTnFlbVE1TEE1YTNqUE51TFd6cXhqZWNKY09kZHF2Mkk3d1liQXJ0SnFfam1LMGxQTGZrWTlHY1FLRFRTNTljb2dCeVhucm5zaUhCQ0o3TzVWUGVMbUZ0VHgxM0dqY1NrLURGelpfVW1lWEFaNGkzZmdrOVM1UWJxYi1xdkxOd2FWVjE0N3Nv?oc=5",
+      "description": "California’s Paramount Settlement Doesn’t Stop at Antitrust &nbsp;&nbsp; nationalreview.com",
+      "date": "Fri, 02 Oct 2026 10:30:54 GMT",
+      "source": "nationalreview.com",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "California’s COMPETE Act: The Looming Expansion of California Antitrust Law to Single-Firm Conduct - Mayer Brown",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPaWU5X1JuWHJrLW15U28wOXlDTmRUb1kwY2Z1STQtdnJ4STJDM2pwQVZpREl3N3Y1Q3hfelRzV20wLUZhdEdhQzVfTXdmLTB5bk01SUNOcHh2ZllvdnBnVWtIV09YeHRYM3pVczNBajhfOC1FUXlRY0hvaEtKVmIyeVZyZC1ZWVVUQ3BlZkZtQnNUdzBrTkxDTmtKUV9MS2RpclM4bEMwM0xvbzlFek9MWVhNSVRVUjktQi1pMXZrek9HOEFyOEh4SlNhcXl1VFdYX1dXTDlYZ0dkQS1HemRoSnV3WFRpLUZhSDZaaA?oc=5",
+      "description": "California’s COMPETE Act: The Looming Expansion of California Antitrust Law to Single-Firm Conduct &nbsp;&nbsp; Mayer Brown",
+      "date": "Wed, 30 Sep 2026 21:13:11 GMT",
+      "source": "Mayer Brown",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Digital Markets Guide - Sixth Edition - EU competition authorities zero in on antitrust risks of algorithmic pricing - Global Competition Review",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeDM4c2h2WEZMOUpaUF84TS1OUHRGUzVuN3B2bC03NVRnUFg0SUg5LWladUV3Umx3ZFhvR1duemMySmJVM2hBRHdxak9Hb0NWYnlMRnBIQ2tVTmVvOXZrMEM2TFZXODBhV20welZMNjNCQVl6UngzVDF0VjhaV3o3WFBNQjMxMmNEYTJkRGVPUWU5aTJVbURuLVJqTnRkMFVIVGczeG1MRWk3dG5wM3kyZU1IdmJ3ZnlSOFF5WG9jRC1ZUWRYdElOREdrQTVvOTZZQkNJMnFBM1EwQTdBRTNSWjdXNEpuYVp5MnBjWlNsczg?oc=5",
+      "description": "Digital Markets Guide - Sixth Edition - EU competition authorities zero in on antitrust risks of algorithmic pricing &nbsp;&nbsp; Global Competition Review",
+      "date": "Thu, 01 Oct 2026 10:12:54 GMT",
+      "source": "Global Competition Review",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Main Developments in Competition Law and Policy 2025 – United States - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ3NFZ2tGOXNCZ205WTMxWVpmaVN5TUJvVmRDa3BocS16S2lOM1dLUWlHQ3RBOEhGbnR5UjNoSmZsQjlNWW13bkF4WFlyWVBsbldXT2FiR0hSMVlveTM4cDdGekRlNzJxVGJqc1o5S252ZGZNd3VIa1ZYcjdSeGV2ZEdYRUdhVUs1RmRUXzJFYTdkRXlOZFNqUXRNVDlJV0FFMXFCeDZiN04yMnJJTjBLa21EcmljUFlPamM1SDln?oc=5",
+      "description": "Main Developments in Competition Law and Policy 2025 – United States &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Sat, 28 Feb 2026 08:00:00 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Competition for Competition: How Antitrust Is Becoming One of Big Law's Key Revenue Engines - Law.com",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbXA0cjdzcDdMMnF2NURTWXZUNUZFT0xwTVZVTTlsRk0wZDVWUU5sRmEyUXBXQlN2SDFoeHJfN2l1Tm9IbHNEQjFRNzVVMko3M3l6a3dKVE5naDdxRU1JbmdieUtOYjdlZFNjNnBOVE5PSGFYQ2paVi16VDY4SjV0Szk4REpsaEswaF9sMzZjcUlVTUd2Y0lNM2ZseDFhMjhvQ1pCV2pkcVQ4Y1c0ZWN6N0VLemQ2d0F3czVpZEd5Wmpxa1FOOVJOTWNDMGozaVZiMVppMkFMWmhaNGc?oc=5",
+      "description": "Competition for Competition: How Antitrust Is Becoming One of Big Law's Key Revenue Engines &nbsp;&nbsp; Law.com",
+      "date": "Thu, 09 Jul 2026 07:00:00 GMT",
+      "source": "Law.com",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "China investigates Meituan and Alibaba units for suspected antitrust violations - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNkxJNDZrd2NpQk80eEgyRWpwSEo3YWYxNUVHWHlaR1dGOWlFSmZHVF9xQjliN2RINXEzMHRsUGxjUEhLRlpsejF6dHF3b0dwZ09KcGlTMVMzdDVkbG5fdkdHNVdmSVFYdlVDMmJZcjB6ZzdITmh5YmhpSmgtamdGM245ZmxOTnJMUnJPTjM4UUZTR1BDeTNHQ0EwT0dfb1h6WVVaaVdpSUdhUkRicGVUaWRMTC1CaVBmXzN2YnFwUDMyWEFGNWxBZmJIUQ?oc=5",
+      "description": "China investigates Meituan and Alibaba units for suspected antitrust violations &nbsp;&nbsp; Reuters",
+      "date": "Sat, 19 Sep 2026 07:00:00 GMT",
+      "source": "Reuters",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Mexico's Antitrust Enforcer Signals Tougher Stance in Six Strategic Markets - Jones Day",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaFRTdDEzMTdySjk1RFc2VFg4RHFPc0dRWnM3dnN6bk9ZM2ZtY2dwWWtEQkNYTUVjNXJkTXRnTW9EMkwtMVBZMHQ5MG55dmdsMUhGN3F1RWgzWElqQzVoU24yWWN0cm9IOVZFRnYxYkRlLUlRczluaG5iY3F6RVBiWmQyV0tiRndBTml0d0RsWGVJM0hESTdBZ2pLNnBkclBDZlpzc21ncXFXYzBfWUdoZ2JZa2NBUnM5YU5F?oc=5",
+      "description": "Mexico's Antitrust Enforcer Signals Tougher Stance in Six Strategic Markets &nbsp;&nbsp; Jones Day",
+      "date": "Thu, 16 Jul 2026 17:12:10 GMT",
+      "source": "Jones Day",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "California’s Antitrust Laws Are Too Irrational to Spread to Other States - goldwaterinstitute.org",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ080X3NzeXg5ZWZqdTJnc1F4Tkt1ZmRfUnpIQVd4XzVtd3hBS0NKSkIwamhESnZnaUhMMTNuczVNUklaU3ZYZmczZzE4dVFDcmh1and5NVJwLUxPeDFQNDhpNjY1M0d4MTRlU2EyUFE2eUtXN09EMGZqa0lWYzRuZ3dYcjFJVlhHVF9jY3dYbU94cVRoajRxaEVNck00MFIzTWN5SWZwb0Z5ZEk?oc=5",
+      "description": "California’s Antitrust Laws Are Too Irrational to Spread to Other States &nbsp;&nbsp; goldwaterinstitute.org",
+      "date": "Wed, 29 Jul 2026 07:00:00 GMT",
+      "source": "goldwaterinstitute.org",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Antitrust Undone: How Competition Enforcers Are Undermining Competition | Reports & Briefings | Mar 25, 2026 - Information Technology and Innovation Foundation",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTjlTakxsQnZWTDRRdU9uMGRIZU43WVZ6NV9oM3J0QjM1T1AxQ3p2cVFYWlFXOEFNbVpfZUxpT1luaXB2X3BLMzEzaVY3Y3FNU3p2MVhPcnNXNG5oUktWWEhvY2lOM3BzSjZ2bDNjNi12NWg4TWR1RWJrOGN1bWVQM3Btb2NvUnJTSjhRUm1lZ3d2MTRseXVXYkpUZ1liLWJscGtWdGJUSTQxYTdBcy11bi13?oc=5",
+      "description": "Antitrust Undone: How Competition Enforcers Are Undermining Competition | Reports & Briefings | Mar 25, 2026 &nbsp;&nbsp; Information Technology and Innovation Foundation",
+      "date": "Wed, 25 Mar 2026 07:00:00 GMT",
+      "source": "Information Technology and Innovation Foundation",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "U.S. Supreme Court Will Consider Challenge to Contempt Order in Federal Antitrust and Unfair Competition Case - Crowell & Moring LLP",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOYkNKM2F4ZFFQU18yb0E2al9hMUhiSVhBVFZDeXdtMzRfVmxQX1lDLTQzcHVlNjN4UlNaWUNJWXI4dEFiUzZxYTJlaDkxMkFVMUFTQXNDalpObThjRzZmV0NNWmVoMkZhUFVrOGw1MS1KbGNPSHlpNV9DQkk2T2Foc0oyREhCSXhxMVZZLUxLLURXZ3JkSzZtUXZvSnZQdFBmZ2F6dlBqbGhjMVVaM1drLWQ0SlcxM3NsWFN4X3RGMmNheUlhRFNQYkZPelhYN2VFSF93aWVnZjZjVExxajZwcTJHS25uQlRwUWU4Rmxn?oc=5",
+      "description": "U.S. Supreme Court Will Consider Challenge to Contempt Order in Federal Antitrust and Unfair Competition Case &nbsp;&nbsp; Crowell & Moring LLP",
+      "date": "Fri, 17 Jul 2026 07:00:00 GMT",
+      "source": "Crowell & Moring LLP",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "The 2026 Lawdragon 500 Leading Global Antitrust & Competition Lawyers - lawdragon.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdWNiUkhEODRTUl9PTkdXd0J1UHdCR1ZnYmxlR09STTU2QldQaXkxNkpXOWlmaUpELVBCa2NLWDFKbkoyYXJoNzZCenJIa1R4RDRWR0UyeVZwSzFZa3MwMmd1d1I0UThBaGdyVlVSVWlxRzc2b29SY2hKZnlrLXA4YmRQc3lmMF9FY3N5VnU3UHlJdGlheEJ0dlRoNlV6emc1Rk95NExKall5OWE1RTdQUw?oc=5",
+      "description": "The 2026 Lawdragon 500 Leading Global Antitrust & Competition Lawyers &nbsp;&nbsp; lawdragon.com",
+      "date": "Fri, 16 Jan 2026 08:00:00 GMT",
+      "source": "lawdragon.com",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Antitrust Permissibility of Interlocking Directorates Unclear in light of Recent Case Law - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVU5kMzNxc0ptYVEyN0Y5dDNGajlqeklRbFJWaDR0bl9qcHFYWXlJTlJwUW9jandIX09ZMHlQX3pyMjhZaS1RTGdkN0dEQVVwd2V4S2xza0NKbU9NcUNrczVZSFduemVQdGJTa2NMWm0wdFA0bW95ZnJOM0lGandydW9LQTl4U09kWDd2bW9DaGNZUWhSenc5VXNUcGl1eENCM2ItWEY5OWNtVnhHMF81bUZUOTUycUx2NkxiS3FjSnIxMHZrS0VPbVZoZTVOeno1LTFTM1kxUEEwVTAw?oc=5",
+      "description": "Antitrust Permissibility of Interlocking Directorates Unclear in light of Recent Case Law &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Fri, 17 Jul 2026 07:00:00 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Revamped EU antitrust rules make exceptions for sustainable companies - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUlQ2WXVldDFJT19mNGl3S1ZGa0tpM0tNa1kxdHJHdTg2WEJkeHlPYktCREVjR1FIQXBvSG5uc3hwLURvQy1ScDZsUFRnQnFiTDh5OVc4SUQ5ZnJhc0xLMUl2RVRkdmZYakliUVRTanNMdGRYbGhoTEVROHhTRDJzU21wY0JaY1A3VzVXQVVrOW5YbWhsSnlJY1Uxa0xEYUpaTDVwZ3gzSzllSEhRM2o3X0psTnMwZTg0ZXc?oc=5",
+      "description": "Revamped EU antitrust rules make exceptions for sustainable companies &nbsp;&nbsp; Reuters",
+      "date": "Thu, 03 Sep 2026 07:00:00 GMT",
+      "source": "Reuters",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "A Strange Vibration? The Uncertain Future of California Antitrust Law | Event | Jan 28, 2026 - Information Technology and Innovation Foundation",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM1ZEM1FrM2tTT1IxdHkwb2JYdjZQbEZYMjlpM3Nla0tPZ0hQbE1xbjRtOHk1ZXQ5MGxnNnNNVHdJajJ4ckdJdWRqLTRicjhfazh1b3pTWEJFR1Fic0VieEJwXzdfRjhfbVNIZS1hZkl0NHRKUkNLNE94ZkRMSHVYM2UxZHZZTDV3eXlGejRmVmd1cTBDQnpxRmhPdlZmeDR2S29SUW1Obw?oc=5",
+      "description": "A Strange Vibration? The Uncertain Future of California Antitrust Law | Event | Jan 28, 2026 &nbsp;&nbsp; Information Technology and Innovation Foundation",
+      "date": "Wed, 28 Jan 2026 08:00:00 GMT",
+      "source": "Information Technology and Innovation Foundation",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Ukraine’s Antitrust Enforcement in Wartime: What AMCU’s 2025 Results and 2026 Priorities Mean in Practice - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQTmdRR2NEU0FwU3pRbmFZZTFIQzdxcFVWWU9lWDRqM0RGT01kUkstd2FmVFg1cnBLQjVUQzFRcTEwYnBSalhvMUF6S3JaVHJsQ3dxdC1GUTZpU0R5aUpCMFViQWdWUk9VeUltNzJ1TnczQm5aLS05VzVzRlV1QTYyN2ZqekttYjlIbHFkalM3NHAxNElsRjNQMTFGQ1U4S1hBOXVmVHREZUxCYTdOQnh2NTVCa09jNFlwR3lFSld3YnZ4Tm5iTXZETlpzX01hUVBtLWdmMGtNWnJMZVVDa3VFclBTbUNMOUdzLXlGVHVB?oc=5",
+      "description": "Ukraine’s Antitrust Enforcement in Wartime: What AMCU’s 2025 Results and 2026 Priorities Mean in Practice &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Thu, 14 May 2026 07:00:00 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Main Developments in Competition Law and Policy 2025 – China - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNUdtRnJOOVJ0Q25wd1ozWWNPcDlxNEFva3Vrek5XY1phSkN5OWg3RUFGV3BGdDBmSlVteWZJVjhyN2prYnNha1JzdmZKU1FlWGRSdERZUmp6Q0taYjhKSWhQSlRpNWJWMndNMlVRZmp3aXpEallJaFlGaENXcWZCbU1sdG5FSnZqbWx4VHozb2t6aEpURFJ2R1VpMTQwdm1xYnB2b1VkUUE3eVR5eVl4Yi16dw?oc=5",
+      "description": "Main Developments in Competition Law and Policy 2025 – China &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Tue, 20 Jan 2026 08:00:00 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Main Developments in Competition Law and Policy 2025 - Belgium - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOVZRYklOeExqR3BKRS1MQ05IZ0dEa1djeTRoc1M0NVMtOU4wcG9OcXhCSXpnX255dFRJbFdjWlBiX0Zlbmd2Qm93d09ab0dNT0RELVdzMVY2SG11QnMxb2NfaEo1OVBBS1FvNHEzV3BKWVd5bERhcGtLTllGYThSWXpoay0ya2IyUUxSdUZNZkVEV3k1ek5VZjFsSG1sRTZfYmtPSWRvamVacXl5YUR0SlA2N2xlQQ?oc=5",
+      "description": "Main Developments in Competition Law and Policy 2025 - Belgium &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Wed, 11 Mar 2026 09:17:02 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "DEI Metrics and Antitrust Risk: A Competition Law Analysis of the FTC’s Warning Letters to Law Firms - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQVEgxTUFCQUJidnlPbUhkbDhTSTBYWkpQYkpTZk54US1rZmthOXVWb3FCNkVXaG1UVmRVb0VEdlBUMTh3VktBaWJMQm12ZEtDRFJrZ196SGF0R3ZKa0hWaHp5SFVBUWZZQXdleVZ4alhwTnFpTE9uRVdGM01FeUJjenhTakRYQVl5czg1OGFUc0c0UW5mMlJOenNLUXB4YjA1bnk4REFwdTFpXzJzSGpGWkVJeFUxcTFyMHRTZi1oU1NxVE4zaEJMai1PNnNUX1pLbFFxQ0Q4VHVqUnVVMjNMdVpfdkU4aE5E?oc=5",
+      "description": "DEI Metrics and Antitrust Risk: A Competition Law Analysis of the FTC’s Warning Letters to Law Firms &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Fri, 20 Feb 2026 09:16:10 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Main developments in competition law and policy 2025 - Chile - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSlNUN00xUXVKejZnaFo1WDBmb2d0NEw3WjFBX1oxbUdRYkRVVEQzTndFMWdGS3JIazVkcjQzSnE0b3M0S3lnd2J0NWRyTzRfRUhSOHl3cWgyMTIxNDlJWjdHbG1XNzBYam1DYjEzZmllaDE4ekZFb2RubzE1U3AzOVVKQUpPX3lRZGdQbklQNkd6N2d2QnRnS1lyQlNOS0hyY0ZuS2Y2b2JleDYtUjFaNXZqMA?oc=5",
+      "description": "Main developments in competition law and policy 2025 - Chile &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Thu, 19 Mar 2026 07:00:00 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "How Far Is Too Far? Seagate v. NHK Spring and the Extraterritorial Reach of US Antitrust Law - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNU09DQ1h2OGg1VGZOTkNwbnI2TDhtUkRDSVVjYUhGUFRudWxFWGo4b3lhNk94MGtNejdjWlpCVVJVclJMT2Zmb0dLN1FyZGhaaGZWbGRqODRGSFhubFpNaEJjemcyOGVLLTVPVmw5NDNIRDl4V2I1Z2tUYlBHeF82d2U4Tm05bldaanpPbGo1YjZ1bnhhM3dxVHBzUnJtQ2xQVHRPRE5ya2RfMTJFTTFCNE8xanR3OF82MklfNGZiLUhwdWpfVXNPRFV3cE1IWWdsRjdwODBlMjJNa3p6aXc?oc=5",
+      "description": "How Far Is Too Far? Seagate v. NHK Spring and the Extraterritorial Reach of US Antitrust Law &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Tue, 04 Aug 2026 09:34:46 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Antitrust law | Competition, Monopoly, Mergers - Britannica",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMZEd4VkU0TFRjOE5VbmlGS0ZyTldEbTMwSEtlT0dzMUZmQUNyc3hwM1RVYmRkcU9PSXBaanhXdHpnb2ZfeFdKbFBZaUt5QjZJZXUtX2NwcFcxUQ?oc=5",
+      "description": "Antitrust law | Competition, Monopoly, Mergers &nbsp;&nbsp; Britannica",
+      "date": "Fri, 04 Sep 2026 07:00:00 GMT",
+      "source": "Britannica",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "AI meets antitrust: EU and UK regulators step up enforcement - Dentons",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPX1Q1ZElhT25hTmtUcmlxNW9kR2V4V3VndHU0aHNOU044S2c1bTZVcE1rYWx2VGtIdUxqQk13cU1GRHZJa1ExVkhLTllsUDRib21yWkNDclJaU2habXpubkwwRUZZbGs2UXdfWV9UT3ZKZ0hmb09wRERYemIxUk9WQ1RJV3RlZ3g3UHNlZlFzWldHR3JDNkN2NzhKRHgxUTlUWjd1Q2lKUEVSUmlmZkdpaFh0YmtyTEk?oc=5",
+      "description": "AI meets antitrust: EU and UK regulators step up enforcement &nbsp;&nbsp; Dentons",
+      "date": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "source": "Dentons",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Main Developments in Competition Law and Policy 2025 – France - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZlY5VjJjRzlqa00ydzNZODlRNjVQaFJpN1Blbkh2WDhEbU5KYkhjU1ZLQktIbVRWc0FwOEdqTDVNYWlidG9GdURsTXhVUVJ4WWZyUm5CTUtBR3hGYTF4MUtLOWU2ckV2aWpLQzhPNzYtWEI4YzJHdVVwQXJiV2RUNDNnQmExQkZ6VVBYZzh2Zk1oNzV1Q1ZDeXBLZllOS2FmSy1QN0xLVUxrdkZVOGhadGxDVkc?oc=5",
+      "description": "Main Developments in Competition Law and Policy 2025 – France &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Thu, 05 Mar 2026 08:00:00 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Strasbourg's Long Shadow: The European Court of Human Rights and the Standard of Antitrust Inspections - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOaEZvQ3hvR21sdlJJa0tobWNQM1NGMkVncmx3NVF4NXk5ZjVIaGpSdDBwN1Bxb1ZCUkw2YkdzckFvOWN0bnpsT3ZRaW4wY2VyZXZvd3c0LXVEUEZ2OUVBa2xYU2ZTVGdzeTlFbUVtTWdKMTBfNF9nSS1Mem5fNWhBWHJJZXdsZVJ6Z2huSFpkeHRNQ2hPYThveGRUQWp5QXFDUUxYaFRDYUF0TDh4TFpKSkQwQ3BNSGZBeE43ZkxTUnN2UUtWdjVLNi0zc0RWc29GMGxoQzB5d21hNHFCWjU3SGlWME9mV0wzYXdB?oc=5",
+      "description": "Strasbourg's Long Shadow: The European Court of Human Rights and the Standard of Antitrust Inspections &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Wed, 27 May 2026 07:00:00 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "2026 Antitrust Writing Award • News & Events - Penn Carey Law School",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1YcDRnZ19IX2VFR0pHMXFFYUYzTE1xdjB4OTNRendHaGhkbExnbHItU3dlcHh4dmZCN1NoMEhrb1lDLXFYcG9PaFdrTlI5cGV2cE9XNUtlUnEwSGFUZ2dzVWhCUmFOd0VIM0tQNFljLUNrZnBVOTlTMmhR?oc=5",
+      "description": "2026 Antitrust Writing Award • News & Events &nbsp;&nbsp; Penn Carey Law School",
+      "date": "Tue, 07 Apr 2026 07:00:00 GMT",
+      "source": "Penn Carey Law School",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Avigail Kifer Honored with ABA Antitrust Law Section Outstanding Performance Award - Cornerstone Research",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTjNXeVFNNW5GNnJNZjZHZWR1S04yTXU4aDZUYmh1cVQ3c3BnYjFlMWJOTlJvZWVjM0cxYU14QThTQVJjYV9OeGpiZWRzZkMwS0pTRmx2a2xncHJmZHNJU3M3Yjd2RlZrWWhYMEtBNS1HaWFyLTZyeUN3WjV2OHlDa3BGTVJWVkRrNjlYcVRnTDQwN2xTbTF6UGx4eVNvQnY0MnVWbFRfZ25HMnBKajA2VzRzcXc5bDB0ZUZqTFhzbnQ0eWJSSll0SkdzOEpUQzlO?oc=5",
+      "description": "Avigail Kifer Honored with ABA Antitrust Law Section Outstanding Performance Award &nbsp;&nbsp; Cornerstone Research",
+      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "source": "Cornerstone Research",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Main Developments in Competition Law and Policy 2025 – Argentina - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN1h4Tzd6S2tXc1VORWNmMUVVMzRqS2R3SGhjdmVraWVOTzN5RlZoLUJSc3JqX1JwTDRvbVY3eHNhakdHd1Z4aTlaQl9BbGRXekM5TmcyVF9zVGZEdVd4cTRoN1dNQ1hoNnYzdl9nbFI3c3RqTEhGWFRlTnV3bE5LNnZ4Tl9HNG1KcXZjRXBDaFNSTldPaTB5bVJtSUpsN1FtbGFsZlNhRnRhWlNnamxxdGdMOHNwQUtS?oc=5",
+      "description": "Main Developments in Competition Law and Policy 2025 – Argentina &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Thu, 19 Feb 2026 08:00:00 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "The Trends That Will Define European Antitrust in 2026 - promarket.org",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdGRuMUt5UzNNcGJib1JHWC1PZlQ1TGlqV2pmcXpnYXFNT1FoSWxGcjE3VDZrb0VlclI2LXNSWEdKSVIxMzczbkUtRkZPamhlQTg5eHY5RXVHUEs0SWViQkhNNkZZZjNES1NEYS1nLU5rUkdzTVZpdlZLTTBOMG5odExMbExTREdkR2lxcUk1NUg0UXlzcmRZ?oc=5",
+      "description": "The Trends That Will Define European Antitrust in 2026 &nbsp;&nbsp; promarket.org",
+      "date": "Wed, 14 Jan 2026 08:00:00 GMT",
+      "source": "promarket.org",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Antitrust as Anti-Oligarch Policy - The Regulatory Review",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVkhRbDJjMU9BU3lXT2JoXzVZTTdCNGp1Mzl3Vm9GWVJEYkFqQnQwMnQ5cFptZVc1VzhWb09oVEI2NDBHWVBPOFM2dGdaRmQyZWc3RWZJTGs0UVRBM2JjU3poTm10b3BBWGpPeENsRXo5SzlsbkZzZmNRUTlrcHZ3T3RtT0J0bGdpTEFn?oc=5",
+      "description": "Antitrust as Anti-Oligarch Policy &nbsp;&nbsp; The Regulatory Review",
+      "date": "Tue, 04 Aug 2026 07:00:00 GMT",
+      "source": "The Regulatory Review",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Proposed California Antitrust Legislation Could Significantly Broaden State’s Antitrust Law - Skadden, Arps, Slate, Meagher & Flom LLP",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORmkyVFYzZG9mUHg3T3B5Z2J0RG53REZ2amRlOEEyM3VOMVNONHdXTkxGaWFndDRGQ2VLN2JZVGVRVHY0VFA0S01oblJpRUs0bFVvX3dSTk1mZ1g4YWJ5SWpQRmlVNWlzSi1lT1R3MzIzako3YnBjZG9QQWN5ckJLRjFsMG9tS1hSeFA3WmJJMEVPRmRicXBUQWpJaw?oc=5",
+      "description": "Proposed California Antitrust Legislation Could Significantly Broaden State’s Antitrust Law &nbsp;&nbsp; Skadden, Arps, Slate, Meagher & Flom LLP",
+      "date": "Thu, 23 Apr 2026 07:00:00 GMT",
+      "source": "Skadden, Arps, Slate, Meagher & Flom LLP",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Grab and Go: EU Top Court Allows Antitrust Enforcers to Seize Work Emails Without Approval - Jones Day",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU1JWVUh1ZmREdVVwS0ExYWE4YkVTOWpVTVM3QkJIRXFsMnFXeThMYVYtd0pFNVpDRUpGY3FreUdHeDhKaVNCd1N3RGM2SktNdDlFTHVZM1l1MHBjQnZSek9qZ0M3ZW1zVjRJV2dsX01neTd6M0lNci1QRlJjcTBhbTFBMC1COVZ6X3p4dkVZeVlGY3M0RTZXSG5KSF8tSkV3cWxuS0NHUWJjU0htRURTRDBpU1ZZNlJFSEMxZFpWU3NUX1dla2ZQVndVZjRKY1k?oc=5",
+      "description": "Grab and Go: EU Top Court Allows Antitrust Enforcers to Seize Work Emails Without Approval &nbsp;&nbsp; Jones Day",
+      "date": "Thu, 16 Jul 2026 07:00:00 GMT",
+      "source": "Jones Day",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "AI and Antitrust in Singapore: What Businesses Need to Know Now - Jones Day",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXI1WldiNmloakJSZmpHek9TYl9pRndLa2twWFZLZ3AtQUhhRll5OWVjYTdGTk1EazFsZWFIYnh0Rlc4RW1VQVNQeTBGS0lfVUFiRUkwY1JpYlZoYjJCYmRveDIwcmZ2N2xYWDNYTHEySlI3T1VULVRSYkRweTB5MDFua19uWFpuZEhDZDAzbGZXYVVMTW9nQnFsS09KcUpScjV5RW5XbG1DRWc?oc=5",
+      "description": "AI and Antitrust in Singapore: What Businesses Need to Know Now &nbsp;&nbsp; Jones Day",
+      "date": "Wed, 06 May 2026 07:00:00 GMT",
+      "source": "Jones Day",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Inside Competition: June 2026 - DLA Piper",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPa2E3WTRNY09TaGhwZGc5bk5LT1NOeWZHZ3hXUU41NHBwcFZNcm5QWFAxeW04OUhLbjlvZEc4QlI3eURFYTNNUmNacnV3V2NoNjV1ZFpkOTBTRFZWY1A0RVp1WUVfWEo5cFdwdDJtbDh0VUVKWUNsN2hhMzF4UUhDMWhTSk44anotSGY1MmNsREpZci1sbjdRWFluSU00dzRvX2pEUQ?oc=5",
+      "description": "Inside Competition: June 2026 &nbsp;&nbsp; DLA Piper",
+      "date": "Wed, 17 Jun 2026 07:00:00 GMT",
+      "source": "DLA Piper",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Main Developments in Competition Law and Policy 2025 – Western Balkans - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQckpFVUNrUlVmQ3Q2MlF4TGxyVEFKV0duOWgxNy1pbGszOVdDbk44R1RqUXE3bndJUS05cGFuci1fd2tIUkk0VXFxQnhSaUVEUVE3SWN2RzRYS0pSVmtkeGgwUDdiUFdSaVdlY25KQXVMYTNZellXcUZnVkhYRU8wNEdDU0oyR3ItT0lSdmV6cHlFZll4eUFUcmtaOTZuamQtZmwwZi11WWdjeTRpSzhWQ0RVb0VlVzZPZEg0QXh1SzY?oc=5",
+      "description": "Main Developments in Competition Law and Policy 2025 – Western Balkans &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Tue, 03 Feb 2026 08:00:00 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Competition Enforcement Focus: Dark Patterns in Asia-Pacific - Jones Day",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZlVNZjZHU0RwSG9lV3VYdlVsYTZoLWVoTUVybFd2X1ZGZFRwa3Jvd3VVNHRFQTRySzZuT2loX25MT1pRdzFKTmlrMENmREFQTWw4V01WcFZYNUlTNmFna2FzVC1pV28ySDgtQ0Y3M0R5X3J4S1pDOFEzYjNtQk45eXRxeGd5YlJsTFhPcWI3VVZtdVBuYU5ZRWE4SC0ycFQyT1pvR2FR?oc=5",
+      "description": "Competition Enforcement Focus: Dark Patterns in Asia-Pacific &nbsp;&nbsp; Jones Day",
+      "date": "Fri, 05 Jun 2026 02:32:53 GMT",
+      "source": "Jones Day",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Global Antitrust Update Spring 2026 | Key Takeaways - McDermott Will & Schulte",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQjZaUDVlUE1EaWc4c2VRcU1KenduM1dWMmlDWjRqcUIwMkF1VnVJYmlRdGZYTFN1bU5PeVpFZmVKVkhac0hCYllEOXF1RTk0eFVvVjVNOVFNeWFfbERIWlVxTnVBLWFoTDNLRU1EUkE1STVZcEtXdUpiUGl4SDJVYzNGVzk5MkNUdE5NaWEwOE9fZw?oc=5",
+      "description": "Global Antitrust Update Spring 2026 | Key Takeaways &nbsp;&nbsp; McDermott Will & Schulte",
+      "date": "Fri, 24 Apr 2026 21:07:47 GMT",
+      "source": "McDermott Will & Schulte",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Antitrust In Focus: What Can Organizations Do To Mitigate And Manage Antitrust Compliance Risks? (Video) - Mondaq",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQMzIxYUU5b1E4T19iSHd0TmlOTlZhX1Vldkh4Z0lZczg4REMyRURabEwtemZDdnhIUVlRVVc4R3VwV2tZaERLZlpvUTRyQmZrZFNDMnFYWHNEODFWMWtQeGJRVFY1bzc2eDZxVXJyTFR6d1p0RUZUWXg3M1BtNGxhRE5ZY05ySEdTZDkwTENMSzhQdDBfSHRrZXNpWGNDWXFieF9jd25xeFJuY2RNSWxzNDFlVUxOeHkzRlRnazB6RjRkWml1VTdJOE5Mb2lqdGFpQV9CRk5DaDM4X1FSSGZZRnNaTUNGX3NTMkR1elhNZks0NlZoTkZYaE5nNFA5UQ?oc=5",
+      "description": "Antitrust In Focus: What Can Organizations Do To Mitigate And Manage Antitrust Compliance Risks? (Video) &nbsp;&nbsp; Mondaq",
+      "date": "Tue, 26 May 2026 07:00:00 GMT",
+      "source": "Mondaq",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "European Competition Law and the Defence Industry: Trends, Opportunities, and Risks - Latham & Watkins LLP",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSE5VbUhhLU5Id2JWZHBmNUlhMnctbnFpQ2FWczBSb1QzU2NrRjN6RUhzMTNRYkNEYUFYTVI3QnY5QnVZa0tVMFNuVkVJbjVqOURHU0ZMcEM0SHdIcFVUN3daSzl4RzhMMU5zQk9GX1FfSVU0bF9FbHNRTXliMllWM1FuYlZwUGNMaUtvY3g0OS1Tdy1ERm53ejRHZ0NFS25GbXJKVnJsNGtoTmhZMmFwTw?oc=5",
+      "description": "European Competition Law and the Defence Industry: Trends, Opportunities, and Risks &nbsp;&nbsp; Latham & Watkins LLP",
+      "date": "Tue, 10 Feb 2026 08:00:00 GMT",
+      "source": "Latham & Watkins LLP",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "The Trends That Will Define US Antitrust in 2026 - promarket.org",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTWtqNjMtQ3ZDTFFxS2Y5QllobjFHeExZeU5NZldTZnFSdVJ5Si12a0ZDUlkyYmVkaDM4SkJNMDB3dWxlbE5STzk3MWJRN3FqMnRyOXBwM1lKcFZ4eVFjRXNmZEQzWVlvQ2VEWEc1c2Vjcm9POURtWnRwOXgxVGhtenpxbFcyYWdTN2hVdEh1cw?oc=5",
+      "description": "The Trends That Will Define US Antitrust in 2026 &nbsp;&nbsp; promarket.org",
+      "date": "Thu, 15 Jan 2026 08:00:00 GMT",
+      "source": "promarket.org",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Columbia Law School Launches the Center for Law and the Economy, Led by Professors Lina Khan and Lev Menand - Columbia Law School",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdmpfbkVxRndNNFlrZzBJUDJhRkJUamFkUHhNLWlKSTcwWWNTWUdUU1NlOVRRSkVuclE0MW0tLXZIYjJXOEQzUl9yUzRUN05Hc1JjVlhoRGZWbWJ3ZTZKQUJHeTRGdm8xQkh2WVh5ZmVrWGl2TVBiaFdXTWc0WWd4bk00M2x1d0s5VktkZkFFTHdhN0wzTU8xbG5mUWdZQ2g4Zk1UM2huU2p4QnEzdU1pNDlKM3kxN0g5eVN4WVI2T2xMaWw4VEZzZFJnUTdGdw?oc=5",
+      "description": "Columbia Law School Launches the Center for Law and the Economy, Led by Professors Lina Khan and Lev Menand &nbsp;&nbsp; Columbia Law School",
+      "date": "Thu, 02 Apr 2026 07:00:00 GMT",
+      "source": "Columbia Law School",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Global Antitrust Enforcers Tackle AI ‘Stealth Mergers’ and ‘Acqui-Hires’ - JDSupra",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOT0pDRVJjV1NsMVB4NjVHS2U1c1FYWlNFWWpMeWVkLXFfaDhHckl6LVNSWDB0aHYyS2ZDWW96UV9qM0RBYzNKN2JHcVdtMFRHUnlvZlVtNjFTS1JFMC03ajBicFUzN2w1SjBBeTJIU3BISktiVUc0WjZPaFZJU05rV25sM2lxUQ?oc=5",
+      "description": "Global Antitrust Enforcers Tackle AI ‘Stealth Mergers’ and ‘Acqui-Hires’ &nbsp;&nbsp; JDSupra",
+      "date": "Fri, 01 May 2026 07:00:00 GMT",
+      "source": "JDSupra",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Global Antitrust Enforcement Outlook 2026: The trends shaping the year ahead - www.hlc.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNR2VUNVg1ZVdmNWc4MHNrX0RUdTFfWFN5UVFzTi1nNjJYOVNCVkZUV3hRZFltdmI3akJUalg1VDU5YzZsTWRtSGMxV0ZuYS1IT0NNdUJtRUJiUmRGb0k2bXI3N3NlODJRN29YVHFnVG90WnprNWNDZ29va01ENE5uSHFGcGl5YWJ4T2xjVzZTQjRra24zc3FpdE1jdEd1SzZTeTlMYl9XWGpmTVUwSFBVbw?oc=5",
+      "description": "Global Antitrust Enforcement Outlook 2026: The trends shaping the year ahead &nbsp;&nbsp; www.hlc.com",
+      "date": "Fri, 03 Jul 2026 13:01:05 GMT",
+      "source": "www.hlc.com",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Meta Loses Legal Fight Against Tougher EU Antitrust Rules - Law.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWWd5cE9BYzNiakN5NE1NTEwxOUZmN011RGZ4cjNzeFFFamFFZlFFMU9kVnJqUDVIbEdqT3lhMWdkMzkwSnlfTDM3YkdWV0NkX2EyMXh4LU1ORGRPZ0dORnVrVEZIdlJCRm1rMnVwRk5uLVVwMGlYUm1mbWNmR3AtYWQ4aUhfX1pqUzVNbWMwOWdzNGZiSnRXTjhabi05UEJFeHYyU0VvNXM2OXpyTGxsVQ?oc=5",
+      "description": "Meta Loses Legal Fight Against Tougher EU Antitrust Rules &nbsp;&nbsp; Law.com",
+      "date": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "source": "Law.com",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "A Year at the Justice Department’s Antitrust Division - The Regulatory Review",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaTNZMDROVjgwd3JjSE1maWUyZWFGRjdkUVBTbm1RTEd0Q2FpSEhubkRMYzl1amlxWlpNZjNnM09LSlU2bkg0SUE3S3J6Z1ROMEttR3BVWXU1VzJVbmZLYml4bWloTGdnMHMzQ25xcXpmNkFFTTN0OEpxSWsza3BKNmZJVlFKdnc?oc=5",
+      "description": "A Year at the Justice Department’s Antitrust Division &nbsp;&nbsp; The Regulatory Review",
+      "date": "Wed, 25 Mar 2026 07:00:00 GMT",
+      "source": "The Regulatory Review",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Attorney Spotlight: Ryan Danks (Video) - Antitrust, EU Competition - United States - Mondaq",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMFpIMkJxakUzTjQyTlVMZWlVZVdZRmptSFF6Y0ptemtWWGQtUGRNRnVLLWdwM295SUpnMk81TVgwanZMS2dKc29pdFU5V3lCUU5qZGhuWnpaLVhldjhEMUpRZ2xVb1ZvS2dvZ0VZajdtU2M1VnAzdXRDSjhHaHVlOTNfTjJ6S0xvbmVYLXdYU2RQelBMenZ2NXExZGZ0TEVnbWozaUl4OA?oc=5",
+      "description": "Attorney Spotlight: Ryan Danks (Video) - Antitrust, EU Competition - United States &nbsp;&nbsp; Mondaq",
+      "date": "Thu, 28 May 2026 07:00:00 GMT",
+      "source": "Mondaq",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "India Competition Chief Warns AI Could Accelerate Antitrust Risks - PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNenhFVGNfbWRyZ2JPbHRJM3hPTTFXQlA3WHg5MTBQc3ZESUtITEJDeHBuU2xOQUVGdTlvNW5CV3Jfa3BTV1VyNmN2QUp2a0ctTmZWN0ExTnJLRlMydFMzd0p3U1VITG4xbjRlbFYyUW9OVm56bEhZR1NHZ0lvZ29YVjMzd1hMZ2xQMHAySk80Y1d4Sk53MHlkbkNWTmxQekEw?oc=5",
+      "description": "India Competition Chief Warns AI Could Accelerate Antitrust Risks &nbsp;&nbsp; PYMNTS.com",
+      "date": "Mon, 07 Sep 2026 07:00:00 GMT",
+      "source": "PYMNTS.com",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Built to Last: Why America’s Antitrust System Has Endured for More Than a Century - Disruptive Competition Project",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUjBZckpZUWlQaVhfX0FrelVxaFZ3ZXl0WjBtZ1JQanFWM0NKVkZwakRrY09VUDYwcFpVYzI1OHNuM0Qyc2VaVHpBTGN1TVpzZGU2UmNkUF93S0JPblF0NFhQc1ZubVhtR1FWcEM2UXBUbVoyQlNVeTZQRGcwbFVpMkRfbndXRWltUUhZZEJYbFh2Z0dhMzVEOTUwaEwzZ21EdWQ5WkFuQW1GUGxZOExZY2RIOTBjR2pfcWc?oc=5",
+      "description": "Built to Last: Why America’s Antitrust System Has Endured for More Than a Century &nbsp;&nbsp; Disruptive Competition Project",
+      "date": "Thu, 02 Jul 2026 07:00:00 GMT",
+      "source": "Disruptive Competition Project",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Waters, Booker Introduce Fair Competition Act to Safeguard Small Businesses and Strengthen Antitrust Laws - Representative Maxine Waters | (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNQ0I1NFlfbXpLU185aG8tTTc4TjhfSHRRRlJodzgzQTZuZExTbnFyMUNHQ3R5Q2J0TGd0MUk1LWR6cVZ3M2xnbGpUVGJEMzBDZF9RUkkyOFdqTHBReG95Tk82UE5WOXUyVU02MjYtV1VPTHNfcjMySUZIdTZYcnQ2ejcxZWsxa0U2QkFCcXZKcW1ZUHVPZXF1b1ZPYTJDTFU3bkg4U2hhRkg2aG1pTTgxVWhULTJIbEpDRENvUGlMMXhEM0lfd1RjallRbDg5dEJFaHM5LUo5cE50di10Yi1nc0JfVC1GbXM4SEpfQw?oc=5",
+      "description": "Waters, Booker Introduce Fair Competition Act to Safeguard Small Businesses and Strengthen Antitrust Laws &nbsp;&nbsp; Representative Maxine Waters | (.gov)",
+      "date": "Thu, 18 Dec 2025 08:00:00 GMT",
+      "source": "Representative Maxine Waters | (.gov)",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Competition group of the year: White & Case - White & Case LLP",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JOUppZkdNcmVqS1VzYTFTVjFHeXNpWXk1WWlMM3lPYU1zX0hyazlmZnlBMVNIX0JsZnFNellUTjg1aVF3T09zM19ZV3FXZ0Z6TExyWm5XamlEQjJLQlFfM1huTldzckxPWm9tZHgwSGxlSU9yenlzSw?oc=5",
+      "description": "Competition group of the year: White & Case &nbsp;&nbsp; White & Case LLP",
+      "date": "Wed, 11 Feb 2026 08:00:00 GMT",
+      "source": "White & Case LLP",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "DOJ Withdraws Antitrust Guidance for Proxy Advisory Industry - Jones Day",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaVhXWDZnZzRlVTJ6UFpNWVJjQVpxUk51aHVrNDlFOGF1WEtsclRrYlhQUVMzMmdFOUxYRWh6OGlHSTg4aHd0OVphOFZjTnM3c0x1OEJBUENVcXNOZjJKQ1FDTFBtdnJ5SHN5SFdON3lnbGZiakJMRExTaDh6eG80ckJwT1hrelMzSG9QNFpGZVI2dHg3VGlXMFBkNlcxSWFUei0zdmJiOXY?oc=5",
+      "description": "DOJ Withdraws Antitrust Guidance for Proxy Advisory Industry &nbsp;&nbsp; Jones Day",
+      "date": "Wed, 12 Aug 2026 16:11:31 GMT",
+      "source": "Jones Day",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Full Stream Ahead: Competition and Consumer Choice in Digital Streaming - judiciary.house.gov",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVUFsN2lUODFFYTNhV2hha0lyc3Vfbjdnd0w2dTQ0S2FJeUVTOFdCMXhvSk1VWDlJM0pqLVBDdTN5NnN2aXZYajFBVHgyX0g4a0tWejNzVy0zczVHQUw2b2pOSGZDazJRejB3WVVRc2t5d3BxTFdtdXRlUnBqN01vMDcydjV6dWZnSG11QXhrZXJqUGIxWnhvV3ZzNUtCQ1B6Wmc3Y05JWFdUNlBPT3Uwb3BDc0xUT3ZYVXRGOWtYMA?oc=5",
+      "description": "Full Stream Ahead: Competition and Consumer Choice in Digital Streaming &nbsp;&nbsp; judiciary.house.gov",
+      "date": "Wed, 07 Jan 2026 08:00:00 GMT",
+      "source": "judiciary.house.gov",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Twelve Jones Day lawyers named to Lawdragon’s 2026 \"500 Leading Global Antitrust & Competition Lawyers\" list - Jones Day",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQ3lXb1lpOGtXQTZkUUtqUEc5TGJYMWE0ak02SmFpRUl0MDhVRzFYem1MR2hrM0ZubFo5M0p3VVd6TGRsWl8yU3dPNnJTQktfR2JCOG10ZE8zMTRUeUFleWtRZ1JKZWw1VEQ2bDY4Vjd6cVlpZjZ6R0lGVl9xUUlkeXdLTkVHcElWakNvbVhDWVdjdm1yQU5jWTlvTjdic010OE85YjIyNFRjcnBMbWtkX1Jwd0pIZFB4ZlRDczZrY3Z3TWF3cjRCQ2tPRlk3c1VJbGx5VnFWaGQ4a3phU3c?oc=5",
+      "description": "Twelve Jones Day lawyers named to Lawdragon’s 2026 \"500 Leading Global Antitrust & Competition Lawyers\" list &nbsp;&nbsp; Jones Day",
+      "date": "Fri, 06 Feb 2026 08:00:00 GMT",
+      "source": "Jones Day",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Competition Dawn Raids: A New Era of Enforcement - Mayer Brown",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdTBjMy1HZUNaVlVURjhEcjM5SGJFS2d2NVpjRXlZS0RzanJvdEtLT0FRMWdUTzZBcms5MXU0dXdmM3Y1RHViRVJid1dEVV9iUnJfX3BBQmRTWUNGUFRwY3hEcEwyRDk5ZXVTR3RKTkRIZk5hclhrMzBwam9kZEtQUGRFeHliRHplR0xWTUhvVnpMbnJtbDlJZHRnOW1sRUFNeG9qSXpnMzJrZw?oc=5",
+      "description": "Competition Dawn Raids: A New Era of Enforcement &nbsp;&nbsp; Mayer Brown",
+      "date": "Thu, 07 May 2026 07:00:00 GMT",
+      "source": "Mayer Brown",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "AI Industry’s Cooperation on Safety Raises Antitrust Questions - Bloomberg Law News",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVkg1Y1gyQnQ2WEF2a0lNT0lGRW5ONnZlb214NkdPNURZelYzR2Vib0pLdkNyaWd4ejd2UGhaTmRvWlU3V0lIQVRLOFh1QjFkX2xKNjRkRV9JekFJT3NERnJqeElfcUJfdWpYVFpCQUZqYlRfNkQxLWNId0pwY1IwU09LNndvRjhCN1FNQWFYa3dNNmhnamlkV0NfNlN0d0hmU3o4RUJxdlNvLUNPaEV6UkJnaUNqdmYtNWFKdF9tLXpGUHRYcGphT1Z3?oc=5",
+      "description": "AI Industry’s Cooperation on Safety Raises Antitrust Questions &nbsp;&nbsp; Bloomberg Law News",
+      "date": "Wed, 01 Jul 2026 07:00:00 GMT",
+      "source": "Bloomberg Law News",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Rightmove's £1.6B Antitrust Headache: The Rising Tide of UK Class Actions - Jones Day",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSjM4VGMwNDNfVDhaWk5iaC03b2dvZURRYVQwZzRLUVl4VzRMTnBkcldkT3JIWlRRSER2MVVqZGNpYnJ1Zmx6MTUwSlJQUW91dGgxdm5OZUZkc3RTb1lZTldkdWFSa1hQNVhicUxsRE0tNGRWT0ZvS1dzM3JsWTI4SGVEaEdVRHVhb3VMQWpOeE4wNFJqdm81QU9Wc0xLZHdwUHBUcHBWSHZLdnY1dDdoVkYtR2g?oc=5",
+      "description": "Rightmove's £1.6B Antitrust Headache: The Rising Tide of UK Class Actions &nbsp;&nbsp; Jones Day",
+      "date": "Thu, 16 Apr 2026 07:00:00 GMT",
+      "source": "Jones Day",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Global Competition Review Ranks McGuireWoods Among Top Antitrust Law Firms - McGuireWoods",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaV9JWVFTNTNQQlZrbzdJYmtyZGlCTjh1bkdEcVhVMjduTlJjSF9zMmlZdjZYS0U0OTlaRWdERW13ZVB3NGFqNFZud1JCdXZJaGx0bE5SSVVOSFAtR0R1VXh6LUk2RVRfLVhWdWVROGsxVFpLTldsaHR4UWUydHFVVVF5czdnY3RNQ1hsdGwwNDVaaTB2bG1HYUxxQ1pwVTRiNEdac2ZTeEVINi1kSWNxbnB0NTNYNTJHbHdFc3g2NE42SmV4a3psWDRJRQ?oc=5",
+      "description": "Global Competition Review Ranks McGuireWoods Among Top Antitrust Law Firms &nbsp;&nbsp; McGuireWoods",
+      "date": "Fri, 09 Jan 2026 08:00:00 GMT",
+      "source": "McGuireWoods",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "FTC and DOJ Signal Expanded Antitrust Scrutiny of DEI, ESG, and “Viewpoint Competition” Initiatives - Wiley Law",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaGFwR2pRbC01M2JEblVweXhiZ0NCYnFHX1k5QXNkREwwWmt0eUxaSzlsR2J4VGloMUY5LUg0VnZaYkhQV1ZqOFhoOUswNU5yYXRNM19qLXpyYV8yZEtsVVR0ZUdHNWhIdDh6dkdPV1VmWTU1aXdJaHEzS3NJbDlCUUxXY1RnRTVVakMyTy1OTXZJWnRnT2lSbDY2c3RPVnJIQk16VEhnWW43X09Ja3FCc0F6Rm5BRzFYSGFSSnNSYmE?oc=5",
+      "description": "FTC and DOJ Signal Expanded Antitrust Scrutiny of DEI, ESG, and “Viewpoint Competition” Initiatives &nbsp;&nbsp; Wiley Law",
+      "date": "Tue, 17 Feb 2026 08:00:00 GMT",
+      "source": "Wiley Law",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "January Antitrust and Competition Bulletin: Top-of-Mind Global Antitrust Issues - Sidley Austin",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPLVlXU0xkWXJMOUhaN3lRcWgwY29Jak5GUGRRZDJXZkJHSkpXMlRfenpLSW9Xc2pvZ1R0TkRJeGhfWkp3c1F5M0lTWmk0TzUxTGlCd2VRbm1zRTA0aWc0T21GaWxkNW9ieEdZSk16b3VTbEJLWVR0cHFveFo5X0p4Qk9oNjk4N2g5d1FNdFVqUVQ3ZzRCOWNWR3ZJRzE0dw?oc=5",
+      "description": "January Antitrust and Competition Bulletin: Top-of-Mind Global Antitrust Issues &nbsp;&nbsp; Sidley Austin",
+      "date": "Fri, 30 Jan 2026 08:00:00 GMT",
+      "source": "Sidley Austin",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Antitrust and Competition in M&A and Private Equity - Reed Smith LLP",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdkJ4UkZ3eFMtOHVndm9VaE9BZ05VS3JzNnd3d0I4VG5jRElya2JjdXBnckxBcFZtOXAzLWcxR3dsclUwUGRpamFrcENRNzJoY0VGMjJlellqejdzNXgwZ1VSYVVQRzhKQ09zbXVaZ1RLTHFtQlJvZmtsMjQyZTdRWlhSclRZSWZNUVRMU1Njc21iTTN4ZzdzdUhhZ3prLUpmS2VMSkZ5ZDBENklkS1ozdUdoU0lWLWF4amVPNHc5WjMzb3cxOFBhNGlpX21aZVlxTHZaVWdPYmllRkFFZVh0UVhHM2JlUQ?oc=5",
+      "description": "Antitrust and Competition in M&A and Private Equity &nbsp;&nbsp; Reed Smith LLP",
+      "date": "Fri, 27 Mar 2026 07:00:00 GMT",
+      "source": "Reed Smith LLP",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Amy Manning, Angelo Russo Selected for Lawdragon’s Leading Global Antitrust & Competition Lawyers - McGuireWoods",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQzRYaXQxZHJ4aUdOSVRITG12VWUtYXZzRTlsMUFQRlNKQ2d0aWhXcU5zVmdkYW54bHo0R2RfMDB2UjNBQzQ1QllpekUzdVIyNEhXamtnSEZBdS1SakhlbGlFTkFQWjcwc3BOVWx3Z0MzdTVsVmU4XzVPZDVPSzRha1prSkE2Wi1XN2h4c2R2N2xNbG1JR0EweGc1aVotaTBWU0NWMkVWeWF0VjV5Y0YwQ3hyZDBfWGgwMXUzT2hGVlFqRDRtYWc0MDI5OEw3QUtPNW1TR3Zvd2h1RDFZTktzSnRVV1U?oc=5",
+      "description": "Amy Manning, Angelo Russo Selected for Lawdragon’s Leading Global Antitrust & Competition Lawyers &nbsp;&nbsp; McGuireWoods",
+      "date": "Fri, 27 Feb 2026 08:00:00 GMT",
+      "source": "McGuireWoods",
+      "category": "Presse internationale"
+    }
+  ]
+}
