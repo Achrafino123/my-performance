@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0b1220">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="My Performance">
+<title>My Performance</title>
+<style>
+:root{
+  --bg:#f5f7fb;--card:#fff;--text:#101828;--muted:#667085;--line:#e7eaf0;
+  --navy:#0b1220;--blue:#2563eb;--cyan:#06b6d4;--green:#16a34a;
+  --purple:#7c3aed;--orange:#f59e0b;--red:#ef4444;--shadow:0 12px 35px rgba(15,23,42,.08);
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+button{font:inherit;border:0;cursor:pointer}
+.app{max-width:760px;margin:auto;min-height:100vh;padding-bottom:90px}
+.top{padding:28px 18px 12px;display:flex;justify-content:space-between;align-items:flex-start}
+.kicker{font-size:11px;font-weight:800;letter-spacing:.12em;color:#64748b}
+h1{font-size:30px;line-height:1.05;margin:5px 0 3px;letter-spacing:-.04em}
+.date{font-size:13px;color:var(--muted)}
+.icon-btn{width:42px;height:42px;border-radius:14px;background:#fff;box-shadow:var(--shadow);font-size:20px}
+main{padding:0 16px}
+.hero{background:linear-gradient(135deg,#0b1220 0%,#16233d 58%,#233a67 100%);color:white;border-radius:26px;padding:22px;box-shadow:0 18px 45px rgba(11,18,32,.2);position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;width:170px;height:170px;border-radius:50%;right:-65px;top:-70px;background:rgba(255,255,255,.07)}
+.hero-label{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#cbd5e1;font-weight:800}
+.score-row{display:flex;align-items:end;justify-content:space-between;margin-top:10px}
+.score{font-size:48px;font-weight:850;letter-spacing:-.05em}.score small{font-size:20px;color:#94a3b8}
+.mini{font-size:12px;color:#cbd5e1}
+.progress{height:8px;background:#334155;border-radius:99px;margin-top:15px;overflow:hidden}
+.progress span{display:block;height:100%;background:linear-gradient(90deg,#60a5fa,#22d3ee);border-radius:99px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin:12px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:17px;padding:13px 10px;box-shadow:0 4px 18px rgba(15,23,42,.04)}
+.stat b{display:block;font-size:22px}.stat span{font-size:11px;color:var(--muted)}
+.section{margin-top:24px}.section-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:11px}
+.section h2{font-size:20px;margin:0;letter-spacing:-.02em}.link{color:var(--blue);font-size:13px;font-weight:750;background:none}
+.today{background:#fff;border:1px solid var(--line);border-radius:20px;padding:16px;box-shadow:0 5px 20px rgba(15,23,42,.04)}
+.today-title{font-weight:800}.today-sub{font-size:13px;color:var(--muted);margin-top:4px}
+.quick{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:13px}
+.quick button{background:#fff;border:1px solid var(--line);border-radius:17px;padding:14px 8px;text-align:left;box-shadow:0 5px 20px rgba(15,23,42,.04)}
+.quick .emoji{font-size:20px;display:block;margin-bottom:8px}.quick b{font-size:12px}
+.plan-item{display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid #eef2f6}
+.plan-item:last-child{border-bottom:0}.plan-check{width:25px;height:25px;border-radius:8px;border:2px solid #cbd5e1;background:#fff;display:flex;align-items:center;justify-content:center;flex:none}
+.plan-check.done{background:#2563eb;border-color:#2563eb;color:#fff}.plan-item.done .plan-name{text-decoration:line-through;color:#98a2b3}
+.plan-name{font-weight:750;font-size:13px}.plan-meta{font-size:11px;color:#667085;margin-top:2px}
+.plan-cat{margin-left:auto;font-size:10px;font-weight:800;color:#475467;background:#f2f4f7;border-radius:99px;padding:5px 8px}
+.news-card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:17px;margin-top:10px;box-shadow:0 5px 20px rgba(15,23,42,.04)}
+.news-top{display:flex;justify-content:space-between;gap:10px;align-items:center}.news-source{font-size:10px;font-weight:850;color:#2563eb;text-transform:uppercase;letter-spacing:.06em}.news-date{font-size:10px;color:#98a2b3}.news-card h3{font-size:16px;line-height:1.3;margin:8px 0}.news-card p{font-size:12px;line-height:1.5;color:#667085;margin:0 0 10px}.news-link{display:inline-block;background:#eff6ff;color:#1d4ed8;border-radius:10px;padding:8px 10px;font-size:11px;font-weight:800;text-decoration:none}
+.week-card{background:#fff;border:1px solid var(--line);border-radius:21px;padding:17px}.week-days{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin-top:13px}
+.week-day{text-align:center;font-size:10px;color:#667085}.week-dot{height:32px;width:32px;margin:5px auto 0;border-radius:10px;background:#eef2f7;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800}
+.week-dot.active{background:#dbeafe;color:#1d4ed8}.week-dot.today{background:#2563eb;color:#fff}
+.learning{display:grid;grid-template-columns:1.3fr 1fr;gap:10px}
+.lesson{border-radius:21px;padding:18px;color:white;min-height:160px;position:relative;overflow:hidden;background:linear-gradient(135deg,#2563eb,#06b6d4)}
+.lesson.purple{background:linear-gradient(135deg,#6d28d9,#a855f7)}
+.lesson.green{background:linear-gradient(135deg,#047857,#22c55e)}
+.lesson .tag{font-size:10px;font-weight:800;opacity:.85;text-transform:uppercase;letter-spacing:.08em}
+.lesson h3{font-size:19px;line-height:1.1;margin:8px 0}.lesson p{font-size:12px;line-height:1.45;margin:0 0 13px;opacity:.92}
+.lesson button{background:#fff;color:#172554;border-radius:10px;padding:8px 11px;font-size:12px;font-weight:800}
+.modules{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.module{background:#fff;border:1px solid var(--line);border-radius:19px;padding:15px;min-height:125px}
+.module .mi{font-size:22px}.module h3{font-size:15px;margin:8px 0 4px}.module p{font-size:12px;color:var(--muted);margin:0;line-height:1.4}
+.chip{display:inline-block;margin-top:10px;font-size:10px;font-weight:800;padding:5px 8px;border-radius:99px;background:#eff6ff;color:#1d4ed8}
+.daily{background:#fff;border:1px solid var(--line);border-radius:21px;padding:18px}
+.daily .quote{font-size:17px;font-weight:750;line-height:1.35;margin:8px 0}.daily p{font-size:13px;color:var(--muted);line-height:1.55}
+.quiz{background:#0b1220;color:#fff;border-radius:21px;padding:18px}
+.quiz small{color:#94a3b8}.quiz h3{font-size:17px;line-height:1.35;margin:7px 0 14px}
+.answers{display:grid;gap:8px}.answers button{padding:11px 12px;border-radius:12px;background:#18243a;color:#fff;text-align:left;border:1px solid #2b3a55;font-size:13px}
+.answers button.correct{background:#14532d;border-color:#22c55e}.answers button.wrong{background:#7f1d1d;border-color:#ef4444}
+.feedback{font-size:12px;margin-top:10px;color:#cbd5e1}
+.page{display:none}.page.active{display:block}
+.learn-header{background:linear-gradient(135deg,#111827,#1e3a8a);color:#fff;border-radius:24px;padding:20px;margin-bottom:14px}
+.learn-header h2{margin:4px 0;font-size:27px}.learn-header p{color:#cbd5e1;font-size:13px;line-height:1.5}
+.filters{display:flex;gap:7px;overflow:auto;padding-bottom:5px}.filter{white-space:nowrap;background:#fff;border:1px solid var(--line);border-radius:99px;padding:8px 12px;font-size:12px}.filter.active{background:#111827;color:#fff}
+.article{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px;margin-top:10px}.article h3{margin:0 0 7px;font-size:18px}.article p,.article li{font-size:13px;line-height:1.6;color:#475467}.article ul{padding-left:18px}
+.modal{position:fixed;inset:0;background:rgba(2,6,23,.55);display:none;align-items:flex-end;justify-content:center;z-index:20}.modal.open{display:flex}
+.sheet{width:min(760px,100%);max-height:90vh;overflow:auto;background:#fff;border-radius:28px 28px 0 0;padding:20px}
+.sheet-head{display:flex;justify-content:space-between;align-items:center}.sheet h2{margin:0;font-size:22px}
+.close{background:#eef2f6;border-radius:12px;width:38px;height:38px}
+.form{display:grid;gap:12px;margin-top:16px}.form label{font-size:12px;font-weight:800;color:#344054}.form input,.form select,.form textarea{width:100%;padding:12px;border:1px solid #d0d5dd;border-radius:12px;font:inherit;background:#fff}
+.primary{background:#2563eb;color:#fff;padding:13px 15px;border-radius:13px;font-weight:800}
+.bottom{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:min(760px,100%);background:rgba(255,255,255,.96);backdrop-filter:blur(14px);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);padding:8px 8px calc(8px + env(safe-area-inset-bottom));z-index:10}
+.navbtn{background:none;color:#667085;font-size:10px;padding:5px}.navbtn .nicon{font-size:19px;display:block;margin-bottom:2px}.navbtn.active{color:#2563eb;font-weight:800}
+.empty{padding:25px;text-align:center;color:var(--muted);font-size:13px}
+@media(max-width:560px){.learning{grid-template-columns:1fr}.stats{gap:6px}.stat{padding:11px 7px}.stat b{font-size:19px}.quick{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<div class="app">
+<header class="top">
+  <div><div class="kicker">MY PERFORMANCE</div><h1>Bonjour 👋</h1><div class="date" id="date"></div></div>
+  <button class="icon-btn" onclick="openAdd()">⚡</button>
+</header>
+
+<main>
+<section id="home" class="page active">
+  <div class="hero">
+    <div class="hero-label">Performance globale</div>
+    <div class="score-row"><div class="score" id="global">0<small>/100</small></div><div class="mini" id="dayStatus">Commence ta journée</div></div>
+    <div class="progress"><span id="globalBar" style="width:0%"></span></div>
+  </div>
+
+  <section class="section" id="dailyPlanSection">
+    <div class="section-head"><h2>Mon plan du jour</h2><span class="kicker" id="planProgress">0/5</span></div>
+    <div class="today" id="dailyPlan"></div>
+  </section>
+
+  <div class="stats">
+    <div class="stat"><b id="sIntel">0</b><span>🧠 Intellectuel</span></div>
+    <div class="stat"><b id="sPro">0</b><span>💼 Professionnel</span></div>
+    <div class="stat"><b id="sSport">0</b><span>🏃 Sportif</span></div>
+    <div class="stat"><b id="sRec">0</b><span>😴 Récupération</span></div>
+  </div>
+
+  <section class="section">
+    <div class="section-head"><h2>Aujourd’hui</h2><button class="link" onclick="openAdd()">+ Ajouter</button></div>
+    <div class="today" id="todayBox"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Apprendre aujourd’hui</h2><span class="kicker" id="contentDay">JOUR 1</span></div>
+    <div class="learning" id="dailyLessons"></div>
+  </section>
+
+  <section class="section">
+    <div class="today" style="background:linear-gradient(135deg,#eef6ff,#f5f3ff);border:0">
+      <div style="display:flex;gap:12px;align-items:flex-start">
+        <div style="font-size:25px">🔄</div>
+        <div><b>Ton contenu change chaque jour</b><div class="today-sub">Les leçons sont sélectionnées selon la date. Tu ne retrouves pas les mêmes cartes chaque jour.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>📰 Veille concurrence</h2><button class="link" onclick="showPage('news')">Tout voir →</button></div>
+    <div id="newsPreview">
+      <div class="today"><div class="empty">Chargement des actualités…</div></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Ton parcours</h2><button class="link" onclick="showPage('learn')">Explorer</button></div>
+    <div class="modules">
+      <div class="module"><div class="mi">⚖️</div><h3>Droit de la concurrence</h3><p>Concepts, pratiques anticoncurrentielles, contrôle des concentrations.</p><span class="chip">10 modules</span></div>
+      <div class="module"><div class="mi">🤖</div><h3>IA & productivité</h3><p>Prompting, automatisation, analyse et bonnes pratiques.</p><span class="chip">12 modules</span></div>
+      <div class="module"><div class="mi">🇬🇧</div><h3>English</h3><p>Vocabulaire, grammaire, expression et compréhension.</p><span class="chip">30 leçons</span></div>
+      <div class="module"><div class="mi">📚</div><h3>Culture & lecture</h3><p>Fiches courtes pour apprendre une idée nouvelle chaque jour.</p><span class="chip">20 fiches</span></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Ma régularité</h2><span class="kicker">7 JOURS</span></div>
+    <div class="week-card">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div><b id="streakText">0 jour</b><div style="font-size:12px;color:#667085;margin-top:3px">de continuité</div></div>
+        <div style="font-size:28px">🔥</div>
+      </div>
+      <div class="week-days" id="weekDays"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Idée du jour</h2></div>
+    <div class="daily">
+      <div class="kicker">APPRENTISSAGE</div>
+      <div class="quote">« La progression vient moins de l’intensité ponctuelle que de la régularité. »</div>
+      <p>Consacre aujourd’hui 25 minutes à une compétence importante, sans multitâche. Note ensuite ce que tu as réellement retenu.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Mini-quiz</h2><span class="kicker">1 MINUTE</span></div>
+    <div class="quiz">
+      <small>CONCURRENCE · NIVEAU 1</small>
+      <h3>Quelle est la différence essentielle entre une entente horizontale et un accord vertical ?</h3>
+      <div class="answers">
+        <button onclick="answer(this,false)">A. Le secteur économique concerné</button>
+        <button onclick="answer(this,true)">B. Le niveau de la chaîne de valeur entre les parties</button>
+        <button onclick="answer(this,false)">C. La taille des entreprises</button>
+        <button onclick="answer(this,false)">D. La durée du contrat</button>
+      </div>
+      <div class="feedback" id="feedback"></div>
+    </div>
+  </section>
+</section>
+
+<section id="news" class="page">
+  <div class="learn-header">
+    <div class="kicker" style="color:#93c5fd">VEILLE CONCURRENCE</div>
+    <h2>Les actualités du jour.</h2>
+    <p>Une sélection renouvelée automatiquement : presse, autorités de concurrence et actualités réglementaires. Chaque article reste lié à sa source.</p>
+  </div>
+  <div class="filters" id="newsFilters">
+    <button class="filter active" onclick="filterNews(this,'all')">Tout</button>
+    <button class="filter" onclick="filterNews(this,'press')">📰 Presse</button>
+    <button class="filter" onclick="filterNews(this,'official')">🏛️ Autorités</button>
+    <button class="filter" onclick="filterNews(this,'morocco')">🇲🇦 Maroc</button>
+    <button class="filter" onclick="filterNews(this,'europe')">🇪🇺 Europe</button>
+  </div>
+  <div id="newsList"></div>
+</section>
+
+<section id="plan" class="page">
+  <div class="learn-header">
+    <div class="kicker" style="color:#93c5fd">PLAN PERSONNEL</div>
+    <h2>Ta journée, étape par étape.</h2>
+    <p>Un petit nombre d'actions importantes. Coche-les au fur et à mesure et garde une trace de ta régularité.</p>
+  </div>
+  <div class="today" id="fullDailyPlan"></div>
+  <div class="section"><div class="section-head"><h2>Règle simple</h2></div>
+    <div class="article"><h3>Minimum viable day</h3><p>Les jours difficiles, conserve une version courte : 10 min d'anglais, 15 min de lecture, 20 min de concentration et un peu de mouvement. L'objectif est de préserver la continuité.</p></div>
+  </div>
+</section>
+
+<section id="learn" class="page">
+  <div class="learn-header">
+    <div class="kicker" style="color:#93c5fd">CENTRE D’APPRENTISSAGE</div>
+    <h2>Apprendre chaque jour.</h2>
+    <p>Des capsules courtes, des fiches pratiques et des quiz. Objectif : progresser sans avoir besoin d’une longue session.</p>
+  </div>
+  <div class="filters">
+    <button class="filter active" onclick="filterLearn(this,'all')">Tout</button>
+    <button class="filter" onclick="filterLearn(this,'competition')">⚖️ Concurrence</button>
+    <button class="filter" onclick="filterLearn(this,'ai')">🤖 IA</button>
+    <button class="filter" onclick="filterLearn(this,'english')">🇬🇧 English</button>
+    <button class="filter" onclick="filterLearn(this,'culture')">📚 Culture</button>
+    <button class="filter" onclick="filterLearn(this,'performance')">🏃 Performance</button>
+  </div>
+  <div id="articles"></div>
+</section>
+
+<section id="add" class="page">
+  <div class="learn-header"><div class="kicker" style="color:#93c5fd">SUIVI</div><h2>Construire ta journée.</h2><p>Ajoute une activité en moins d’une minute. Les données restent enregistrées dans ce navigateur.</p></div>
+  <div class="today">
+    <button class="primary" style="width:100%" onclick="openAdd()">＋ Ajouter une activité</button>
+  </div>
+  <div class="section"><div class="section-head"><h2>Conseil</h2></div><div class="article"><h3>Mesurer peu, mais mesurer bien.</h3><p>Enregistre surtout les activités que tu veux rendre régulières : apprentissage, travail concentré, sport et récupération.</p></div></div>
+</section>
+
+<section id="progress" class="page">
+  <div class="learn-header"><div class="kicker" style="color:#93c5fd">PROGRESSION</div><h2>Voir la trajectoire.</h2><p>Cette section sera enrichie avec des graphiques 7 jours, 30 jours, 3 mois et 1 an.</p></div>
+  <div class="article"><h3>Score actuel</h3><div style="font-size:42px;font-weight:850;margin:8px 0" id="progScore">0/100</div><p>Le score est un indicateur personnel : il sert à observer ta régularité, pas à mesurer scientifiquement ta valeur ou ta santé.</p></div>
+  <div class="article"><h3>Objectif de la semaine</h3><p>Créer une chaîne de petites actions : apprendre, produire, bouger, récupérer.</p><div class="progress" style="background:#e5e7eb"><span style="width:25%;background:#2563eb"></span></div></div>
+</section>
+
+<section id="goals" class="page">
+  <div class="learn-header"><div class="kicker" style="color:#93c5fd">OBJECTIFS</div><h2>Ce qui compte vraiment.</h2><p>Choisis quelques objectifs mesurables et évite d’en accumuler trop.</p></div>
+  <div class="modules">
+    <div class="module"><div class="mi">🇬🇧</div><h3>English</h3><p>15 min d’apprentissage par jour.</p><span class="chip">Quotidien</span></div>
+    <div class="module"><div class="mi">📖</div><h3>Lecture</h3><p>20 pages ou 25 min par jour.</p><span class="chip">Quotidien</span></div>
+    <div class="module"><div class="mi">🎯</div><h3>Deep work</h3><p>Une session sans distraction.</p><span class="chip">Professionnel</span></div>
+    <div class="module"><div class="mi">🏃</div><h3>Sport</h3><p>Suivre la régularité et la récupération.</p><span class="chip">Sportif</span></div>
+  </div>
+</section>
+
+<section id="analysis" class="page">
+  <div class="learn-header"><div class="kicker" style="color:#93c5fd">ANALYSE</div><h2>Comprendre tes tendances.</h2><p>À terme, l’application pourra identifier les habitudes associées à tes meilleures journées.</p></div>
+  <div class="article"><h3>Cette semaine</h3><ul><li>Regarde les jours où tu as appris et travaillé en profondeur.</li><li>Compare ton volume d’activité avec ta récupération.</li><li>Observe les tendances plutôt qu’une seule journée.</li></ul></div>
+  <div class="article"><h3>Question de réflexion</h3><p>Quelle activité produit le plus de valeur pour toi avec le moins de friction ?</p></div>
+</section>
+</main>
+
+<nav class="bottom">
+  <button class="navbtn active" data-page="home" onclick="showPage('home')"><span class="nicon">⌂</span>Accueil</button>
+  <button class="navbtn" data-page="plan" onclick="showPage('plan')"><span class="nicon">☀</span>Plan</button>
+  <button class="navbtn" data-page="news" onclick="showPage('news')"><span class="nicon">📰</span>Veille</button>
+  <button class="navbtn" data-page="learn" onclick="showPage('learn')"><span class="nicon">✦</span>Apprendre</button>
+  <button class="navbtn" data-page="add" onclick="showPage('add')"><span class="nicon">＋</span>Ajouter</button>
+  <button class="navbtn" data-page="progress" onclick="showPage('progress')"><span class="nicon">↗</span>Progression</button>
+  <button class="navbtn" data-page="goals" onclick="showPage('goals')"><span class="nicon">✓</span>Objectifs</button>
+</nav>
+</div>
+
+<div class="modal" id="modal">
+ <div class="sheet">
+  <div class="sheet-head"><h2>Ajouter une activité</h2><button class="close" onclick="closeAdd()">✕</button></div>
+  <div class="form">
+   <label>Catégorie<select id="cat"><option value="intel">🧠 Intellectuel</option><option value="pro">💼 Professionnel</option><option value="sport">🏃 Sportif</option><option value="rec">😴 Récupération</option></select></label>
+   <label>Activité<input id="activity" placeholder="Ex. lecture, anglais, CrossFit, deep work…"></label>
+   <label>Durée (minutes)<input id="duration" type="number" min="1" placeholder="30"></label>
+   <label>Qualité ressentie (1–10)<input id="rating" type="number" min="1" max="10" placeholder="8"></label>
+   <button class="primary" onclick="saveActivity()">Enregistrer</button>
+  </div>
+ </div>
+</div>
+
+<div class="modal" id="lessonModal">
+ <div class="sheet">
+  <div class="sheet-head"><h2 id="lessonTitle"></h2><button class="close" onclick="closeLesson()">✕</button></div>
+  <div id="lessonBody" class="article" style="border:0;padding:0"></div>
+ </div>
+</div>
+
+<script>
+const KEY='myPerformanceV2';
+let state=JSON.parse(localStorage.getItem(KEY)||'{"activities":[]}');
+const articles=[
+ {cat:'competition',icon:'⚖️',title:'Entente horizontale vs accord vertical',desc:'Comprendre rapidement la différence et les questions à poser dans une analyse.',body:'Un accord horizontal intervient entre entreprises situées au même niveau de la chaîne de valeur. Un accord vertical lie des entreprises situées à des niveaux différents, par exemple un fournisseur et un distributeur. La qualification n’épuise pas l’analyse : il faut ensuite examiner l’objet, les effets, le contexte et les règles applicables.'},
+ {cat:'competition',icon:'⚖️',title:'Prix imposé : les bonnes questions',desc:'Une hausse ou une baisse de prix ne suffit pas à qualifier une pratique.',body:'Lorsqu’un prix réglementé existe, commence par identifier précisément la règle applicable, le niveau de la chaîne concerné et l’obligation imposée. Ensuite seulement, examine le comportement de l’opérateur, les clauses contractuelles et les éventuels effets sur la concurrence.'},
+ {cat:'competition',icon:'⚖️',title:'Contrats de distribution : 6 points à vérifier',desc:'Durée, exclusivité, quantités minimales, sortie, investissements spécifiques et effets cumulatifs.',body:'Pour analyser une relation de distribution, documente la durée, les obligations d’approvisionnement, les exclusivités, les pénalités, les coûts de sortie et les investissements spécifiques. Il faut aussi regarder l’accès des concurrents aux débouchés et les effets cumulés de restrictions similaires.'},
+ {cat:'ai',icon:'🤖',title:'Écrire un meilleur prompt',desc:'Contexte → objectif → contraintes → format attendu → critères de qualité.',body:'Un prompt utile précise le contexte, la tâche, les contraintes et la forme de la réponse. Ajoute ensuite des critères de vérification : sources, hypothèses, points d’incertitude et éléments à ne pas inventer. Pour un travail juridique ou économique, demande toujours de distinguer faits, analyse et hypothèses.'},
+ {cat:'ai',icon:'🤖',title:'IA pour la productivité professionnelle',desc:'Transformer une tâche répétitive en workflow réutilisable.',body:'Identifie une tâche répétitive. Décris son entrée, ses étapes et son résultat. Crée ensuite un modèle réutilisable : collecte → nettoyage → analyse → rédaction → contrôle. L’objectif n’est pas de remplacer le jugement professionnel, mais de réduire le temps consacré aux tâches répétitives.'},
+ {cat:'english',icon:'🇬🇧',title:'5 expressions de réunion',desc:'Useful phrases for professional meetings.',body:'1. “Let me clarify one point.” 2. “Could you elaborate on that?” 3. “From our perspective…” 4. “We need to look at the evidence.” 5. “Let’s come back to this point later.” Répète-les à voix haute et crée une phrase personnelle avec chacune.'},
+ {cat:'english',icon:'🇬🇧',title:'Vocabulary: competition law',desc:'Market, conduct, evidence, foreclosure, agreement.',body:'Market = marché. Conduct = comportement. Evidence = éléments de preuve. Foreclosure = éviction/fermeture de l’accès au marché. Agreement = accord. Phrase: “We need more evidence before assessing the conduct.”'},
+ {cat:'culture',icon:'📚',title:'Lire efficacement un rapport',desc:'Une méthode en 4 passes pour extraire l’essentiel.',body:'Passe 1 : titre, résumé, conclusion. Passe 2 : structure et données clés. Passe 3 : sections directement utiles. Passe 4 : notes personnelles et questions. À la fin, écris cinq lignes : problème, méthode, résultats, limites, implications.'},
+ {cat:'performance',icon:'🏃',title:'Régularité > intensité',desc:'Construire une routine durable avec des objectifs réalistes.',body:'Une journée exceptionnelle ne crée pas une habitude. Pour chaque domaine, définis une version minimale de l’action : 10 minutes d’anglais, 15 minutes de lecture, une courte session de concentration. Les jours chargés, cette version minimale maintient la continuité.'}
+];
+const lessons={
+ deepwork:{title:'Les 3 niveaux du deep work',body:'<h3>1. Préparer</h3><p>Choisis une tâche unique, éloigne les distractions et définis le résultat attendu.</p><h3>2. Produire</h3><p>Travaille pendant une période définie. Note les idées parasites au lieu de changer de tâche.</p><h3>3. Fermer</h3><p>Termine par une note rapide : ce qui est fait, ce qui reste et la prochaine action.</p><p><b>Mini-défi :</b> fais aujourd’hui une session de 25 minutes sans téléphone.</p>'},
+ english:{title:'Business English · 5 expressions',body:'<p><b>Let me clarify one point.</b><br>Permettez-moi de clarifier un point.</p><p><b>Could you elaborate on that?</b><br>Pourriez-vous développer ce point ?</p><p><b>From our perspective…</b><br>De notre point de vue…</p><p><b>We need to look at the evidence.</b><br>Nous devons examiner les éléments de preuve.</p><p><b>Let’s come back to this point later.</b><br>Revenons sur ce point plus tard.</p>'}
+};
+function todayKey(){return new Date().toISOString().slice(0,10)}
+function save(){localStorage.setItem(KEY,JSON.stringify(state))}
+function calc(){
+ const d=state.activities.filter(x=>x.date===todayKey());
+ const vals={intel:0,pro:0,sport:0,rec:0};
+ d.forEach(x=>{vals[x.cat]+=Math.min(100,(x.rating?x.rating*8:0)+(x.duration?x.duration:0)*1.2)});
+ Object.keys(vals).forEach(k=>vals[k]=Math.round(Math.min(100,vals[k])));
+ return {...vals,global:Math.round((vals.intel+vals.pro+vals.sport+vals.rec)/4)}
+}
+function render(){
+ const c=calc();document.getElementById('global').innerHTML=c.global+'<small>/100</small>';document.getElementById('globalBar').style.width=c.global+'%';
+ ['intel','pro','sport','rec'].forEach(k=>document.getElementById('s'+k[0].toUpperCase()+k.slice(1)).textContent=c[k]);
+ document.getElementById('progScore').textContent=c.global+'/100';
+ const d=state.activities.filter(x=>x.date===todayKey()); const box=document.getElementById('todayBox');
+ box.innerHTML=d.length?d.map(x=>`<div style="display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid #eef2f6;font-size:13px"><span>${x.name}</span><b>${x.duration||0} min</b></div>`).join(''):'<div class="empty">Aucune activité aujourd’hui.<br>Utilise « + Ajouter » pour commencer.</div>';
+ document.getElementById('dayStatus').textContent=d.length?(d.length+' activité'+(d.length>1?'s':'')):'Commence ta journée';
+}
+function showPage(id){
+ document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));document.getElementById(id).classList.add('active');
+ document.querySelectorAll('.navbtn').forEach(b=>b.classList.toggle('active',b.dataset.page===id));
+ window.scrollTo({top:0,behavior:'smooth'}); if(id==='learn')renderArticles(); if(id==='plan')renderDailyPlan(); if(id==='news')renderNews('all');
+}
+function openAdd(){document.getElementById('modal').classList.add('open')}
+function closeAdd(){document.getElementById('modal').classList.remove('open')}
+function saveActivity(){
+ const name=document.getElementById('activity').value.trim();if(!name)return alert('Ajoute le nom de l’activité.');
+ state.activities.push({date:todayKey(),cat:document.getElementById('cat').value,name,duration:Number(document.getElementById('duration').value)||0,rating:Number(document.getElementById('rating').value)||0});
+ save();document.getElementById('activity').value='';document.getElementById('duration').value='';document.getElementById('rating').value='';closeAdd();render();
+}
+
+const dailyContent=[
+ {type:'competition',icon:'⚖️',title:'Accords verticaux : les restrictions à examiner',desc:'Durée, exclusivité, prix, quantités minimales et accès aux débouchés.',body:'Pour analyser un accord vertical, commence par identifier les niveaux de la chaîne de valeur. Examine ensuite les restrictions : prix, exclusivité, non-concurrence, quantités minimales, durée, clauses de sortie et effets cumulatifs. La qualification dépend du cadre juridique applicable et du contexte économique.'},
+ {type:'competition',icon:'⚖️',title:'Prix réglementé : par où commencer ?',desc:'Distinguer obligation réglementaire et comportement commercial.',body:'Lorsqu’un prix est encadré, identifie d’abord le texte applicable, le prix concerné, le niveau de la chaîne et les obligations imposées. Ensuite seulement, compare le comportement observé avec la règle et examine les éventuels effets concurrentiels.'},
+ {type:'competition',icon:'⚖️',title:'Marché pertinent : trois questions',desc:'Produit, géographie et substituabilité.',body:'Un premier cadrage consiste à examiner les produits ou services concernés, la dimension géographique et les possibilités de substitution. L’analyse doit être adaptée à la question concurrentielle étudiée et aux données disponibles.'},
+ {type:'competition',icon:'⚖️',title:'Entente ou comportement unilatéral ?',desc:'Identifier le nombre d’acteurs et la nature de la coordination.',body:'Une coordination entre plusieurs entreprises appelle des questions différentes d’un comportement adopté unilatéralement. Documente les acteurs, les communications, les accords éventuels, les pratiques observées et leur contexte avant de tirer une qualification.'},
+ {type:'competition',icon:'⚖️',title:'Concentration : les informations essentielles',desc:'Contrôle, chiffre d’affaires, marché et opération.',body:'Pour une opération de concentration, rassemble les parties, la nature de l’opération, les liens de contrôle, les activités concernées, les chiffres d’affaires pertinents et les marchés affectés. La notification et l’analyse dépendent du cadre juridique applicable.'},
+ {type:'ai',icon:'🤖',title:'Prompt en 5 blocs',desc:'Contexte → objectif → données → contraintes → format.',body:'Pour obtenir une réponse exploitable, donne le contexte, précise l’objectif, indique les données disponibles, fixe les contraintes puis demande un format précis. Ajoute une consigne de vérification lorsque le sujet est juridique ou économique.'},
+ {type:'ai',icon:'🤖',title:'Faire relire un document par l’IA',desc:'Demander une critique structurée plutôt qu’une simple correction.',body:'Demande à l’IA d’identifier séparément les erreurs factuelles potentielles, les incohérences, les passages ambigus, les répétitions et les améliorations de structure. Puis vérifie toi-même les points importants.'},
+ {type:'ai',icon:'🤖',title:'Transformer une tâche en workflow',desc:'Décomposer pour automatiser progressivement.',body:'Décris la tâche actuelle étape par étape. Repère ce qui est répétitif, ce qui nécessite du jugement et ce qui peut être standardisé. Automatise d’abord les étapes à faible risque et conserve un contrôle humain sur les décisions importantes.'},
+ {type:'ai',icon:'🤖',title:'Recherche avec sources',desc:'Demander des sources et distinguer faits et interprétations.',body:'Pour une recherche sérieuse, demande des sources primaires ou institutionnelles lorsque c’est possible. Fais distinguer les faits vérifiables, les analyses des sources et les incertitudes. Ne traite pas une réponse générée comme une source en elle-même.'},
+ {type:'ai',icon:'🤖',title:'Créer une fiche de synthèse',desc:'Problème, données, analyse, conclusion, points à vérifier.',body:'Une fiche courte peut suivre cinq rubriques : question, faits essentiels, analyse, conclusion provisoire et points restant à vérifier. Cette structure facilite ensuite la rédaction d’une note plus longue.'},
+ {type:'english',icon:'🇬🇧',title:'English: asking for clarification',desc:'Useful phrases for professional discussions.',body:'“Could you clarify this point?” — Pourriez-vous clarifier ce point ?<br><br>“What evidence supports this view?” — Quels éléments étayent ce point de vue ?<br><br>“Let me make sure I understood.” — Permettez-moi de vérifier que j’ai bien compris.'},
+ {type:'english',icon:'🇬🇧',title:'English: presenting an analysis',desc:'Three expressions for explaining your reasoning.',body:'“Our analysis suggests…”<br>“The available data indicate…”<br>“There are two main points to consider…”<br><br>Lis-les à voix haute puis utilise chacune dans une phrase personnelle.'},
+ {type:'english',icon:'🇬🇧',title:'Vocabulary: evidence',desc:'Evidence, finding, assumption, source, limitation.',body:'Evidence = élément de preuve / élément étayant. Finding = constat. Assumption = hypothèse. Source = source. Limitation = limite. Exemple : “One limitation of the analysis is the lack of recent data.”'},
+ {type:'english',icon:'🇬🇧',title:'English: disagreement politely',desc:'Disagree without sounding aggressive.',body:'“I see your point, but…”<br>“I’m not sure the data support that conclusion.”<br>“There may be another way to interpret this.”<br><br>Ces formulations sont utiles dans une réunion professionnelle.'},
+ {type:'english',icon:'🇬🇧',title:'English: meeting recap',desc:'Summarize decisions and next steps.',body:'“Let’s recap the main points.”<br>“We agreed to…”<br>“The next step is…”<br>“I’ll follow up on this.”<br><br>Utilise-les pour conclure une réunion.'},
+ {type:'performance',icon:'🧠',title:'Deep Work : commencer sans friction',desc:'Définir une seule sortie attendue avant de travailler.',body:'Avant une session, écris une phrase : “À la fin des 25 prochaines minutes, j’aurai…” Cela réduit l’ambiguïté et facilite le démarrage.'},
+ {type:'performance',icon:'🏃',title:'Récupération et charge',desc:'Observer l’équilibre entre effort et récupération.',body:'Note ton niveau d’énergie avant l’entraînement, l’intensité ressentie et ton état après. L’objectif est d’observer des tendances personnelles plutôt que de tirer une conclusion à partir d’une seule journée.'},
+ {type:'performance',icon:'🎯',title:'Objectifs : résultat vs processus',desc:'Un objectif de processus est souvent plus contrôlable.',body:'“Lire 20 minutes” est une action directement contrôlable. “Devenir meilleur en anglais” est un résultat plus lointain. Combine les deux : résultat souhaité + actions régulières.'},
+ {type:'performance',icon:'🧠',title:'Concentration : réduire les bascules',desc:'Chaque changement de contexte a un coût.',body:'Regroupe les tâches similaires et protège une période dédiée à la tâche la plus importante. Pendant cette période, note les idées parasites au lieu de passer immédiatement à une autre activité.'},
+ {type:'performance',icon:'📈',title:'Analyser une semaine',desc:'Chercher les tendances plutôt que les journées parfaites.',body:'À la fin de la semaine, regarde la fréquence des activités, les jours les plus réguliers et les moments où la récupération semble meilleure. Pose ensuite une seule question : que dois-je conserver la semaine prochaine ?'},
+ {type:'culture',icon:'📚',title:'Méthode de lecture en 20 minutes',desc:'Survoler, lire, résumer.',body:'2 minutes : structure et titres. 13 minutes : lecture ciblée. 5 minutes : écrire trois idées et une question. Cette méthode transforme une lecture passive en apprentissage actif.'},
+ {type:'culture',icon:'📚',title:'La règle des trois idées',desc:'Sortir de chaque article avec trois éléments mémorisables.',body:'Après une lecture, écris : 1 idée nouvelle, 1 idée qui confirme quelque chose que tu savais, 1 question que le texte laisse ouverte. Cela facilite la mémorisation.'},
+ {type:'culture',icon:'📚',title:'Lire un graphique correctement',desc:'Titre, unités, période, source et comparaison.',body:'Avant d’interpréter une courbe, vérifie le titre, les unités, la période, la population couverte et la source. Ensuite seulement compare les niveaux et les évolutions.'},
+ {type:'culture',icon:'📚',title:'Biais de confirmation',desc:'Chercher activement ce qui pourrait contredire une hypothèse.',body:'Une bonne pratique consiste à écrire l’hypothèse puis à demander : “Quelles observations me feraient changer d’avis ?” Cette question aide à distinguer recherche d’information et recherche de confirmation.'},
+ {type:'culture',icon:'📚',title:'Prendre des notes utiles',desc:'Écrire pour retrouver et réutiliser l’idée.',body:'Une note utile contient l’idée, le contexte et éventuellement un exemple. Évite de recopier de longs passages. Reformule avec tes propres mots et ajoute un lien avec ce que tu connais déjà.'},
+ {type:'competition',icon:'⚖️',title:'Quantités minimales : pourquoi les examiner ?',desc:'Une obligation de volume peut influencer la mobilité d’un partenaire.',body:'Une quantité minimale doit être replacée dans son contexte : durée du contrat, possibilités d’approvisionnement alternatif, coûts de sortie, investissements spécifiques, part des besoins couverte et présence d’offres concurrentes.'},
+ {type:'competition',icon:'⚖️',title:'Durée contractuelle et mobilité',desc:'La durée seule ne suffit pas : examine la sortie et les effets.',body:'Pour une relation de longue durée, regarde les mécanismes de renouvellement, préavis, pénalités, investissements spécifiques et possibilités concrètes de changement de fournisseur. L’analyse porte sur les effets et le contexte.'},
+ {type:'ai',icon:'🤖',title:'Faire résumer sans perdre la nuance',desc:'Demander une synthèse en séparant faits et interprétations.',body:'Prompt utile : “Résume ce document en distinguant faits, analyses de l’auteur, hypothèses et incertitudes. Ne complète pas les informations manquantes.”'},
+ {type:'ai',icon:'🤖',title:'Contrôle qualité d’une réponse IA',desc:'5 contrôles avant réutilisation.',body:'Vérifie : exactitude des noms et dates, cohérence des chiffres, sources citées, hypothèses implicites et absence d’informations inventées. Pour un document professionnel, relis toujours la version finale.'},
+ {type:'english',icon:'🇬🇧',title:'English: writing a concise email',desc:'Subject, purpose, action, deadline.',body:'Structure simple : objet précis → raison du message → action attendue → échéance → formule de clôture. Exemple : “Could you please send the completed questionnaire by Friday?”'},
+ {type:'performance',icon:'🎯',title:'La règle des 1–3–5',desc:'1 priorité majeure, 3 tâches importantes, 5 petites actions.',body:'Chaque matin, choisis une priorité majeure. Ajoute trois tâches importantes puis quelques petites actions. Cela limite la liste infinie et rend la journée plus lisible.'},
+ {type:'culture',icon:'📚',title:'Apprentissage actif',desc:'Se tester avant de relire.',body:'Après une leçon, ferme le texte et tente de restituer les idées principales. Le rappel actif permet de voir ce que tu maîtrises réellement et ce qui doit être revu.'}
+];
+
+function dayOfYear(){
+ const start=new Date(new Date().getFullYear(),0,0);
+ return Math.floor((new Date()-start)/(1000*60*60*24));
+}
+function dailyPick(){
+ const n=dayOfYear();
+ // Five different categories each day, with deterministic rotation.
+ const groups={};
+ dailyContent.forEach(x=>(groups[x.type]??=[]).push(x));
+ const types=['competition','ai','english','culture','performance'];
+ return types.map((t,i)=>{
+   const arr=groups[t]; return arr[(n+i*3)%arr.length];
+ });
+}
+function renderDailyLessons(){
+ const picks=dailyPick();
+ const el=document.getElementById('dailyLessons'); if(!el)return;
+ document.getElementById('contentDay').textContent='JOUR '+(dayOfYear());
+ const styles=['','purple','green'];
+ el.innerHTML=picks.slice(0,3).map((x,i)=>`
+   <div class="lesson ${styles[i]}">
+     <div class="tag">${x.icon} · ${x.type==='english'?'ENGLISH':x.type==='ai'?'IA':x.type==='competition'?'CONCURRENCE':x.type==='culture'?'CULTURE':'PERFORMANCE'}</div>
+     <h3>${x.title}</h3>
+     <p>${x.desc}</p>
+     <button onclick="openDynamicLesson(${dailyContent.indexOf(x)})">Lire · 5 min</button>
+   </div>`).join('');
+}
+function openDynamicLesson(i){
+ const x=dailyContent[i];
+ document.getElementById('lessonTitle').textContent=x.title;
+ document.getElementById('lessonBody').innerHTML='<div style="font-size:25px">'+x.icon+'</div><p>'+x.body+'</p>';
+ document.getElementById('lessonModal').classList.add('open');
+}
+
+
+let liveNews=[];
+async function loadNews(){
+  try{
+    const r=await fetch('news.json?d='+todayKey(),{cache:'no-store'});
+    if(!r.ok)throw new Error('news.json unavailable');
+    liveNews=await r.json();
+  }catch(e){
+    liveNews=[{
+      category:'official',region:'europe',source:'Commission européenne',
+      title:'Actualités récentes en politique de concurrence',
+      description:'La rubrique officielle de la Commission européenne regroupe les dernières décisions et développements en matière d’antitrust, cartels et concentrations.',
+      date:'',url:'https://competition-policy.ec.europa.eu/antitrust-and-cartels/latest-news_en'
+    },{
+      category:'official',region:'morocco',source:'Conseil de la concurrence du Maroc',
+      title:'Derniers communiqués du Conseil de la concurrence',
+      description:'Consulte les derniers communiqués et décisions publiés par le Conseil de la concurrence du Maroc.',
+      date:'',url:'https://conseil-concurrence.ma/'
+    }];
+  }
+  renderNews('all');
+}
+function newsCard(n){
+  const safeTitle=(n.title||'Actualité concurrence').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  const safeDesc=(n.description||'').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  return `<article class="news-card">
+    <div class="news-top"><span class="news-source">${n.source||'Source'}</span><span class="news-date">${n.date||''}</span></div>
+    <h3>${safeTitle}</h3>
+    ${safeDesc?`<p>${safeDesc.slice(0,260)}${safeDesc.length>260?'…':''}</p>`:''}
+    <a class="news-link" href="${n.url}" target="_blank" rel="noopener">Lire l’article →</a>
+  </article>`;
+}
+function renderNews(filter='all'){
+ const list=filter==='all'?liveNews:liveNews.filter(n=>n.category===filter);
+ const el=document.getElementById('newsList'); if(el)el.innerHTML=list.length?list.slice(0,20).map(newsCard).join(''):'<div class="today"><div class="empty">Aucun article dans cette catégorie.</div></div>';
+ const preview=document.getElementById('newsPreview'); if(preview)preview.innerHTML=liveNews.slice(0,3).map(newsCard).join('');
+}
+function filterNews(btn,f){
+ document.querySelectorAll('#newsFilters .filter').forEach(x=>x.classList.remove('active'));
+ btn.classList.add('active');renderNews(f);
+}
+
+function renderArticles(filter='all'){
+ const el=document.getElementById('articles'); const list=filter==='all'?articles:articles.filter(a=>a.cat===filter);
+ el.innerHTML=list.map((a,i)=>`<div class="article"><div style="font-size:22px">${a.icon}</div><h3>${a.title}</h3><p>${a.desc}</p><button class="primary" style="padding:9px 12px;font-size:12px" onclick="openArticle(${articles.indexOf(a)})">Lire la fiche →</button></div>`).join('');
+}
+function filterLearn(btn,f){document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));btn.classList.add('active');renderArticles(f)}
+function openArticle(i){const a=articles[i];document.getElementById('lessonTitle').textContent=a.title;document.getElementById('lessonBody').innerHTML='<div style="font-size:25px">'+a.icon+'</div><p>'+a.body+'</p>';document.getElementById('lessonModal').classList.add('open')}
+function openLesson(k){const l=lessons[k];document.getElementById('lessonTitle').textContent=l.title;document.getElementById('lessonBody').innerHTML=l.body;document.getElementById('lessonModal').classList.add('open')}
+function closeLesson(){document.getElementById('lessonModal').classList.remove('open')}
+
+const dailyPlan=[
+ {id:'learn',name:'25 min — Apprentissage',meta:'Droit de la concurrence ou IA',cat:'🧠 Intellectuel'},
+ {id:'english',name:'15 min — English',meta:'Vocabulaire + expression orale',cat:'🇬🇧 Langue'},
+ {id:'deep',name:'60 min — Deep Work',meta:'Une tâche professionnelle prioritaire',cat:'💼 Professionnel'},
+ {id:'read',name:'20 min — Lecture',meta:'Lire puis noter 3 idées',cat:'📚 Culture'},
+ {id:'sport',name:'45 min — Mouvement',meta:'Sport, marche ou mobilité',cat:'🏃 Sportif'}
+];
+function planKey(){return 'myPerformancePlan_'+todayKey()}
+function getPlanState(){return JSON.parse(localStorage.getItem(planKey())||'{}')}
+function togglePlan(id){
+ const p=getPlanState(); p[id]=!p[id]; localStorage.setItem(planKey(),JSON.stringify(p)); renderDailyPlan(); renderWeek();
+}
+function planHTML(){
+ const p=getPlanState();
+ return dailyPlan.map(x=>`<div class="plan-item ${p[x.id]?'done':''}">
+   <button class="plan-check ${p[x.id]?'done':''}" onclick="togglePlan('${x.id}')">${p[x.id]?'✓':''}</button>
+   <div><div class="plan-name">${x.name}</div><div class="plan-meta">${x.meta}</div></div>
+   <span class="plan-cat">${x.cat}</span>
+ </div>`).join('');
+}
+function renderDailyPlan(){
+ const p=getPlanState(), done=dailyPlan.filter(x=>p[x.id]).length;
+ const htmlPlan=planHTML();
+ const a=document.getElementById('dailyPlan'); if(a)a.innerHTML=htmlPlan;
+ const b=document.getElementById('fullDailyPlan'); if(b)b.innerHTML=htmlPlan;
+ const c=document.getElementById('planProgress'); if(c)c.textContent=done+'/5';
+}
+function renderWeek(){
+ const el=document.getElementById('weekDays'); if(!el)return;
+ const labels=['L','M','M','J','V','S','D']; const now=new Date();
+ const jsDay=now.getDay()||7; const monday=new Date(now); monday.setDate(now.getDate()-jsDay+1);
+ let streak=0;
+ const cells=labels.map((lab,i)=>{
+   const d=new Date(monday); d.setDate(monday.getDate()+i);
+   const key=d.toISOString().slice(0,10);
+   const st=JSON.parse(localStorage.getItem('myPerformancePlan_'+key)||'{}');
+   const done=dailyPlan.filter(x=>st[x.id]).length;
+   if(done===dailyPlan.length && d<=now) streak++;
+   const isToday=key===todayKey();
+   return `<div class="week-day">${lab}<div class="week-dot ${done>=3?'active':''} ${isToday?'today':''}">${done}</div></div>`;
+ }).join('');
+ el.innerHTML=cells;
+ document.getElementById('streakText').textContent=streak+(streak>1?' jours':' jour');
+}
+
+function answer(btn,ok){document.querySelectorAll('.answers button').forEach(b=>b.disabled=true);btn.classList.add(ok?'correct':'wrong');document.getElementById('feedback').textContent=ok?'✓ Bonne réponse. Un accord vertical intervient à des niveaux différents de la chaîne de valeur.':'✗ Pas tout à fait. Pense au niveau de la chaîne de valeur occupé par les parties.'}
+document.getElementById('date').textContent=new Intl.DateTimeFormat('fr-FR',{weekday:'long',day:'numeric',month:'long',year:'numeric'}).format(new Date());
+render();renderArticles();renderDailyPlan();renderWeek();renderDailyLessons();loadNews();
+</script>
+</body>
+</html>
