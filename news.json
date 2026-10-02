@@ -1,0 +1,56 @@
+[
+  {
+    "category": "press",
+    "region": "international",
+    "source": "Reuters",
+    "title": "Google challenges EU orders to open up to AI and search-engine rivals",
+    "description": "Article récent sur le contentieux autour des mesures européennes concernant Google et l’accès de concurrents à certains services et données.",
+    "date": "29 September 2026",
+    "url": "https://www.reuters.com/business/google-challenges-eu-orders-open-up-ai-search-engine-rivals-2026-09-29/"
+  },
+  {
+    "category": "press",
+    "region": "europe",
+    "source": "Reuters",
+    "title": "Kone plans TK Elevator Europe sale to address antitrust concerns",
+    "description": "Article sur les remèdes envisagés dans le cadre d’une importante opération de concentration dans le secteur des ascenseurs.",
+    "date": "1 October 2026",
+    "url": "https://www.reuters.com/business/finance/finlands-kone-prepares-sale-tk-elevators-europe-business-tackle-antitrust-2026-10-01/"
+  },
+  {
+    "category": "press",
+    "region": "international",
+    "source": "The Verge",
+    "title": "Judge dismisses antitrust lawsuits over Google's AI Overviews",
+    "description": "Article consacré à deux actions antitrust liées au fonctionnement de Google AI Overviews et aux effets allégués sur les éditeurs.",
+    "date": "2 October 2026",
+    "url": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed"
+  },
+  {
+    "category": "official",
+    "region": "europe",
+    "source": "Commission européenne",
+    "title": "Latest news — Antitrust and Cartels",
+    "description": "Dernières actualités officielles de la Commission européenne sur les ententes, abus de position dominante et politique antitrust.",
+    "date": "2026",
+    "url": "https://competition-policy.ec.europa.eu/antitrust-and-cartels/latest-news_en"
+  },
+  {
+    "category": "official",
+    "region": "france",
+    "source": "Autorité de la concurrence",
+    "title": "Actualités 2026",
+    "description": "Actualités, décisions et avis récents de l’Autorité française de la concurrence.",
+    "date": "2026",
+    "url": "https://www.autoritedelaconcurrence.fr/fr/actualites/2026"
+  },
+  {
+    "category": "official",
+    "region": "morocco",
+    "source": "Conseil de la concurrence du Maroc",
+    "title": "Dernières nouvelles et communiqués",
+    "description": "Communiqués et informations publiés par le Conseil de la concurrence du Maroc.",
+    "date": "2026",
+    "url": "https://conseil-concurrence.ma/"
+  }
+]
