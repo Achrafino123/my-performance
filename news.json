@@ -1,245 +1,485 @@
 {
-  "updated_at": "2026-10-25T05:42:56.154404+00:00",
+  "updated_at": "2026-10-26T05:47:38.229554+00:00",
   "items": [
     {
-      "title": "FTC Sues to Block PlayPower’s Acquisition of Rival Playground Manufacturer Burke",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sues-block-playpowers-acquisition-rival-playground-manufacturer-burke",
-      "description": "Today, the Federal Trade Commission sued to block Platinum Equity and its portfolio company PlayPower’s acquisition of BCI Burke, alleging the deal to combine two of the largest commercial outdoor playground equipment makers will drive up prices and decrease innovation and quality for equipment boug",
-      "date": "Mon, 19 Oct 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "Poland competition authority launches investigation against Google for antitrust law violations - Jurist.org",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYVNwMjhEcFZhU0dLUVRGeExLRDB1RXM4aWZSNGVyZ1NIQkNhZElRb3QtVC1saWh0N1RuRmxqeFR3NktWSzRjSDdFNUZLTkhmei1Iak1ES3RMbVZ4WXVaeDI0eDBpNUNudGNnRUNkeTliend5bEZCZ1ZtM0VyZmNFVUx0aWhxeXpPQXlZS0U3M1NvX2tDNFF2RmxneU41ZElwMWx0X01QZUNXYjVBYlVzbUdtb0lWak5OdDkzbW9URDVjX2pxVl95SGptLVQ?oc=5",
+      "description": "Poland competition authority launches investigation against Google for antitrust law violations &nbsp;&nbsp; Jurist.org",
+      "date": "Tue, 06 Oct 2026 07:00:00 GMT",
+      "source": "Jurist.org",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC Order Preserves Competition in Digital Advertising Ecosystem as Part of Publicis’s Acquisition of LiveRamp",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-order-preserves-competition-digital-advertising-ecosystem-part-publiciss-acquisition-liveramp",
-      "description": "The Federal Trade Commission has taken steps to preserve competition in the digital advertising ecosystem by requiring Publicis Groupe S.A. to continue providing neutral and nondiscriminatory access to LiveRamp Holdings Inc.’s products and services, and to establish firewalls to prevent Publicis fro",
-      "date": "Mon, 19 Oct 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "California’s COMPETE Act: The Looming Expansion of California Antitrust Law to Single-Firm Conduct - Mayer Brown",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPaWU5X1JuWHJrLW15U28wOXlDTmRUb1kwY2Z1STQtdnJ4STJDM2pwQVZpREl3N3Y1Q3hfelRzV20wLUZhdEdhQzVfTXdmLTB5bk01SUNOcHh2ZllvdnBnVWtIV09YeHRYM3pVczNBajhfOC1FUXlRY0hvaEtKVmIyeVZyZC1ZWVVUQ3BlZkZtQnNUdzBrTkxDTmtKUV9MS2RpclM4bEMwM0xvbzlFek9MWVhNSVRVUjktQi1pMXZrek9HOEFyOEh4SlNhcXl1VFdYX1dXTDlYZ0dkQS1HemRoSnV3WFRpLUZhSDZaaA?oc=5",
+      "description": "California’s COMPETE Act: The Looming Expansion of California Antitrust Law to Single-Firm Conduct &nbsp;&nbsp; Mayer Brown",
+      "date": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "source": "Mayer Brown",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC, States Ask Federal Court to Hold Martin Shkreli in Contempt for Allegedly Violating Lifetime Ban from Pharmaceutical Industry",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-states-ask-federal-court-hold-martin-shkreli-contempt-allegedly-violating-lifetime",
-      "description": "The Federal Trade Commission and seven states today asked a federal judge to hold Martin Shkreli in contempt based on their allegations that he flagrantly and repeatedly violated a 2022 court order that banned him from the pharmaceutical industry. In a motion and brief filed today, the FTC and its s",
-      "date": "Tue, 13 Oct 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "California’s Paramount Settlement Doesn’t Stop at Antitrust | Op-Eds & Contributed Articles | Oct 2, 2026 - Information Technology and Innovation Foundation",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNFhkaHhNbVVUbE90alFhbkdON1AzVkhfU05ETGgyMllzekJoZGVzUUJnQkQ5SkFablRVaVZ2RXpGX3Zrd0h1c2JGX25kRWFoLV93YUhKOTFqaFRlWTZnZ0ptSFdSR2FINzRFSHFTYTdCVUFuNGVDSG5YaXBMVXdDazZhY09LLUZKMzNpMjZNMG05OGRJVzYxNktKYUpuejg?oc=5",
+      "description": "California’s Paramount Settlement Doesn’t Stop at Antitrust | Op-Eds & Contributed Articles | Oct 2, 2026 &nbsp;&nbsp; Information Technology and Innovation Foundation",
+      "date": "Fri, 02 Oct 2026 07:00:00 GMT",
+      "source": "Information Technology and Innovation Foundation",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC Secures Fair Pricing Protections by Taking Action Against Major Wholesale T-Shirt Distributors",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-secures-fair-pricing-protections-taking-action-against-major-wholesale-t-shirt-distributors",
-      "description": "The Federal Trade Commission secured changes to a partnership agreement between T-shirt manufacturer Gildan Activewear SRL and major wholesale T-shirt distributor S&amp;S Holdings LLC that will protect small businesses and consumers from unfair and discriminatory pricing practices. This resolution a",
-      "date": "Thu, 08 Oct 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "Antitrust Permissibility of Interlocking Directorates Unclear in light of Recent Case Law - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVU5kMzNxc0ptYVEyN0Y5dDNGajlqeklRbFJWaDR0bl9qcHFYWXlJTlJwUW9jandIX09ZMHlQX3pyMjhZaS1RTGdkN0dEQVVwd2V4S2xza0NKbU9NcUNrczVZSFduemVQdGJTa2NMWm0wdFA0bW95ZnJOM0lGandydW9LQTl4U09kWDd2bW9DaGNZUWhSenc5VXNUcGl1eENCM2ItWEY5OWNtVnhHMF81bUZUOTUycUx2NkxiS3FjSnIxMHZrS0VPbVZoZTVOeno1LTFTM1kxUEEwVTAw?oc=5",
+      "description": "Antitrust Permissibility of Interlocking Directorates Unclear in light of Recent Case Law &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Fri, 17 Jul 2026 09:46:10 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC and USDA Seek Public Comment on Agricultural Equipment Manufacturing and Distribution Market Practices",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-usda-seek-public-comment-agricultural-equipment-manufacturing-distribution-market-practices",
-      "description": "The Federal Trade Commission and the U.S. Department of Agriculture launched a joint public inquiry regarding issues affecting agricultural equipment manufacturing and distribution markets, including potential anticompetitive conduct.&nbsp; The joint request for information is a part of the FTC’s on",
-      "date": "Wed, 07 Oct 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "Competition for Competition: How Antitrust Is Becoming One of Big Law's Key Revenue Engines - Law.com",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbXA0cjdzcDdMMnF2NURTWXZUNUZFT0xwTVZVTTlsRk0wZDVWUU5sRmEyUXBXQlN2SDFoeHJfN2l1Tm9IbHNEQjFRNzVVMko3M3l6a3dKVE5naDdxRU1JbmdieUtOYjdlZFNjNnBOVE5PSGFYQ2paVi16VDY4SjV0Szk4REpsaEswaF9sMzZjcUlVTUd2Y0lNM2ZseDFhMjhvQ1pCV2pkcVQ4Y1c0ZWN6N0VLemQ2d0F3czVpZEd5Wmpxa1FOOVJOTWNDMGozaVZiMVppMkFMWmhaNGc?oc=5",
+      "description": "Competition for Competition: How Antitrust Is Becoming One of Big Law's Key Revenue Engines &nbsp;&nbsp; Law.com",
+      "date": "Thu, 09 Jul 2026 07:00:00 GMT",
+      "source": "Law.com",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC Secures Settlement that Protects Small Businesses from Illegal Price Discrimination",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-secures-settlement-protects-small-businesses-illegal-price-discrimination",
-      "description": "The Federal Trade Commission secured a settlement agreement with Southern Glazer’s Wine and Spirits LLC, the nation’s largest distributor of wine and spirits, that will redress allegedly illegal price discrimination practices and make it easier for small businesses to compete against large chain ret",
-      "date": "Fri, 02 Oct 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "Competition Law Must Protect the Citizen, Too - ProMarket",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQb3RqelMybFd2UTJpVEZIMDR5bFN6T0czclVLUURFc2R5NzVTSjZrSk11UzZFTVZIVnVmZ2FqdnVFSjlSQkpseUdlYi1YS3VfNnFUVWRRMmQyeVJCM3JRUUpQM3NwbGtMSEdVWjFxZ0VrOGpRb1hFelZBTXVHZGNwLW9kNE9zMml5YXc?oc=5",
+      "description": "Competition Law Must Protect the Citizen, Too &nbsp;&nbsp; ProMarket",
+      "date": "Wed, 16 Sep 2026 07:00:00 GMT",
+      "source": "ProMarket",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC, States Win Protections to Lower Pesticide Prices for American Farmers in Antitrust Case Against Corteva",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-states-win-protections-lower-pesticide-prices-american-farmers-antitrust-case-against-corteva",
-      "description": "The Federal Trade Commission and a coalition of state attorneys general have secured a significant settlement agreement with pesticide manufacturing giant Corteva Inc. that will lead to lower pesticide prices for American farmers.&nbsp; Under the terms of the settlement , Corteva will dismantle its ",
-      "date": "Mon, 28 Sep 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "Mexico's Antitrust Enforcer Signals Tougher Stance in Six Strategic Markets - Jones Day",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaFRTdDEzMTdySjk1RFc2VFg4RHFPc0dRWnM3dnN6bk9ZM2ZtY2dwWWtEQkNYTUVjNXJkTXRnTW9EMkwtMVBZMHQ5MG55dmdsMUhGN3F1RWgzWElqQzVoU24yWWN0cm9IOVZFRnYxYkRlLUlRczluaG5iY3F6RVBiWmQyV0tiRndBTml0d0RsWGVJM0hESTdBZ2pLNnBkclBDZlpzc21ncXFXYzBfWUdoZ2JZa2NBUnM5YU5F?oc=5",
+      "description": "Mexico's Antitrust Enforcer Signals Tougher Stance in Six Strategic Markets &nbsp;&nbsp; Jones Day",
+      "date": "Thu, 16 Jul 2026 17:12:10 GMT",
+      "source": "Jones Day",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC Approves Publication of Federal Register Notices Revising the Commission’s Rules of Practice",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-approves-publication-federal-register-notices-revising-commissions-rules-practice",
-      "description": "The Federal Trade Commission amended the agency’s Rules of Practice to better align with the FTC Act and reflect organizational changes, including the creation of the American Competition Enforcement Division. The amendments also correct a number of minor errors and omissions in the previous version",
-      "date": "Thu, 24 Sep 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "53rd Annual Conference on International Antitrust Law and Policy - Cornerstone Research",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORkV6MUV2Tjd3WnFkbXBkYTY4RjFIaTZDWTNPSVItbWd4czlfdVdyOHJwU2pkUzZkLW9pNW9LQmJmM0tkcmRLaTh1S1BCWkhJMi1zWENicEJuQ0hUZWl3YXZNdkJfX1hQNFlQTVlFYWRHSVVCRXMtYUREU0poLVdaQXBpTk9JWm1TT2JPajVMRE9RY1hDMll6R1dDSHpSQ1U4ZHRWOWVrN3VHRnBzMlE?oc=5",
+      "description": "53rd Annual Conference on International Antitrust Law and Policy &nbsp;&nbsp; Cornerstone Research",
+      "date": "Thu, 17 Sep 2026 07:00:00 GMT",
+      "source": "Cornerstone Research",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC Endorses Education Department Proposal to Expand Higher Education Accreditation Options",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-endorses-education-department-proposal-expand-higher-education-accreditation-options",
-      "description": "The Federal Trade Commission strongly endorsed the Department of Education’s proposed reforms to promote competition among accreditation agencies. Increased competition among accreditors and lower administrative burdens could lower the cost and improve the quality of higher education for millions of",
-      "date": "Tue, 22 Sep 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "California’s Antitrust Laws Are Too Irrational to Spread to Other States - Goldwater Institute",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ080X3NzeXg5ZWZqdTJnc1F4Tkt1ZmRfUnpIQVd4XzVtd3hBS0NKSkIwamhESnZnaUhMMTNuczVNUklaU3ZYZmczZzE4dVFDcmh1and5NVJwLUxPeDFQNDhpNjY1M0d4MTRlU2EyUFE2eUtXN09EMGZqa0lWYzRuZ3dYcjFJVlhHVF9jY3dYbU94cVRoajRxaEVNck00MFIzTWN5SWZwb0Z5ZEk?oc=5",
+      "description": "California’s Antitrust Laws Are Too Irrational to Spread to Other States &nbsp;&nbsp; Goldwater Institute",
+      "date": "Wed, 29 Jul 2026 07:00:00 GMT",
+      "source": "Goldwater Institute",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC Takes Action to Prevent Anticompetitive Arrangement in Beretta, Ruger Deal",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-takes-action-prevent-anticompetitive-arrangement-beretta-ruger-deal",
-      "description": "The Federal Trade Commission took action to resolve antitrust concerns arising from a stock purchase agreement between two of the largest firearm manufacturers, Beretta Holding S.A. (Beretta) and Sturm, Ruger &amp; Co. Inc. (Ruger), by accepting a proposed consent order that prevents anticompetitive",
-      "date": "Wed, 16 Sep 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "Epic, Apple, and the Futureproofing of Antitrust Enforcement - National Association of Attorneys General",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZFZnWmlqbm5IZUxnNlUyMUVFZjZITXhlSllTVEZZUmJfd1I0SFhEMkVKSWdxWXpBTFFacmNjaWk5VEc5RHY3SXNhSXYtV0RRckJSWDEzSU10eFVuS051MkdoalVMWjJSOGV4U0dES0RybXFQTzNEQ09wdjNHanFiRV9kamJETGpGRDYtd3czVnF6cWplN0J1YmxySHhZNnJwS25CbmR1bEk?oc=5",
+      "description": "Epic, Apple, and the Futureproofing of Antitrust Enforcement &nbsp;&nbsp; National Association of Attorneys General",
+      "date": "Thu, 06 Aug 2026 21:03:32 GMT",
+      "source": "National Association of Attorneys General",
+      "category": "Presse internationale"
     },
     {
-      "title": "Statement Regarding Fairfield Medical Center’s Sale to Adena Health",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/09/statement-regarding-fairfield-medical-centers-sale-adena-health",
-      "description": "On Sept. 1, 2026, Adena Health announced its acquisition of Fairfield Medical Center (FMC), a hospital system in southeastern Ohio. The announcement follows a Federal Trade Commission investigation of an earlier attempt by a different acquirer—OhioHealth—to buy FMC. Commission staff’s investigation ",
-      "date": "Wed, 02 Sep 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "OpenAI, Anthropic, Google, SpaceXAI Hit With Antitrust Lawsuit - Bloomberg Law News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWVJTdzFUYU9PYk1qZ295Q1dZUjgxalJZbS1NSmY1WjNPUV8xWjFBTllaaDhoaHV6aDE3c0EyM2l6VHJhTy10WTVFTU51XzV5R1lfTURCeXpzOXhud1B6ZTRua25jNjNBX0pkVHpaTzBLd0l3UVp3aXdHNzBWY0NlSDg4aU55TnVNbnUzTXpHYUxyU0htOVlMNGtlREwzdVN1emc?oc=5",
+      "description": "OpenAI, Anthropic, Google, SpaceXAI Hit With Antitrust Lawsuit &nbsp;&nbsp; Bloomberg Law News",
+      "date": "Fri, 18 Sep 2026 07:00:00 GMT",
+      "source": "Bloomberg Law News",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC Approves Final Consent Order in Ascension Health-AmSurg Deal",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-approves-final-consent-order-ascension-health-amsurg-deal",
-      "description": "The Federal Trade Commission finalized a consent order involving Ascension Health Alliance’s (Ascension) proposed $3.9 billion acquisition of AmSurg LLC. The FTC’s final consent order requires Ascension to divest seven AmSurg ambulatory surgery centers across Nashville, Tennessee; Panama City, Flori",
-      "date": "Tue, 25 Aug 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "Reed Smith enhances antitrust practice with partner hire in London - Reed Smith LLP",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWHlIZW9ieUVCT1hQNXJlSHlIQVU3c0Vlbnh2eTlrX2FIdWRDZDJWUnhRaVVXOTEtRDFod2dGSHJYdTRhdEM3RzJEdlhOSDUtWnBOd2tnTnlHaXQ5Qy1pTVJWb2Y5Zjh1bmxRYlBYbUNQTk9rNmk4RGFrZmZ4cVlaM0RiX3JNeEhQVG9hbWJmbVlVOXhhVVhyU1FTLWg3Ujg?oc=5",
+      "description": "Reed Smith enhances antitrust practice with partner hire in London &nbsp;&nbsp; Reed Smith LLP",
+      "date": "Tue, 04 Aug 2026 07:00:00 GMT",
+      "source": "Reed Smith LLP",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC Secures Order Resolving Antitrust Concerns with Zillow-Redfin Agreement",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-secures-order-resolving-antitrust-concerns-zillow-redfin-agreement",
-      "description": "The Federal Trade Commission, joined by five states, today notified the court that it will file a stipulated order that resolves its litigation against Zillow and Redfin and restores competition in the online platforms that renters use to find apartments and property managers use to list rentals.&nb",
-      "date": "Mon, 24 Aug 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "Antitrust Division | Former Deputy Assistant Attorney General Dina Kallay - Department of Justice (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNkxmc1d1SEFyWGtaSGx2WW1aUExkYlFucWY0aXQ3cXhmQldvRmdDeVZWM3J2dTFabG9qZ0hzaHVFTlFMc21FVGtXcnNobE9peWtsdk1oVmc4RGljdU1CTkdoRkJYSkhfWHpJWlozWUJ4WGNLOGxTV2dGNDdQYVBWdEg4bE9OTl8tM3NGbWJxdjUzVW1URG15eVB1ejU?oc=5",
+      "description": "Antitrust Division | Former Deputy Assistant Attorney General Dina Kallay &nbsp;&nbsp; Department of Justice (.gov)",
+      "date": "Fri, 11 Sep 2026 07:00:00 GMT",
+      "source": "Department of Justice (.gov)",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC Files Amicus Brief to Protect Competition in Biologic Drug Markets",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-files-amicus-brief-protect-competition-biologic-drug-markets",
-      "description": "The Federal Trade Commission filed an amicus brief in an antitrust case alleging that drug manufacturer Amgen illegally acquired exclusive rights to patent applications that it shaped to cover Enbrel—a drug used to treat rheumatoid arthritis and other inflammatory conditions—allowing Amgen to extend",
-      "date": "Fri, 21 Aug 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "June Antitrust and Competition Bulletin: Top-of-Mind Global Antitrust Issues - Sidley Austin",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZ3gzQUZpaW9FYWpBbkI5RU82SVYwV3BfNlJSTWdfRGxNREh5TGtISEVtcVlNeWstbWlXcVB6M01RSk5fZmNvNEdySEd0a0ZkVUtaMUViQzNYT1RKSE5vSmpFUnFfZXpZdEFVQmlSdkRlSndyVDl1WlF2Qm1yS3B1RkpTYTNNajRPaURqRnFoMzJfc0JxOXA1V2FSWEs4NUZ4N1BtOWRfUnlGZE5TQW9Tek00cldDa19wSGk1dEpfQ09hRjdBWlBoenln?oc=5",
+      "description": "June Antitrust and Competition Bulletin: Top-of-Mind Global Antitrust Issues &nbsp;&nbsp; Sidley Austin",
+      "date": "Wed, 24 Jun 2026 07:00:00 GMT",
+      "source": "Sidley Austin",
+      "category": "Presse internationale"
     },
     {
-      "title": "Statement on FTC Win Blocking Loctite, Liquid Nails Construction Adhesive Merger",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/statement-ftc-win-blocking-loctite-liquid-nails-construction-adhesive-merger",
-      "description": "The Federal Trade Commission secured an important victory in the fight to lower the cost of housing construction materials for Americans by preventing German multinational Henkel AG &amp; Co. KGaA (Henkel), the manufacturer of the industry-leading Loctite brand construction adhesives, from acquiring",
-      "date": "Mon, 17 Aug 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "U.S. Supreme Court Will Consider Challenge to Contempt Order in Federal Antitrust and Unfair Competition Case - Crowell & Moring LLP",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOYkNKM2F4ZFFQU18yb0E2al9hMUhiSVhBVFZDeXdtMzRfVmxQX1lDLTQzcHVlNjN4UlNaWUNJWXI4dEFiUzZxYTJlaDkxMkFVMUFTQXNDalpObThjRzZmV0NNWmVoMkZhUFVrOGw1MS1KbGNPSHlpNV9DQkk2T2Foc0oyREhCSXhxMVZZLUxLLURXZ3JkSzZtUXZvSnZQdFBmZ2F6dlBqbGhjMVVaM1drLWQ0SlcxM3NsWFN4X3RGMmNheUlhRFNQYkZPelhYN2VFSF93aWVnZjZjVExxajZwcTJHS25uQlRwUWU4Rmxn?oc=5",
+      "description": "U.S. Supreme Court Will Consider Challenge to Contempt Order in Federal Antitrust and Unfair Competition Case &nbsp;&nbsp; Crowell & Moring LLP",
+      "date": "Fri, 17 Jul 2026 07:00:00 GMT",
+      "source": "Crowell & Moring LLP",
+      "category": "Presse internationale"
     },
     {
-      "title": "Statements on the Grant of Early Termination of the FTC’s Investigation of IonQ’s Proposed Acquisition of SkyWater",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/07/statements-grant-early-termination-ftcs-investigation-ionqs-proposed-acquisition-skywater",
-      "description": "The Federal Trade Commission granted early termination of its review of quantum computing developer IonQ Inc.’s proposed acquisition of SkyWater Technologies Inc., a quantum chip fabrication company. FTC Chairman Andrew N. Ferguson and Commissioner Mark R. Meador issued separate statements.&nbsp;",
-      "date": "Fri, 31 Jul 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "Antitrust as Anti-Oligarch Policy - The Regulatory Review",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVkhRbDJjMU9BU3lXT2JoXzVZTTdCNGp1Mzl3Vm9GWVJEYkFqQnQwMnQ5cFptZVc1VzhWb09oVEI2NDBHWVBPOFM2dGdaRmQyZWc3RWZJTGs0UVRBM2JjU3poTm10b3BBWGpPeENsRXo5SzlsbkZzZmNRUTlrcHZ3T3RtT0J0bGdpTEFn?oc=5",
+      "description": "Antitrust as Anti-Oligarch Policy &nbsp;&nbsp; The Regulatory Review",
+      "date": "Tue, 04 Aug 2026 07:00:00 GMT",
+      "source": "The Regulatory Review",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC Secures Major Settlement with Caremark, Resolving Antitrust Case Against Second Drug Middleman",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-secures-major-settlement-caremark-resolving-antitrust-case-against-second-drug-middleman",
-      "description": "The Federal Trade Commission secured a settlement agreement with one of the nation’s largest pharmacy benefit managers (PBMs) and its affiliated entities, marking yet another important victory in the Commission’s fight to lower healthcare costs for Americans. Caremark Rx LLC and Zinc Health Services",
-      "date": "Tue, 14 Jul 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "How Far Is Too Far? Seagate v. NHK Spring and the Extraterritorial Reach of US Antitrust Law - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNU09DQ1h2OGg1VGZOTkNwbnI2TDhtUkRDSVVjYUhGUFRudWxFWGo4b3lhNk94MGtNejdjWlpCVVJVclJMT2Zmb0dLN1FyZGhaaGZWbGRqODRGSFhubFpNaEJjemcyOGVLLTVPVmw5NDNIRDl4V2I1Z2tUYlBHeF82d2U4Tm05bldaanpPbGo1YjZ1bnhhM3dxVHBzUnJtQ2xQVHRPRE5ya2RfMTJFTTFCNE8xanR3OF82MklfNGZiLUhwdWpfVXNPRFV3cE1IWWdsRjdwODBlMjJNa3p6aXc?oc=5",
+      "description": "How Far Is Too Far? Seagate v. NHK Spring and the Extraterritorial Reach of US Antitrust Law &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Tue, 04 Aug 2026 09:34:46 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC Endorses Ohio Supreme Court Proposal to Weaken ABA’s Law School Accreditation Monopoly",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-endorses-ohio-supreme-court-proposal-weaken-abas-law-school-accreditation-monopoly",
-      "description": "The Federal Trade Commission lauded an Ohio Supreme Court proposal to lower the cost of legal representation by ending the American Bar Association’s explicit control over whether an Ohio bar applicant’s legal education is sufficient for practicing law in the state, undermining its monopoly. Respond",
-      "date": "Tue, 14 Jul 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "Avigail Kifer Honored with ABA Antitrust Law Section Outstanding Performance Award - Cornerstone Research",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTjNXeVFNNW5GNnJNZjZHZWR1S04yTXU4aDZUYmh1cVQ3c3BnYjFlMWJOTlJvZWVjM0cxYU14QThTQVJjYV9OeGpiZWRzZkMwS0pTRmx2a2xncHJmZHNJU3M3Yjd2RlZrWWhYMEtBNS1HaWFyLTZyeUN3WjV2OHlDa3BGTVJWVkRrNjlYcVRnTDQwN2xTbTF6UGx4eVNvQnY0MnVWbFRfZ25HMnBKajA2VzRzcXc5bDB0ZUZqTFhzbnQ0eWJSSll0SkdzOEpUQzlO?oc=5",
+      "description": "Avigail Kifer Honored with ABA Antitrust Law Section Outstanding Performance Award &nbsp;&nbsp; Cornerstone Research",
+      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "source": "Cornerstone Research",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC Secures $12 Million in Penalties for Pre-Merger Reporting Act Violations",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-secures-12-million-penalties-pre-merger-reporting-act-violations",
-      "description": "The Federal Trade Commission secured $12 million in penalties to settle charges alleging that Edwards Lifesciences Corp. acquired medical device maker JC Medical from Genesis MedTech Group Limited without complying with the notification and waiting period requirements of the Hart-Scott-Rodino Act (H",
-      "date": "Mon, 13 Jul 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "Competition Agencies Compute. The Law Still Assumes They Read. - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVFNzWnVHdE1IdFBwNEpUV29FajNHLWJLUkxVOU00T3I0Nk1TQktOdlRfZEtLamt4MGRGNHFaSUQtX2JYTU1lRE1MdVJ6Sk9sM2JXdEJLT1hkTGR4NFRuNXRJeTh6VllqSW4zQlBuaG96bGxVLTNkbEZfZ2xzdjZoZkloR1YyZEpERHFEa3N3TzBHN1JMN1ktMnV5S0tyX3hlWGdUYkdiNGR0V1d0c21JOWJ0OHpWdw?oc=5",
+      "description": "Competition Agencies Compute. The Law Still Assumes They Read. &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Sat, 25 Jul 2026 07:00:00 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC, States Secure Settlement with Deere & Company, Advancing Farmers’ Right to Repair",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-secure-settlement-deere-company-advancing-farmers-right-repair",
-      "description": "The Federal Trade Commission, along with five states, secured an important settlement in an antitrust lawsuit against farm equipment manufacturer Deere &amp; Company that will ensure farmers can enjoy the right to repair their own John Deere tractors and farm equipment. The FTC’s settlement requires",
-      "date": "Wed, 08 Jul 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "Antitrust Collective Redress in Spain: Testing the System Through the Automobile Cartel Litigation - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQdFlLQlo5aWotNmpuZERzcVNCems2RDAwYjd1c1U0NE5Ib0JIZ3BPVmItTUM5ejR1ZzVlODQ5RWpGQk05V0dDOGQta01hblJJMjlDbzJONkVMZWdXbWlPeHZORUhlTGxINk1RN2lzd3Z2S0NaNDlXbWtnMVNlbzFGNGdQSk1VMm9jWnVVcFZiQzJwbnhQMGJlWXhDb1BQTElIMGw5blBLZUtoUENYbHhBNzRtaXZtLU54VzNyQ0RhX0dHWkJJTWlBeEZhWFFFR0xBSVRKdEpUWFlPQkxnMjZpNWkxMWtpbXM?oc=5",
+      "description": "Antitrust Collective Redress in Spain: Testing the System Through the Automobile Cartel Litigation &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Wed, 10 Jun 2026 07:00:00 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC and DOJ Issue Fiscal Year 2025 Hart-Scott-Rodino Annual Report",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-doj-issue-fiscal-year-2025-hart-scott-rodino-annual-report",
-      "description": "The Federal Trade Commission and the Department of Justice’s (DOJ) Antitrust Division&nbsp;released their&nbsp; 48 th &nbsp;Annual Hart-Scott-Rodino (HSR) Report . This report summarizes the agencies’ merger enforcement efforts and provides fiscal year 2025 data on the Premerger Notification Program",
-      "date": "Thu, 02 Jul 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "Brazil’s Soy Moratorium and the Limits of Antitrust Neutrality Toward Environmental Benefits - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNam90VXBRem9FalVqQVVNNGlTYUZMQ210a2lDNTBwZEVZQno3ZlgtWTg4RlBWUlVTMjZ4eW44Tnoxaldhb0gxN2o1T21OdGpMTHVRcmZPeXItWFg3SE5qcW1DQlBMWWZVc3BGM1NPelZrZDJhRmdQdF9FOG1pMmhmNUpMSmlIQ1lac20xTVk4TGlkR1o0blpPYldleVg1TENhbGYxZGM2T2lIN0VPR1lQblVwMU8wS2t3NkZMa19GYW1NWl9Ha2gzZzVGaUxobkNuN3B4ZTZjNWdYeU5NWkhF?oc=5",
+      "description": "Brazil’s Soy Moratorium and the Limits of Antitrust Neutrality Toward Environmental Benefits &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Wed, 23 Sep 2026 08:45:12 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC Secures Agreement with Havas to Restore Competition in the Digital Advertising Ecosystem",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-secures-agreement-havas-restore-competition-digital-advertising-ecosystem",
-      "description": "Today, the Federal Trade Commission, along with a coalition of states, scored another major victory in the fight against collusive conduct in the advertising industry. Advertising agency Havas Media Group USA LLC (Havas) has agreed to a proposed FTC order to resolve allegations that it engaged in un",
-      "date": "Tue, 30 Jun 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "Thirty Jones Day lawyers named in Lawdragon's 2027 \"500 Leading Litigators in America\" - Jones Day",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMUFXdVYxelFWUWpxV2hleWdnQmJhbm94djJFcHlTU0hlQVBuT1IzQTltWHRZQUVxa0VPcFpCbjJBTi01ZkgtM1NiaU56cjI3VU1OQlBkRHdPcXlSZFhkTnFrU29VblRiWFBtSkFXdUJuVWQ0WFUwejQ4bTM0RGRsdS1WU25fOURzN1RwZ05WamR4Y2pTNUxrZ3R4Xy1MVFRqdXduLWt4aGF5Vkg5Wk8xSTRmVUVYZlpudUF4eTBNemVOUQ?oc=5",
+      "description": "Thirty Jones Day lawyers named in Lawdragon's 2027 \"500 Leading Litigators in America\" &nbsp;&nbsp; Jones Day",
+      "date": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "source": "Jones Day",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC Files Amicus Brief to Protect Consumers from Pharmaceutical Monopolies",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-files-amicus-brief-protect-consumers-pharmaceutical-monopolies",
-      "description": "The Federal Trade Commission filed an amicus brief in an antitrust case alleging that drug manufacturer Johnson &amp; Johnson illegally maintained a monopoly through anticompetitive conduct. The FTC’s brief seeks to protect American consumers from anticompetitive harm by asserting that longstanding ",
-      "date": "Tue, 23 Jun 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "Grab and Go: EU Top Court Allows Antitrust Enforcers to Seize Work Emails Without Approval - Jones Day",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU1JWVUh1ZmREdVVwS0ExYWE4YkVTOWpVTVM3QkJIRXFsMnFXeThMYVYtd0pFNVpDRUpGY3FreUdHeDhKaVNCd1N3RGM2SktNdDlFTHVZM1l1MHBjQnZSek9qZ0M3ZW1zVjRJV2dsX01neTd6M0lNci1QRlJjcTBhbTFBMC1COVZ6X3p4dkVZeVlGY3M0RTZXSG5KSF8tSkV3cWxuS0NHUWJjU0htRURTRDBpU1ZZNlJFSEMxZFpWU3NUX1dla2ZQVndVZjRKY1k?oc=5",
+      "description": "Grab and Go: EU Top Court Allows Antitrust Enforcers to Seize Work Emails Without Approval &nbsp;&nbsp; Jones Day",
+      "date": "Thu, 16 Jul 2026 07:00:00 GMT",
+      "source": "Jones Day",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC Approves Final Consent Order in Pest-Control Noncompete Matter",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-approves-final-consent-order-pest-control-noncompete-matter",
-      "description": "The Federal Trade Commission finalized a consent order that requires Rollins Inc.—one of the largest pest-control companies in the United States—to stop enforcing noncompete agreements against more than 18,000 employees nationwide. The&nbsp; FTC alleged that Rollins imposed noncompete agreements on ",
-      "date": "Mon, 22 Jun 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "China investigates Meituan and Alibaba units for suspected antitrust violations - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNkxJNDZrd2NpQk80eEgyRWpwSEo3YWYxNUVHWHlaR1dGOWlFSmZHVF9xQjliN2RINXEzMHRsUGxjUEhLRlpsejF6dHF3b0dwZ09KcGlTMVMzdDVkbG5fdkdHNVdmSVFYdlVDMmJZcjB6ZzdITmh5YmhpSmgtamdGM245ZmxOTnJMUnJPTjM4UUZTR1BDeTNHQ0EwT0dfb1h6WVVaaVdpSUdhUkRicGVUaWRMTC1CaVBmXzN2YnFwUDMyWEFGNWxBZmJIUQ?oc=5",
+      "description": "China investigates Meituan and Alibaba units for suspected antitrust violations &nbsp;&nbsp; Reuters",
+      "date": "Sat, 19 Sep 2026 07:00:00 GMT",
+      "source": "Reuters",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC Takes Action to Protect Americans from Higher Drug Costs in Aurobindo, Lannett Deal",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-takes-action-protect-americans-higher-drug-costs-aurobindo-lannett-deal",
-      "description": "The Federal Trade Commission took action to protect American patients from higher drug costs by requiring Aurobindo Pharma Limited to divest four different generic drug products to complete its $250 million acquisition of Lannett Company Inc. Aurobindo’s acquisition of Lannett would combine two of a",
-      "date": "Thu, 18 Jun 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "AI meets antitrust: EU and UK regulators step up enforcement - Dentons",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPX1Q1ZElhT25hTmtUcmlxNW9kR2V4V3VndHU0aHNOU044S2c1bTZVcE1rYWx2VGtIdUxqQk13cU1GRHZJa1ExVkhLTllsUDRib21yWkNDclJaU2habXpubkwwRUZZbGs2UXdfWV9UT3ZKZ0hmb09wRERYemIxUk9WQ1RJV3RlZ3g3UHNlZlFzWldHR3JDNkN2NzhKRHgxUTlUWjd1Q2lKUEVSUmlmZkdpaFh0YmtyTEk?oc=5",
+      "description": "AI meets antitrust: EU and UK regulators step up enforcement &nbsp;&nbsp; Dentons",
+      "date": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "source": "Dentons",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC Approves Final Consent Order in Micromarket Kiosks Deal",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-approves-final-consent-order-micromarket-kiosks-deal",
-      "description": "The Federal Trade Commission finalized a consent order involving 365 Retail Markets LLC’s $848 million acquisition of Cantaloupe Inc., a deal which seeks to combine the two largest providers of micromarket kiosks as well as software and services that allow food service operators to manage and operat",
-      "date": "Wed, 17 Jun 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "DOJ Withdraws Antitrust Guidance for Proxy Advisory Industry - Jones Day",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaVhXWDZnZzRlVTJ6UFpNWVJjQVpxUk51aHVrNDlFOGF1WEtsclRrYlhQUVMzMmdFOUxYRWh6OGlHSTg4aHd0OVphOFZjTnM3c0x1OEJBUENVcXNOZjJKQ1FDTFBtdnJ5SHN5SFdON3lnbGZiakJMRExTaDh6eG80ckJwT1hrelMzSG9QNFpGZVI2dHg3VGlXMFBkNlcxSWFUei0zdmJiOXY?oc=5",
+      "description": "DOJ Withdraws Antitrust Guidance for Proxy Advisory Industry &nbsp;&nbsp; Jones Day",
+      "date": "Wed, 12 Aug 2026 16:11:31 GMT",
+      "source": "Jones Day",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC Finalizes Consent Order in Sevita, BrightSpring Acquisition",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-finalizes-consent-order-sevita-brightspring-acquisition",
-      "description": "The Federal Trade Commission finalized a consent order involving Sevita Health’s acquisition of BrightSpring Health Services Inc.’s community living business. The consent order requires Sevita to divest 128 intermediate care facilities (ICFs), which provide services to individuals with intellectual ",
-      "date": "Wed, 10 Jun 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "Global Antitrust Enforcement Outlook 2026: The trends shaping the year ahead - Hogan Lovells Cadwalader",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNR2VUNVg1ZVdmNWc4MHNrX0RUdTFfWFN5UVFzTi1nNjJYOVNCVkZUV3hRZFltdmI3akJUalg1VDU5YzZsTWRtSGMxV0ZuYS1IT0NNdUJtRUJiUmRGb0k2bXI3N3NlODJRN29YVHFnVG90WnprNWNDZ29va01ENE5uSHFGcGl5YWJ4T2xjVzZTQjRra24zc3FpdE1jdEd1SzZTeTlMYl9XWGpmTVUwSFBVbw?oc=5",
+      "description": "Global Antitrust Enforcement Outlook 2026: The trends shaping the year ahead &nbsp;&nbsp; Hogan Lovells Cadwalader",
+      "date": "Fri, 03 Jul 2026 13:01:05 GMT",
+      "source": "Hogan Lovells Cadwalader",
+      "category": "Presse internationale"
     },
     {
-      "title": "‘Architect’ of Law Firm DEI Programs Dissolves",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/architect-law-firm-dei-programs-dissolves",
-      "description": "Diversity Lab LLC, a for-profit diversity, equity and inclusion (DEI) consultancy, has permanently ceased operations following a Federal Trade Commission investigation. The company informed the FTC that it filed paperwork to dissolve itself as a business entity with the California Secretary of State",
-      "date": "Fri, 05 Jun 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "Ukraine’s Antitrust Enforcement in Wartime: What AMCU’s 2025 Results and 2026 Priorities Mean in Practice - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQTmdRR2NEU0FwU3pRbmFZZTFIQzdxcFVWWU9lWDRqM0RGT01kUkstd2FmVFg1cnBLQjVUQzFRcTEwYnBSalhvMUF6S3JaVHJsQ3dxdC1GUTZpU0R5aUpCMFViQWdWUk9VeUltNzJ1TnczQm5aLS05VzVzRlV1QTYyN2ZqekttYjlIbHFkalM3NHAxNElsRjNQMTFGQ1U4S1hBOXVmVHREZUxCYTdOQnh2NTVCa09jNFlwR3lFSld3YnZ4Tm5iTXZETlpzX01hUVBtLWdmMGtNWnJMZVVDa3VFclBTbUNMOUdzLXlGVHVB?oc=5",
+      "description": "Ukraine’s Antitrust Enforcement in Wartime: What AMCU’s 2025 Results and 2026 Priorities Mean in Practice &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Thu, 14 May 2026 07:00:00 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC Requires Divestiture of Ambulatory Surgery Centers to Protect Patients from Anticompetitive Effects of Ascension Health-AmSurg Deal",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-requires-divestiture-ambulatory-surgery-centers-protect-patients-anticompetitive-effects",
-      "description": "The Federal Trade Commission took action to protect American patients from higher outpatient surgery costs by requiring national nonprofit health system Ascension Health Alliance (Ascension) to divest several surgery center facilities to complete its proposed $3.9 billion acquisition of AmSurg LLC. ",
-      "date": "Tue, 02 Jun 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "Strasbourg's Long Shadow: The European Court of Human Rights and the Standard of Antitrust Inspections - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOaEZvQ3hvR21sdlJJa0tobWNQM1NGMkVncmx3NVF4NXk5ZjVIaGpSdDBwN1Bxb1ZCUkw2YkdzckFvOWN0bnpsT3ZRaW4wY2VyZXZvd3c0LXVEUEZ2OUVBa2xYU2ZTVGdzeTlFbUVtTWdKMTBfNF9nSS1Mem5fNWhBWHJJZXdsZVJ6Z2huSFpkeHRNQ2hPYThveGRUQWp5QXFDUUxYaFRDYUF0TDh4TFpKSkQwQ3BNSGZBeE43ZkxTUnN2UUtWdjVLNi0zc0RWc29GMGxoQzB5d21hNHFCWjU3SGlWME9mV0wzYXdB?oc=5",
+      "description": "Strasbourg's Long Shadow: The European Court of Human Rights and the Standard of Antitrust Inspections &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Wed, 27 May 2026 07:00:00 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
     },
     {
-      "title": "FTC Chairman Ferguson Issues Noncompete Warning Letter to Mortgage Connect",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-chairman-ferguson-issues-noncompete-warning-letter-mortgage-connect",
-      "description": "Federal Trade Commission Chairman Andrew N. Ferguson sent a warning letter to national mortgage services provider Mortgage Connect urging the company to conduct a comprehensive review of its employment contracts—including any noncompete agreements or other restrictive covenants—to ensure they are ap",
-      "date": "Fri, 08 May 2026 08:00:00 -0400",
-      "source": "FTC",
-      "category": "FTC"
+      "title": "Antitrust and Competition newsletter Q2 2026 - Ashurst Perkins Coie",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdTRqNlpkazlOSmZYOGplcEE1aGVHNHlXdUN2MXh4eGNBUUFBa19tc0FxTE1KY2czUXppQWV1SjZyTFlrenJWNE5xSXFFelVjOEJWdld1MkNkTHNSQzhBYk85Tjd6UVNPS21HMF9hWkRmWVM2MFFWUFNfLUNxYV9xbFZSSElKcFB2aHRQVDdDREF0aWcwdW0w?oc=5",
+      "description": "Antitrust and Competition newsletter Q2 2026 &nbsp;&nbsp; Ashurst Perkins Coie",
+      "date": "Thu, 23 Jul 2026 07:00:00 GMT",
+      "source": "Ashurst Perkins Coie",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Main Developments in Competition Law and Policy 2025 – Spain - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxON1FPeWtkODZBXzhkZlhOVGl5NUVTNmdzTjZUQm16QTg0TC1lcU5YUjktWWkzaktyR1ZZc0NxaUtybU9TbnRoQXJPU2pQZldiSjg4TlhWd2w5dFpFQ2Y0VTBxVmFsTW5FNHg0Z0h3a1ptLUF2djV0cVM3VEdWNjJ0Nnc3QWJCaXRPdUF4SHdhemlRX0RtWTg5RWNuWWFvaFFOSTJLTmtpeEY2YWlva2VvN3Vrbw?oc=5",
+      "description": "Main Developments in Competition Law and Policy 2025 – Spain &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Wed, 13 May 2026 09:11:12 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Antitrust Webinar Series - Ashurst Perkins Coie",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBVYnMtUUtCM0hjcTc1U1dJaktlODU2VkpTMDZGMVl4ajA1M2dwYVkxc1ZiRzdpSWhOQlJ3NjBCbUgyNEowVkFsNjNvYTA0eFF5VlB6VU9BUV9xcHVSRTIxcHVIZTBFdWJKM0d5dnhQTk4wTDlIdEdBbGo5LWk?oc=5",
+      "description": "Antitrust Webinar Series &nbsp;&nbsp; Ashurst Perkins Coie",
+      "date": "Sat, 11 Jul 2026 19:56:13 GMT",
+      "source": "Ashurst Perkins Coie",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Built to Last: Why America’s Antitrust System Has Endured for More Than a Century - Disruptive Competition Project",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUjBZckpZUWlQaVhfX0FrelVxaFZ3ZXl0WjBtZ1JQanFWM0NKVkZwakRrY09VUDYwcFpVYzI1OHNuM0Qyc2VaVHpBTGN1TVpzZGU2UmNkUF93S0JPblF0NFhQc1ZubVhtR1FWcEM2UXBUbVoyQlNVeTZQRGcwbFVpMkRfbndXRWltUUhZZEJYbFh2Z0dhMzVEOTUwaEwzZ21EdWQ5WkFuQW1GUGxZOExZY2RIOTBjR2pfcWc?oc=5",
+      "description": "Built to Last: Why America’s Antitrust System Has Endured for More Than a Century &nbsp;&nbsp; Disruptive Competition Project",
+      "date": "Thu, 02 Jul 2026 07:00:00 GMT",
+      "source": "Disruptive Competition Project",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Competition Enforcement Focus: Dark Patterns in Asia-Pacific - Jones Day",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZlVNZjZHU0RwSG9lV3VYdlVsYTZoLWVoTUVybFd2X1ZGZFRwa3Jvd3VVNHRFQTRySzZuT2loX25MT1pRdzFKTmlrMENmREFQTWw4V01WcFZYNUlTNmFna2FzVC1pV28ySDgtQ0Y3M0R5X3J4S1pDOFEzYjNtQk45eXRxeGd5YlJsTFhPcWI3VVZtdVBuYU5ZRWE4SC0ycFQyT1pvR2FR?oc=5",
+      "description": "Competition Enforcement Focus: Dark Patterns in Asia-Pacific &nbsp;&nbsp; Jones Day",
+      "date": "Fri, 05 Jun 2026 02:32:53 GMT",
+      "source": "Jones Day",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "UK Consumer Action Against Apple iCloud Will Test Platform Antitrust Theories - JD Supra",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSkV1aElWQnF0MjdsS043X1FBaEpVdXNoX1NfWnItaWRfWjNnUF9YVW8zQ1RidVJGZlFvVzlEem1JWjFTRFh6bHVVU29FejZXX29EN3J0cTlqQkpqT3IxQV9VWlJadFRqaWl5U3Y0dnFtN0o2YWFqYlBpTjBBM2ZvNE5vclJIU0wyS3c?oc=5",
+      "description": "UK Consumer Action Against Apple iCloud Will Test Platform Antitrust Theories &nbsp;&nbsp; JD Supra",
+      "date": "Wed, 08 Jul 2026 07:00:00 GMT",
+      "source": "JD Supra",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Meta Loses Legal Fight Against Tougher EU Antitrust Rules - Law.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWWd5cE9BYzNiakN5NE1NTEwxOUZmN011RGZ4cjNzeFFFamFFZlFFMU9kVnJqUDVIbEdqT3lhMWdkMzkwSnlfTDM3YkdWV0NkX2EyMXh4LU1ORGRPZ0dORnVrVEZIdlJCRm1rMnVwRk5uLVVwMGlYUm1mbWNmR3AtYWQ4aUhfX1pqUzVNbWMwOWdzNGZiSnRXTjhabi05UEJFeHYyU0VvNXM2OXpyTGxsVQ?oc=5",
+      "description": "Meta Loses Legal Fight Against Tougher EU Antitrust Rules &nbsp;&nbsp; Law.com",
+      "date": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "source": "Law.com",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "CPI | PlayStation Antitrust Cases Put Closed Console Stores Under Scrutiny - PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNd1NubWp4ZXg3bzNrYUtYRVg3RnVQUTBMbkdPQlJwSHlrUG1uUXZzRnV3R051bDVrRGtCV3JiZkstcGV0bWtfRTNrVXJCRVFnWVhHX005RU9MV1pNSnBzTkd6dUh5dXRYSE9NSk5EbEpGSU1EeUpRUThwMkRJWkRycGdheElqNU9SM3FTUFZtd3BtampuOENFQXVybHdub21vS1ZuRg?oc=5",
+      "description": "CPI | PlayStation Antitrust Cases Put Closed Console Stores Under Scrutiny &nbsp;&nbsp; PYMNTS.com",
+      "date": "Sat, 08 Aug 2026 07:00:00 GMT",
+      "source": "PYMNTS.com",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Sanofi floats flu shot marketing pledges to pacify EU antitrust probe - Fierce Pharma",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWXV4MDI3d1VqT1FNMmJ5WTNqVmZXX1pWbzA2a2xoeHFPYVhDY2FaLTZDeDkxRWE4eUJkTDl5ZVcxcUotUUdSQzk2Nk1tNVB5Z240YUpjRXVMRkJodFJMRzZ0Sjl6dzFfcmczOENhQ1JReTc4M1hqR3NOYjRpYnVieDN0MUhMenloUEtGZTlGUW5iQjB2dWJvMk8zdk5zemp3d3VaRQ?oc=5",
+      "description": "Sanofi floats flu shot marketing pledges to pacify EU antitrust probe &nbsp;&nbsp; Fierce Pharma",
+      "date": "Wed, 08 Jul 2026 07:00:00 GMT",
+      "source": "Fierce Pharma",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "EU hits Google with new $1bn fine, saying it broke digital antitrust rules - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaERiWUpWT2xhRldSY3M0U1RGbFQ1M3Q2Z05KT1pNVXY4em5EWkRPUDBtVy1FR3Z6Ry1ldnBwTlRPdnd6T0RSYkRDNy1NaHI5aFQ5RkRqMVV6bFRhYXYxV0ZkVDdJVk5WdEpadjY3RDVYYzlnUUdIeUJhZnVxRFlGWW9ZbUVXUGIzQ3BzSU9xcVpZSkRmRjllV3NlTFc0Z2Y1VVlFeFlQZ0FlR3hrelZqV3dnb9IBuAFBVV95cUxOTWtEbUZ0SW1idWhvU2RYck5Ea2tkZzlWd3dSbWZyUmxfeEFFaERldDlhQ2R0TlEzVVg5dTgzZkRqc2hJRzc4QU1lMXZHZzhCbU04anVfOWVrRkxOTFF6X09SbWQ0dHoxV3VLTGdjRzFscGJELXBBV3lvOUVNSGkwMC1ubUlvckFQdnNlQlJRN2FQd3dmU1BiWjdaZm14TzhZV0Z2d2RPVFB0WGczeW82Q1dWTkxxc0hM?oc=5",
+      "description": "EU hits Google with new $1bn fine, saying it broke digital antitrust rules &nbsp;&nbsp; Al Jazeera",
+      "date": "Thu, 23 Jul 2026 07:00:00 GMT",
+      "source": "Al Jazeera",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "amended Antitrust Law and increased cooperation fuel Hellenic Competition Commission’s proactive enforcement - Global Competition Review",
+      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNX21oVEJncmNhYmJaaUhwSER0eGcwNjJHc2MyQjlrbHF6VzU3aERiVUtEMVFDSzE1OFpRSFZQbTQzNjVJWlB4aFVDZ2ZMZVR3a05kbDgyUmhLdE9jSjU2cDBXaGx4My12RHYxQTlVeWtoQUdwd1hHbmluWGJKV3VkUmsybXBEWFBYbnhwTjhpTWRKUDBBVGlkOG5DT3dKM0VQcGlYbHN2Z25kUlJDVUozM28zdTJpeFIzMEpXNDBmVngzeWFIOFdTdWhydUpjTm9ZMDY0N01HdHF6bkFWTm96bkIwbnJlcW9veHNNY3ozck45VFdpVEtGV3IwbmhJOTRBdG95ZWxsdXd0TnAtME14MDdoWDlNVzZBR3dGZF9fWW5qdGMza0R3NlJuRVN2ZWJRbEUzU2pGZEZ3Vzk5UUE?oc=5",
+      "description": "amended Antitrust Law and increased cooperation fuel Hellenic Competition Commission’s proactive enforcement &nbsp;&nbsp; Global Competition Review",
+      "date": "Mon, 29 Jun 2026 07:00:00 GMT",
+      "source": "Global Competition Review",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Antitrust, Big Tech, and the Financial Markets Blind Spot - ProMarket",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWUdkYkVmdWxBdUlUQ2FsR3A3U2lEYzlTNEN1MFBFck4zM3UwOG01czVsLU5jbzQ4SWhKTThJTnVRbXlnOGNNX2ZsalZ0Q01YUmk3c1N2OUh3SjQ5S1NLQWFpdnkzeFFSb0xGbDMxaldZUTNxWmhrMFZWVzZCelJDT19tb2pNd3RYMlFFc0FTSjhlVTlTdUc0?oc=5",
+      "description": "Antitrust, Big Tech, and the Financial Markets Blind Spot &nbsp;&nbsp; ProMarket",
+      "date": "Wed, 27 May 2026 07:00:00 GMT",
+      "source": "ProMarket",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "AI and Antitrust in Singapore: What Businesses Need to Know Now - Jones Day",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXI1WldiNmloakJSZmpHek9TYl9pRndLa2twWFZLZ3AtQUhhRll5OWVjYTdGTk1EazFsZWFIYnh0Rlc4RW1VQVNQeTBGS0lfVUFiRUkwY1JpYlZoYjJCYmRveDIwcmZ2N2xYWDNYTHEySlI3T1VULVRSYkRweTB5MDFua19uWFpuZEhDZDAzbGZXYVVMTW9nQnFsS09KcUpScjV5RW5XbG1DRWc?oc=5",
+      "description": "AI and Antitrust in Singapore: What Businesses Need to Know Now &nbsp;&nbsp; Jones Day",
+      "date": "Wed, 06 May 2026 07:00:00 GMT",
+      "source": "Jones Day",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Ireland's Whelan Must Prove EU Competition Law Still Has Credibility - Tech Policy Press",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUGpfaG1fYUtTQ05zbXZtMFBZOVdycEFwbWVPb2U0V3gtNE9kTWd1X25pZ2VtXzUyUDJUR2x2Wm1MMHAyZGFial9PUGRPei1jRGpBZWFCN3ZXTkwxMlF4VkRGOWt5a3JobWhRdmtEbHVzb2ttZjJPZzdlTlk2UWEtNlg1WWM3dk9SOFRpTUdfTldyVm9yaVEw?oc=5",
+      "description": "Ireland's Whelan Must Prove EU Competition Law Still Has Credibility &nbsp;&nbsp; Tech Policy Press",
+      "date": "Wed, 13 May 2026 07:00:00 GMT",
+      "source": "Tech Policy Press",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "German Federal Court of Justice Sets Boundaries for Mass Antitrust Claims Collection - Jones Day",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQajJEQ01mRUJ5WWlvNDRrcG1JRXNtdkMxekhMWmNOSkF0NVZ3bFgtejRubUFhT09RemRyek9IdzA5cFY3cGxNUDFJUzlWRFVsNTM4QndpNVVoUFRBeDMybHJndWtVVlBWUWNTLVJTM1N2bGt5cmtaWWVVMzBBZll2aWZfRVp4YzhscnFBZ2p2NHdYeEpoRk5IdEFpRVdzelJRNkJSN0xJMVk5c3Y5U0VmdU1hRnA1TzJVWXhWSlF3T1h5YUZQeVladw?oc=5",
+      "description": "German Federal Court of Justice Sets Boundaries for Mass Antitrust Claims Collection &nbsp;&nbsp; Jones Day",
+      "date": "Tue, 12 May 2026 07:00:00 GMT",
+      "source": "Jones Day",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Pinsent Masons strengthens its competition law practice with the appointment of Christian Peeters - Pinsent Masons",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOakV1bmVTSi1Ed0JxYTh0SDZ4anR3bl9NR1ptSzZFWkQxNU1aemItR0hLN1NJSEtnX21iQVBFNEZaSWNjazBsanJQdy1RelhuaG45SlJSV3RWYkE3YnE0dHJxdGlGQm41Q2QzSUZPYzRSYm41R1MtZHhNTnh6ZXUwV0tTNG5iQVl2dWUzR25sXzl2YTRQamJvbXAzeE1NREl1Y2lEdWc0bVJzWmtNT1RWcnZWRDZOTWRJeDJrTjhhVkZVUGVZSkwzQkZHQ3hzMnpXX3BfbGs2emY4cnFsdGJQeno5SVY?oc=5",
+      "description": "Pinsent Masons strengthens its competition law practice with the appointment of Christian Peeters &nbsp;&nbsp; Pinsent Masons",
+      "date": "Fri, 03 Jul 2026 07:00:00 GMT",
+      "source": "Pinsent Masons",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Heightened competition law scrutiny has arrived for the agriculture and food space - MLT Aikins",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMVV4NUpDRWx6ZHVrdUZKTklsSm5GcFZ5UTJweG9qXzhsZHdOQzZOejg0S19YNG5oSXYyTXZUMUpYT0lEd2M3WEg2aTg1di1DQlQ5UVZoX2xQcUpKX0lORXN1NTcxUEJqSy1scFo0aU00ZjVlb00zY25LVFAxNnV0S2hYZlB2Y2RZVlhzZzdVUWEyeFEwanN2U2JabVBVQUZ4cFk4U0N3TTVqSTNVR1Rsbl8wS1JacDVjM1E?oc=5",
+      "description": "Heightened competition law scrutiny has arrived for the agriculture and food space &nbsp;&nbsp; MLT Aikins",
+      "date": "Wed, 17 Jun 2026 07:00:00 GMT",
+      "source": "MLT Aikins",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "The TikTok Ban Was a Model for Digital Competition Policy - ProMarket",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOV9CdzRwM09zdGVEOHoybERCdXhMQ21lM3dXa1VkclIxYThwMFVCMFpUaHVoOE9xMHB5WDNWMmxrWkc2MnRoM0pCbzFFN3o1dUU1ZEltX3Q0aENMbUZSWDJZTlpxRTYwMzZIMi13WXg4TUZNa2FCQWw5cWpOdF81SDVraE1yLXVLSjFjUFJ5QWxTcjItaWhRSE1B?oc=5",
+      "description": "The TikTok Ban Was a Model for Digital Competition Policy &nbsp;&nbsp; ProMarket",
+      "date": "Thu, 07 May 2026 07:00:00 GMT",
+      "source": "ProMarket",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "EC Publishes 2025 Competition Policy Report - Cleary Antitrust Watch",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVVhERzlMUDFoNS15Zm1Ub1lneUVTdHRLQUVHU2tsWnAzOW9FbE5BYlJQUGxZSzRvYzhmQnhHUWpHSWNHUUZsYnlwc0Q4R2VGSTZlcURENnAtT1lDSFRid1RLWXJPV2V4QTBlZlNUVmZXNDAtTUZrSmEwQW55TGJvN25WQnNqUjluMjdMWDlnNjBGQzg?oc=5",
+      "description": "EC Publishes 2025 Competition Policy Report &nbsp;&nbsp; Cleary Antitrust Watch",
+      "date": "Mon, 11 May 2026 07:00:00 GMT",
+      "source": "Cleary Antitrust Watch",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Antitrust developments and enforcement activity in South-east Asia: January to June 2026 - Allen & Gledhill",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQTnpka29STkpacDFYdzlZYTZnQU1oNldRTTM2VkNwQlBORnpBaU81dDQ5MnpXQ1lYdUM4aHV5a2lnQ19VMmIzNVFneU5WMk5KQUQwTE9KQmRTNjM4Q3pCOXZObFZFOG1zUEdYb0VDQ1czVDBKOUVEYnlwU3U4RWU0TzhjQlAtWHBCZlVwQjFrV2ljYW81Sm5xSGFiSDBKU0FKcTNrZGF3Z3hJZnktWTdHNEhSaGpEUHg3YWVLa21rcEVlTUp0T2xqTHpONlVZNTJGcjRaVGJJSktkRE1NMFFTNTdjX3FENkFEVE94aw?oc=5",
+      "description": "Antitrust developments and enforcement activity in South-east Asia: January to June 2026 &nbsp;&nbsp; Allen & Gledhill",
+      "date": "Mon, 24 Aug 2026 07:00:00 GMT",
+      "source": "Allen & Gledhill",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Global Antitrust Enforcers Tackle AI ‘Stealth Mergers’ and ‘Acqui-Hires’ - JD Supra",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOT0pDRVJjV1NsMVB4NjVHS2U1c1FYWlNFWWpMeWVkLXFfaDhHckl6LVNSWDB0aHYyS2ZDWW96UV9qM0RBYzNKN2JHcVdtMFRHUnlvZlVtNjFTS1JFMC03ajBicFUzN2w1SjBBeTJIU3BISktiVUc0WjZPaFZJU05rV25sM2lxUQ?oc=5",
+      "description": "Global Antitrust Enforcers Tackle AI ‘Stealth Mergers’ and ‘Acqui-Hires’ &nbsp;&nbsp; JD Supra",
+      "date": "Fri, 01 May 2026 07:00:00 GMT",
+      "source": "JD Supra",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Antitrust Symposium: A Pivotal Time for Risk, Strategy, and Enforcement (London) - Mayer Brown",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBNSVQzUVN2M2lmNmpfV1E4LWdwWDdhN3NWMExkZTVFbjFaWDhBLUVNWTN2UXFlRGtZRHhmRjFuR3lKQXAyc2lrT3hxVTJYbHdxN0ZMSWdPc3BZc2tjclN4dExXc2FFRnh5MkpTcWR3ckgzNlJoVEZGSll6bHFyZw?oc=5",
+      "description": "Antitrust Symposium: A Pivotal Time for Risk, Strategy, and Enforcement (London) &nbsp;&nbsp; Mayer Brown",
+      "date": "Thu, 30 Apr 2026 07:00:00 GMT",
+      "source": "Mayer Brown",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Lina Khan’s Antitrust Effort Failed—but Her Movement Is Spreading - City Journal",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TdnlCN1piTmxpOU5RZWF0SWd4b0NfdnNLTERmTFdQZ1JtYnQ0RXIxZjJrUThvakRabzZMZ0FuTF9Fa2hKYmJiT3BJTFlLdUh4dzlaZG9oUUROWTFVQktmYlprS3BiUEZWeDNIMw?oc=5",
+      "description": "Lina Khan’s Antitrust Effort Failed—but Her Movement Is Spreading &nbsp;&nbsp; City Journal",
+      "date": "Sun, 03 May 2026 07:00:00 GMT",
+      "source": "City Journal",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Main Developments in Competition Law and Policy 2025 – United States - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ3NFZ2tGOXNCZ205WTMxWVpmaVN5TUJvVmRDa3BocS16S2lOM1dLUWlHQ3RBOEhGbnR5UjNoSmZsQjlNWW13bkF4WFlyWVBsbldXT2FiR0hSMVlveTM4cDdGekRlNzJxVGJqc1o5S252ZGZNd3VIa1ZYcjdSeGV2ZEdYRUdhVUs1RmRUXzJFYTdkRXlOZFNqUXRNVDlJV0FFMXFCeDZiN04yMnJJTjBLa21EcmljUFlPamM1SDln?oc=5",
+      "description": "Main Developments in Competition Law and Policy 2025 – United States &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Sat, 28 Feb 2026 08:00:00 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Main Developments in Competition Law and Policy 2025 – China - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNUdtRnJOOVJ0Q25wd1ozWWNPcDlxNEFva3Vrek5XY1phSkN5OWg3RUFGV3BGdDBmSlVteWZJVjhyN2prYnNha1JzdmZKU1FlWGRSdERZUmp6Q0taYjhKSWhQSlRpNWJWMndNMlVRZmp3aXpEallJaFlGaENXcWZCbU1sdG5FSnZqbWx4VHozb2t6aEpURFJ2R1VpMTQwdm1xYnB2b1VkUUE3eVR5eVl4Yi16dw?oc=5",
+      "description": "Main Developments in Competition Law and Policy 2025 – China &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Tue, 20 Jan 2026 08:00:00 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Main developments in competition law and policy 2025 - Chile - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSlNUN00xUXVKejZnaFo1WDBmb2d0NEw3WjFBX1oxbUdRYkRVVEQzTndFMWdGS3JIazVkcjQzSnE0b3M0S3lnd2J0NWRyTzRfRUhSOHl3cWgyMTIxNDlJWjdHbG1XNzBYam1DYjEzZmllaDE4ekZFb2RubzE1U3AzOVVKQUpPX3lRZGdQbklQNkd6N2d2QnRnS1lyQlNOS0hyY0ZuS2Y2b2JleDYtUjFaNXZqMA?oc=5",
+      "description": "Main developments in competition law and policy 2025 - Chile &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Thu, 19 Mar 2026 07:00:00 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Antitrust Undone: How Competition Enforcers Are Undermining Competition | Reports & Briefings | Mar 25, 2026 - Information Technology and Innovation Foundation",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTjlTakxsQnZWTDRRdU9uMGRIZU43WVZ6NV9oM3J0QjM1T1AxQ3p2cVFYWlFXOEFNbVpfZUxpT1luaXB2X3BLMzEzaVY3Y3FNU3p2MVhPcnNXNG5oUktWWEhvY2lOM3BzSjZ2bDNjNi12NWg4TWR1RWJrOGN1bWVQM3Btb2NvUnJTSjhRUm1lZ3d2MTRseXVXYkpUZ1liLWJscGtWdGJUSTQxYTdBcy11bi13?oc=5",
+      "description": "Antitrust Undone: How Competition Enforcers Are Undermining Competition | Reports & Briefings | Mar 25, 2026 &nbsp;&nbsp; Information Technology and Innovation Foundation",
+      "date": "Wed, 25 Mar 2026 07:00:00 GMT",
+      "source": "Information Technology and Innovation Foundation",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Main Developments in Competition Law and Policy 2025 - Belgium - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOVZRYklOeExqR3BKRS1MQ05IZ0dEa1djeTRoc1M0NVMtOU4wcG9OcXhCSXpnX255dFRJbFdjWlBiX0Zlbmd2Qm93d09ab0dNT0RELVdzMVY2SG11QnMxb2NfaEo1OVBBS1FvNHEzV3BKWVd5bERhcGtLTllGYThSWXpoay0ya2IyUUxSdUZNZkVEV3k1ek5VZjFsSG1sRTZfYmtPSWRvamVacXl5YUR0SlA2N2xlQQ?oc=5",
+      "description": "Main Developments in Competition Law and Policy 2025 - Belgium &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Wed, 11 Mar 2026 09:17:02 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "A Strange Vibration? The Uncertain Future of California Antitrust Law | Event | Jan 28, 2026 - Information Technology and Innovation Foundation",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM1ZEM1FrM2tTT1IxdHkwb2JYdjZQbEZYMjlpM3Nla0tPZ0hQbE1xbjRtOHk1ZXQ5MGxnNnNNVHdJajJ4ckdJdWRqLTRicjhfazh1b3pTWEJFR1Fic0VieEJwXzdfRjhfbVNIZS1hZkl0NHRKUkNLNE94ZkRMSHVYM2UxZHZZTDV3eXlGejRmVmd1cTBDQnpxRmhPdlZmeDR2S29SUW1Obw?oc=5",
+      "description": "A Strange Vibration? The Uncertain Future of California Antitrust Law | Event | Jan 28, 2026 &nbsp;&nbsp; Information Technology and Innovation Foundation",
+      "date": "Wed, 28 Jan 2026 08:00:00 GMT",
+      "source": "Information Technology and Innovation Foundation",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "DEI Metrics and Antitrust Risk: A Competition Law Analysis of the FTC’s Warning Letters to Law Firms - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQVEgxTUFCQUJidnlPbUhkbDhTSTBYWkpQYkpTZk54US1rZmthOXVWb3FCNkVXaG1UVmRVb0VEdlBUMTh3VktBaWJMQm12ZEtDRFJrZ196SGF0R3ZKa0hWaHp5SFVBUWZZQXdleVZ4alhwTnFpTE9uRVdGM01FeUJjenhTakRYQVl5czg1OGFUc0c0UW5mMlJOenNLUXB4YjA1bnk4REFwdTFpXzJzSGpGWkVJeFUxcTFyMHRTZi1oU1NxVE4zaEJMai1PNnNUX1pLbFFxQ0Q4VHVqUnVVMjNMdVpfdkU4aE5E?oc=5",
+      "description": "DEI Metrics and Antitrust Risk: A Competition Law Analysis of the FTC’s Warning Letters to Law Firms &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Fri, 20 Feb 2026 09:16:10 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
+    },
+    {
+      "title": "Main Developments in Competition Law and Policy 2025 – Argentina - Wolters Kluwer",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN1h4Tzd6S2tXc1VORWNmMUVVMzRqS2R3SGhjdmVraWVOTzN5RlZoLUJSc3JqX1JwTDRvbVY3eHNhakdHd1Z4aTlaQl9BbGRXekM5TmcyVF9zVGZEdVd4cTRoN1dNQ1hoNnYzdl9nbFI3c3RqTEhGWFRlTnV3bE5LNnZ4Tl9HNG1KcXZjRXBDaFNSTldPaTB5bVJtSUpsN1FtbGFsZlNhRnRhWlNnamxxdGdMOHNwQUtS?oc=5",
+      "description": "Main Developments in Competition Law and Policy 2025 – Argentina &nbsp;&nbsp; Wolters Kluwer",
+      "date": "Thu, 19 Feb 2026 08:00:00 GMT",
+      "source": "Wolters Kluwer",
+      "category": "Presse internationale"
     }
   ]
 }
